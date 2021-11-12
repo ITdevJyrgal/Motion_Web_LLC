@@ -507,7 +507,7 @@ ul, ol, li {
 #application {
   background: #222222;
   padding-top: 70px;
-  min-height: 80vh;
+
 
   .row {
     &--application {
@@ -533,6 +533,7 @@ ul, ol, li {
         height: 405px;
         background: #9D0013;
         border-radius: 20px;
+        margin: 20px 0;
       }
 
       &__name {

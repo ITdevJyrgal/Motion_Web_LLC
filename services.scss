@@ -585,7 +585,7 @@ $ew:#454545;
 #application {
   background: #222222;
   padding-top: 70px;
-  min-height: 80vh;
+
 
   .row {
     &--application {
@@ -611,6 +611,7 @@ $ew:#454545;
         height: 405px;
         background: #9D0013;
         border-radius: 20px;
+        margin: 20px 0;
       }
 
       &__name {

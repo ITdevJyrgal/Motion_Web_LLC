@@ -1198,11 +1198,10 @@ $ser: #222222;
 
   }
 }
-
 #application {
   background: #222222;
-  padding-top: 30px;
-  min-height: 65vh;
+  padding-top: 70px;
+
 
   .row {
     &--application {
@@ -1211,7 +1210,7 @@ $ser: #222222;
         font-style: normal;
         font-weight: bold;
         font-size: 28px;
-        color: #FF001E;
+        color: #FFFFFF;
       }
 
       &__your2 {
@@ -1228,6 +1227,7 @@ $ser: #222222;
         height: 405px;
         background: #9D0013;
         border-radius: 20px;
+        margin: 20px 0;
       }
 
       &__name {

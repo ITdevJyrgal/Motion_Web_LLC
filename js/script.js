@@ -26,6 +26,9 @@ const swiper = new Swiper(".mySwiper", {
         depth: 100,
         modifier: 3,
         slideShadows: true,
+        autoplay: {
+            delay: 500,
+        },
     },
     pagination: {
         el: ".swiper-pagination",
