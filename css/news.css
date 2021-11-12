@@ -9,6 +9,7 @@ ul, ol, li {
 #navbar {
   background: url("../img/news.png") no-repeat center/cover;
   min-height: 100vh;
+  padding-left: 100px;
 }
 #navbar .row--title {
   animation: --title 1s ease-in-out alternate;
@@ -18,8 +19,7 @@ ul, ol, li {
   z-index: 3;
   width: 100%;
   background: rgba(0, 0, 0, 0.77);
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  margin-left: -100px;
 }
 #navbar .row--title__title {
   margin: 20px 0;

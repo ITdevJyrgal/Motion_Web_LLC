@@ -12,14 +12,14 @@ ul, ol, li {
 }
 #navbar .row--title {
   animation: --title 1s ease-in-out alternate;
+  padding-left: 110px;
 }
 #navbar .row--title__fixed {
   position: fixed;
   z-index: 3;
   width: 100%;
+  margin-left: -100px;
   background: rgba(0, 0, 0, 0.77);
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
 }
 #navbar .row--title__title {
   margin: 20px 0;
