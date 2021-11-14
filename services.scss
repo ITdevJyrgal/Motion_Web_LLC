@@ -13,12 +13,13 @@ $ew:#454545;
     &--title {
       animation: --title 1s ease-in-out alternate;
       padding-left: 100px;
+
       &__fixed {
         position: fixed;
         z-index: 3;
         width: 100%;
-        background: rgba(0, 0, 0, 0.77);
         margin-left: -100px;
+        background: rgba(0, 0, 0, 0.77);
       }
 
       &__title {
@@ -109,13 +110,13 @@ $ew:#454545;
 
       &__item {
         text-transform: uppercase;
-        font-size: 100px;
+        font-size: 80px;
         font-weight: bold;
         font-family: 'Poppins', sans-serif;
         color: white;
         filter: drop-shadow(5px 5px 5px rgb(23, 23, 23));
         animation: __item 2s ease-in-out alternate;
-        margin-top: 100px;
+        padding-top: 100px;
       }
 
       @keyframes __item {
@@ -132,16 +133,16 @@ $ew:#454545;
         }
       }
 
-      &--item {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 500;
+      &__item2 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
         font-size: 18px;
-        letter-spacing: 2px;
         color: #FFFFFF;
 
       }
 
-      &__btn2 {
+      &__btn1 {
         width: 322px;
         height: 50px;
         background: rgb(231, 0, 24);
@@ -152,19 +153,21 @@ $ew:#454545;
         margin: 50px 0;
       }
 
-      &__btn2:hover {
-        background: #000000;
-        color: #ff0000;
+      &__btn1:hover {
+        background: #000;
+        color: #FFFFFF;
         border: 1px solid red;
       }
 
+
       &__mode {
-        margin-top: -20px;
+        margin-top: -30px;
         color: white;
       }
 
       &__fabs {
         display: flex;
+        margin-top: 40px;
       }
 
       &__fab {
@@ -172,8 +175,59 @@ $ew:#454545;
         margin: 0 15px;
         font-size: 35px;
       }
+
+      &___item {
+        padding-top: 20px;
+      }
+
+      &__img {
+        position: absolute;
+      }
+
+
+      &__card {
+        z-index: 3;
+        width: 406px;
+        height: 259px;
+        background: #000;
+        opacity: 0;
+        transition: .3s;
+
+      }
+
+
+      &__card:hover {
+        transform: translateY(0);
+        opacity: .7;
+      }
+
+      &__lorem {
+        color: white;
+        padding: 100px 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+      }
+
+      &__lorem2 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        margin-top: -100px;
+        color: #e1e1e1;
+        padding: 0 15px;
+      }
+
+      &__pod {
+        color: #a9a5a5;
+        text-decoration: none;
+        margin: 200px 10px;
+      }
     }
   }
+
   .hello {
     padding: 20px;
   }
@@ -385,42 +439,34 @@ $ew:#454545;
     margin: 15px 25px;
   }
 
-  .what {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-    padding: 0 10px;
-    color: #FFFFFF;
-
-  }
-
-  .what2 {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    padding: 0 10px;
-    color: #AFAFAF;
-  }
-
-  .what3 {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    color: #FFFFFF;
-    padding: 0 5px;
-  }
 
   .group {
     padding-top: 50px;
   }
 
-  .group1 {
-    width: 100%;
-    height: 100%;
+  .group2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    color: #FFFFFF;
   }
+
+  .group3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #afaaaa;
+    font-size: 17px;
+
+  }
+
+  .group4 {
+    background: red;
+    width: 1325px;
+    height: 2px;
+  }
+
 
   .width {
     width: 40px;
@@ -444,7 +490,7 @@ $ew:#454545;
     width: 40px;
     height: 3px;
     background: #ff0000;
-    margin:15px -20px;
+    margin: 15px -20px;
   }
 
 
