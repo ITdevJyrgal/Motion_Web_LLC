@@ -927,17 +927,113 @@ ul, ol, li {
   height: 80px;
   backdrop-filter: blur(15px);
 }
-#techno .row__card__frontend {
-  margin: 0 15px;
-  background: #714634;
-  width: 100px;
-  height: 37px;
-  border: none;
+#techno .row__card .wrapper {
+  max-width: 723px;
+  width: 100%;
+  margin: 200px auto;
+  padding: 25px 30px 30px 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+#techno .row__card .wrapper header {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+#techno .row__card .wrapper nav {
+  position: relative;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+#techno .row__card .wrapper nav label {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  color: #000000;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+#techno .row__card #home:checked ~ nav label.home,
+#techno .row__card #blog:checked ~ nav label.blog,
+#techno .row__card #code:checked ~ nav label.code,
+#techno .row__card #help:checked ~ nav label.help,
+#techno .row__card #about:checked ~ nav label.about {
   color: #fff;
+}
+#techno .row__card nav label i {
+  padding-right: 7px;
+}
+#techno .row__card nav .slider {
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  margin: 0 13px;
+  border-radius: 5px;
+  background: #ff0000;
+  transition: all 0.3s ease;
+}
+#techno .row__card input[type=radio] {
+  display: none;
+}
+#techno .row__card #blog:checked ~ nav .slider {
+  left: 0;
+}
+#techno .row__card #code:checked ~ nav .slider {
+  left: 25%;
+}
+#techno .row__card #help:checked ~ nav .slider {
+  left: 50%;
+}
+#techno .row__card #about:checked ~ nav .slider {
+  left: 75%;
+}
+#techno .row__card section .content {
+  display: none;
+  background: #fff;
+}
+#techno .row__card #home:checked ~ section .content-1,
+#techno .row__card #blog:checked ~ section .content-2,
+#techno .row__card #code:checked ~ section .content-3,
+#techno .row__card #help:checked ~ section .content-4,
+#techno .row__card #about:checked ~ section .content-5 {
+  display: block;
+}
+#techno .row__card .ob {
+  display: flex;
+}
+#techno .row__card .card {
+  width: 70px;
+  height: 70px;
+  background: rgba(54, 53, 53, 0.6);
+  margin: 20px 2px;
+  box-shadow: 0 5px 20px -3px black;
+  cursor: grab;
+}
+#techno .row__card .icon {
+  padding: 15px 22px;
+  filter: drop-shadow(3px 3px 3px #000000);
+}
+#techno .row__card .web {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  margin-top: -10px;
   font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
+  box-sizing: border-box;
+  filter: drop-shadow(3px 3px 3px #000000);
+}
+#techno .row__card .dis {
+  display: flex;
 }
 
 #command {

@@ -369,11 +369,225 @@
     margin: -8px 0;
   }
 
+  #navbar .card {
+    width: 550px;
+    height: 400px;
+    background: #9D0013;
+    border-radius: 20px;
+    margin-left: 50px;
+  }
+  #navbar .name {
+    width: 232px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin: 30px 16px;
+    outline: none;
+    padding: 0 20px;
+  }
+  #navbar .name2 {
+    width: 232px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+  }
 
+  #navbar .name3 {
+    width: 234px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    margin: 0 15px;
+  }
 
+  #navbar .name4 {
+    width: 232px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+  }
+
+  #navbar .area {
+    width: 483px;
+    height: 91px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin: 25px 15px;
+    outline: none;
+    padding: 0 35px;
+  }
+
+  #navbar .__btn {
+    width: 486px;
+    height: 40px;
+    background: #222222;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    margin: -7px 15px;
+    font-size: 20px;
+  }
+
+  #navbar .data {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin: 15px 19px;
+  }
+
+  #navbar .menu3 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: #fff;
+    border-bottom: transparent;
+    transition: 0.5s;
+    border-bottom: 1px solid transparent;
+  }
+  #navbar .row--title__img {
+    position: absolute;
+    width: 324px;
+  }
+
+  #navbar .row--title__card {
+    z-index: 3;
+    width: 324px;
+    height: 206px;
+    background: #000;
+    opacity: 0;
+    transition: 0.3s;
+  }
+  #navbar .row--title__lorem {
+    color: white;
+    padding: 54px 15px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  #navbar .row--title__lorem2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: -53 px;
+    color: #e1e1e1;
+    padding: 0 15px;
+  }
+
+  #navbar .group4 {
+    background: red;
+    width: 990px;
+    height: 2px;
+  }
 }
 
 @media (max-width: 1024px) {
+
+  #navbar .row--title__fixed {
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    height: 27%;
+    margin-left: -33px;
+    background: rgba(0, 0, 0, 0.77);
+  }
+  #navbar .row--title__title {
+    margin: 57 px -70px;
+    width: 19%;
+    height: 100%;
+  }
+  #navbar .row--title__web {
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    margin: 71px 75px;
+    font-size: 28px;
+    color: red;
+    width: 125%;
+  }
+
+  #navbar .row--title__next {
+    margin-left: -7px;
+    animation: __next 1s ease-in-out alternate;
+  }
+
+  #navbar .row--title__titles {
+    color: white;
+    position: relative;
+    margin: 0 7px;
+    font-size: 9px;
+  }
+
+  #navbar .btn {
+    border: none;
+    width: 70px;
+    height: 50px;
+    z-index: 13;
+    position: absolute;
+    margin-left: 892px;
+    margin-top: 7px;
+  }
+
+  #navbar .row--title__item {
+    text-transform: uppercase;
+    font-size: 61px;
+    padding: 14px 66px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    filter: drop-shadow(5px 5px 5px #171717);
+    animation: __item 2s ease-in-out alternate;
+  }
+
+
+  #navbar .row--title--item {
+    margin: -33 px 68px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+  }
+
+  #motion .row--card__cards {
+    width: 220px;
+    height: 171px;
+    background: #222222;
+    border-radius: 20px;
+  }
+
+  #motion .row--card--cards {
+    padding: 20px 85px;
+  }
+
+
+  #motion .row--card--cards2 {
+    width: 218px;
+    height: 44px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
 
 }
 
@@ -400,24 +614,3 @@
 @media (max-width: 320px) {
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

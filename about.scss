@@ -181,9 +181,57 @@ ul, ol, li {
         margin: 0 15px;
         font-size: 35px;
       }
+
+      &___item {
+        padding-top: 20px;
+      }
+
+      &__img {
+        position: absolute;
+      }
+
+
+      &__card {
+        z-index: 3;
+        width: 406px;
+        height: 259px;
+        background: #000;
+        opacity: 0;
+        transition: .3s;
+
+      }
+
+
+      &__card:hover {
+        transform: translateY(0);
+        opacity: .7;
+      }
+      &__lorem {
+        color: white;
+        padding: 100px 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+      }
+
+      &__lorem2 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        margin-top: -100px;
+        color: #e1e1e1;
+        padding: 0 15px;
+      }
+
+      &__pod {
+        color: #a9a5a5;
+        text-decoration: none;
+        margin: 200px 10px;
+      }
     }
   }
-
   .hello {
     padding: 20px;
   }
@@ -395,42 +443,34 @@ ul, ol, li {
     margin: 15px 25px;
   }
 
-  .what {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-    padding: 0 10px;
-    color: #FFFFFF;
-
-  }
-
-  .what2 {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    padding: 0 10px;
-    color: #AFAFAF;
-  }
-
-  .what3 {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    color: #FFFFFF;
-    padding: 0 5px;
-  }
 
   .group {
     padding-top: 50px;
   }
 
-  .group1 {
-    width: 100%;
-    height: 100%;
+  .group2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    color: #FFFFFF;
   }
+
+  .group3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #afaaaa;
+    font-size: 17px;
+
+  }
+
+  .group4 {
+    background: red;
+    width: 1325px;
+    height: 2px;
+  }
+
 
   .width {
     width: 40px;
