@@ -502,7 +502,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    margin-top: -53 px;
+    margin-top: -53px;
     color: #e1e1e1;
     padding: 0 15px;
   }
@@ -1233,6 +1233,173 @@
     color: #000000;
     margin: 6px 0;
     position: relative;
+  }
+
+  #navbar .menu3 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6px;
+    color: #fff;
+    border-bottom: transparent;
+    transition: 0.5s;
+    border-bottom: 1px solid transparent;
+  }
+
+  #navbar .menu {
+    padding: 0 20px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+  }
+
+  #navbar .card {
+    width: 441px;
+    height: 349px;
+    background: #9D0013;
+    border-radius: 20px;
+    margin-left: 9px;
+  }
+
+  #navbar .name {
+    width: 193px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin: 30px 16px;
+    outline: none;
+    padding: 0 0;
+  }
+
+  #navbar .name2 {
+    width: 193px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0 0;
+  }
+
+  #navbar .name3 {
+    width: 193px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0 0;
+    margin: 0 15px;
+  }
+
+  #navbar .name4 {
+    width: 193px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0 0;
+    margin-left: 3px;
+  }
+
+  #navbar .area {
+    width: 410px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin: 25px 15px;
+    outline: none;
+    padding: 0 18px;
+  }
+
+  #navbar .__btn {
+    width: 413px;
+    height: 35px;
+    background: #222222;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    margin: -7px 15px;
+    font-size: 16px;
+  }
+
+  #navbar .data {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 15px 19px;
+  }
+
+  #navbar .menu31 {
+    padding: 2px 0;
+  }
+
+  #navbar .group2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+
+  #navbar .group3 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #afaaaa;
+    font-size: 15px;
+    margin-top: 13px;
+  }
+
+  #navbar .group4 {
+    background: red;
+    width: 874px;
+    height: 2px;
+  }
+
+  #navbar .row--title__img {
+    position: absolute;
+    width: 265px;
+  }
+
+  #navbar .row--title__card {
+    z-index: 3;
+    width: 265px;
+    height: 206px;
+    background: #000;
+    opacity: 0;
+    transition: 0.3s;
+  }
+
+  #navbar .row--title___item {
+    margin: 10px 0;
+  }
+
+  #navbar .row--title__lorem {
+    color: white;
+    padding: 21px 15px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  #navbar .row--title__lorem2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: -16px;
+    color: #e1e1e1;
+    padding: 0 15px;
   }
 }
 @media (max-width: 768px) {
