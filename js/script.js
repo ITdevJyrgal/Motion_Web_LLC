@@ -11,7 +11,7 @@ btn.addEventListener("click", () => {
 
 let closeBtn = document.querySelector(".btn-close")
 closeBtn.addEventListener("click", () => {
-    document.querySelector("#modalWin").style.display = "none"
+    document.querySelector("#mod    alWin").style.display = "none"
 })
 
 
@@ -27,7 +27,7 @@ const swiper = new Swiper(".mySwiper", {
         modifier: 3,
         slideShadows: true,
         autoplay: {
-            delay: 500,
+            delay: 5000,
         },
     },
     pagination: {
