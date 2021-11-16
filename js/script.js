@@ -11,7 +11,7 @@ btn.addEventListener("click", () => {
 
 let closeBtn = document.querySelector(".btn-close")
 closeBtn.addEventListener("click", () => {
-    document.querySelector("#mod    alWin").style.display = "none"
+    document.querySelector("#modalWin").style.display = "none"
 })
 
 
