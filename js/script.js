@@ -15,6 +15,7 @@ closeBtn.addEventListener("click", () => {
 })
 
 
+
 const swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
@@ -27,7 +28,7 @@ const swiper = new Swiper(".mySwiper", {
         modifier: 3,
         slideShadows: true,
         autoplay: {
-            delay: 500,
+            delay: 5000,
         },
     },
     pagination: {

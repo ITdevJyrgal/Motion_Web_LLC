@@ -139,6 +139,15 @@ ul, ol, li {
   color: white;
   font-size: 20px;
   margin: 50px 0;
+  animation: __btn2 2s ease-in-out alternate;
+}
+@keyframes __btn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 999;
+  }
 }
 #navbar .row--title__btn2:hover {
   background: #000000;
