@@ -146,7 +146,7 @@ ul, ol, li {
     opacity: 0;
   }
   100% {
-    opacity: 999;
+    opacity: 1;
   }
 }
 #navbar .row--title__btn2:hover {
