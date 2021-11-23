@@ -2691,9 +2691,57 @@
     margin: 6px 3px;
   }
 
+  #navbar .hello {
+    width: 195px;
+    margin-left: -3px;
+  }
+
+  #navbar .menu {
+    margin-left: -51px;
+  }
+  #navbar .menu3 {
+    font-size: 10px;
+  }
+
+  #navbar .menu2 {
+    padding: 0 56px;
+    margin-left: -42px;
+  }
+
+  #navbar .modal-window {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 40%);
+    background: #222222;
+     padding: 0 5px;
+    transition: inherit;
+  }
+
+  #navbar .card {
+    margin-left: -549px;
+  }
 }
 
 @media (max-width: 414px) {
+  #navbar .row--title__fixed {
+    margin-left: 0;
+  }
+
+  #navbar .row--title__title {
+    margin: 80px -94px;
+    width: 13%;
+  }
+  #navbar .row--title__web {
+    margin: 85px 96px;
+    font-size: 20px;
+  }
+
+  #navbar .btn {
+    margin-left: 312px;
+  }
+
 
 }
 
