@@ -1276,6 +1276,7 @@ ul, ol, li {
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
+  margin-left: 20px;
   color: #000000;
 }
 #footer .row--footer__nav {
@@ -1286,6 +1287,7 @@ ul, ol, li {
   color: #000000;
   margin: 6px 0;
   position: relative;
+  padding: 0 20px;
 }
 #footer .row--footer__nav:before {
   content: "";
@@ -1302,6 +1304,9 @@ ul, ol, li {
 }
 #footer .row--footer__nav:hover {
   color: #FF001F;
+}
+#footer .row--footer__footer {
+  margin: 0 173px;
 }
 
 /*# sourceMappingURL=style.css.map */

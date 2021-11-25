@@ -1539,6 +1539,7 @@ $ser: #222222;
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
+        margin-left: 20px;
         color: #000000;
       }
 
@@ -1550,7 +1551,7 @@ $ser: #222222;
         color: #000000;
         margin: 6px 0;
         position: relative;
-
+        padding: 0 20px;
       }
 
       &__nav:before {
@@ -1571,6 +1572,9 @@ $ser: #222222;
 
       &__nav:hover {
         color: #FF001F;
+      }
+      &__footer{
+        margin: 0 173px;
       }
     }
   }
