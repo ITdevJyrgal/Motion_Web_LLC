@@ -3269,16 +3269,24 @@
     margin-left: -224px;
     margin-top: 312px;
   }
-
-
-
-
-
-
 }
 
+@media (max-width: 375px) {
+  #navbar .btn {margin-left: 275px;margin-top: 1px;}
+  #navbar .row--title__item {font-size: 34px;}
+  #navbar .row--title__btn2 {width: 124px;font-size: 9px;margin: -20px 34px;}
+  #navbar {min-height: 47vh;}
+  #work .row--works_item {margin-left: 34px;}
+  #work .row--works_item2 {margin-left: -91px;}
+  #work .row--works_item3 {margin-top: 437px;margin-left: -216px;}
+  #work .row--works_item4 {margin-left: 35px;margin-top: -11px;}
+  #work .row--works_item6 {margin-left: -215px;margin-top: 207px;}
+  #work .row--works_item5 {margin-top: 423px;margin-left: -90px;}
 
-@media (max-width: 376px) {
+
+
+
+
 
 }
 
