@@ -3158,6 +3158,193 @@
   #command .row .swiper-slide__found2 {
     margin-left: 25px;
   }
+
+  #navbar .menu {
+    margin-left: -51px;
+    font-size: 16px;
+  }
+
+  #navbar .menu2 {
+    padding: 0 24px;
+    margin-left: -11px;
+  }
+
+  #navbar .card {
+    margin-left: -445px;
+    width: 390px;
+    height: 392px;
+  }
+
+  #navbar .name2 {
+    width: 153px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin: 30px 16px;
+    outline: none;
+    padding: 0 6px;
+  }
+
+  #navbar .name {
+    width: 149px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin: 30px 22px;
+    outline: none;
+    padding: 0 6px;
+  }
+
+  #navbar .name4 {
+    width: 153px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin: 30px 16px;
+    outline: none;
+    padding: 0 6px;
+  }
+
+  #navbar .name3 {
+    width: 148px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin: 30px 22px;
+    outline: none;
+    padding: 0 6px;
+  }
+
+  #navbar .area {
+    width: 344px;
+    height: 85px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin: -21px 22px;
+    outline: none;
+    padding: 0 18px;
+  }
+
+  #navbar .__btn {
+    width: 344px;
+    height: 33px;
+    background: #222222;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    margin: 22px 24px;
+    font-size: 16px;
+  }
+
+  #navbar .data {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: -14px 19px;
+  }
+
+  #navbar .group4 {
+    background: red;
+    width: 404px;
+    height: 2px;
+  }
+
+  #navbar .row--title__img {
+    position: absolute;
+    width: 246px;
+    margin: 0 34px;
+  }
+
+  #navbar .row--title-item2 {
+    margin-left: -89px;
+    margin-top: 179px;
+  }
+
+  #navbar .row--title__card {
+    z-index: 3;
+    width: 247px;
+    height: 159px;
+    background: #000;
+    opacity: 2;
+    margin: 0 33px;
+    transition: 0.3s;
+  }
+
+  #navbar .row--title__lorem {
+    color: white;
+    padding: 23px 15px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  #navbar .row--title__lorem2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    margin-top: -16px;
+    color: #e1e1e1;
+    padding: 0 15px;
+  }
+
+  #navbar .row--title-item3 {
+    margin-top: 358px;
+    margin-left: -216px;
+  }
+
+  #navbar .row--title-item {
+    margin-left: 46px;
+  }
+
+  #navbar .row--title-item3 {
+    margin-top: 348px;
+    margin-left: -223px;
+  }
+
+  #navbar .row--title-item5 {
+    margin-left: -176px;
+    margin-top: 200px;
+  }
+
+  #navbar .row--title-item4 {
+    margin-top: -20px;
+    margin-left: 45px;
+  }
+
+  #navbar .row--title-item5 {
+    margin-left: -90px;
+    margin-top: 148px;
+  }
+
+  #navbar .row--title-item6 {
+    margin-left: -224px;
+    margin-top: 318px;
+  }
+
+  #navbar .row--title-item7 {
+    margin-top: -22px;
+    margin-left: 44px;
+  }
+
+  #navbar .row--title-item8 {
+    margin-top: 145px;
+    margin-left: -90px;
+  }
+
+  #navbar .row--title-item9 {
+    margin-left: -224px;
+    margin-top: 312px;
+  }
 }
 
 /*# sourceMappingURL=media.css.map */
