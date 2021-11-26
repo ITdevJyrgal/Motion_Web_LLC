@@ -2754,7 +2754,7 @@
 
 }
 
-@media (min-width: 414px){
+@media (max-width: 414px){
   #navbar .btn {margin-left: 310px;}
   #work .row--works_item2 {margin-left: -91px;margin-top: 100px;}
   #motion .row--card__cards2{margin-top: 139px;margin-left: -344px;}
@@ -2763,7 +2763,7 @@
 
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   #navbar .btn {margin-left: 275px;margin-top: 1px;}
   #navbar .row--title__item {font-size: 34px;}
   #navbar .row--title__btn2 {width: 124px;font-size: 9px;margin: -20px 34px;}

@@ -2813,7 +2813,7 @@
     margin-left: -79px;
   }
 }
-@media (min-width: 414px) {
+@media (max-width: 414px) {
   #navbar .btn {
     margin-left: 310px;
   }
@@ -2836,7 +2836,7 @@
     margin: -28px 121px;
   }
 }
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   #navbar .btn {
     margin-left: 275px;
     margin-top: 1px;
