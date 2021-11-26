@@ -2813,27 +2813,28 @@
     margin-left: -79px;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   #navbar .btn {
-    margin-left: 310px;
+    margin-left: 317px;
   }
 
-  #work .row--works_item2 {
-    margin-left: -91px;
-    margin-top: 100px;
+  #navbar .row--title__item {
+    font-size: 38px;
   }
 
-  #motion .row--card__cards2 {
-    margin-top: 139px;
-    margin-left: -344px;
+  #navbar .row--title--item {
+    padding: 126px 0;
+    font-size: 13px;
   }
 
-  #motion .row--card__cards3 {
-    margin-top: 140px;
+  #navbar .row--title__btn2 {
+    width: 165px;
+    font-size: 13px;
   }
 
-  #navbar .row--title__fabs {
-    margin: -28px 121px;
+  #navbar .row--title__fab {
+    margin: 21px 10px;
+    font-size: 32px;
   }
 }
 @media (max-width: 375px) {
