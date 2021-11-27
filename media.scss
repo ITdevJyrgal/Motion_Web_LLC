@@ -2839,6 +2839,10 @@
   #navbar .row--title-item7 {margin-top: -4%;margin-left: 21%;}
   #navbar .row--title-item8 {margin-top: 188px;margin-left: -106px;}
   #navbar .row--title-item9 {margin-left: -241px;margin-top: 282%;}
+  #navbar .width {width: 31px;margin: -11px 0;}
+  #navbar .width:before {content: "";position: absolute;width: 32px;height: 3px;background: #ff0000;margin: 8px -16px;}
+  #navbar .width:after {content: "";position: absolute;width: 32px;height: 3px;background: #ff0000;margin: 17px -16px;}
+  #footer .row--footer__width{width: 391px;height: 5px;position: absolute;background: red;margin-top: 421px;}
 }
 //.swiper-wrapper{
 //  display: none !important;
