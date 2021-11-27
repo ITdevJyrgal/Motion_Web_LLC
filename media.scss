@@ -2759,7 +2759,7 @@
   #navbar .row--title__item {font-size: 38px;}
   #navbar .row--title--item {padding: 126px 0;font-size: 13px;}
   #navbar .row--title__btn2 {width: 165px;font-size: 13px;}
-  #navbar .row--title__fab {margin: 21px 10px;font-size: 32px;}
+  #navbar .row--title__fab {margin: 53px 52px;font-size: 32px;}
   #work .row--works__img {width: 258px;height: 182px;}
   #work .row--works__card {width: 258px;height: 182px;}
   #work .row--works__lorem {font-size: 14px;padding: 40px;}
@@ -2794,8 +2794,13 @@
   #product .row--product--square {margin-left: 36px;}
   #product .row--product__square3 {margin-left: 15px;}
   #product .row--product__square5 {width: 367px;}
-
-
+  #motion .row--card__cards2{margin-top: 142px;margin-left: -309px;}
+  #motion .row--card__cards3{margin-top: 144px;}
+  #techno .wrapper nav label {font-size: 11px;padding: 0 12px;margin: 0 5px;}
+  #techno .card_node{margin-top: 97px;margin-left: -220px;}
+  #techno .card_node2{margin-top: 97px;}
+  #techno .card_node3{margin-top: 97px;}
+  #application .row--application__card {width: 387px;height: 374px;margin-left: -204px;margin-top: 329px;}
 }
 
 @media (max-width: 375px) {
@@ -2813,11 +2818,13 @@
   #techno .card_node{margin-top: 97px;margin-left: -219px;}
   #techno .card_node2{margin-top: 97px;}
   #techno .card_node3{margin-top: 97px;}
-
-
-
-
-
+  #application .row--application__name {width: 150px;height: 35px;}
+  #application .row--application__name2 {width: 150px;height: 35px;margin-left: 19px;}
+  #application .row--application__name3 {width: 150px;height: 35px;}
+  #application .row--application__name4 {width: 150px;height: 35px;margin-left: 16px;}
+  #application .row--application__area {width: 345px;height: 75px;}
+  #application .row--application__btn {width: 347px;height: 33px;}
+  #application .row--application__data {font-size: 11px;}
 
 }
 
