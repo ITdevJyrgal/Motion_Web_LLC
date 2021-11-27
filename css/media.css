@@ -2816,6 +2816,10 @@
   }
 }
 @media (max-width: 415px) {
+  #navbar {
+    min-height: 63vh;
+  }
+
   #navbar .btn {
     margin-left: 317px;
   }
