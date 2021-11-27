@@ -313,7 +313,6 @@ ul, ol, li {
   height: 400px;
   background: #9D0013;
   border-radius: 20px;
-  margin-left: 100px;
 }
 #navbar .name {
   width: 280px;
@@ -1309,9 +1308,6 @@ ul, ol, li {
 }
 #footer .row--footer__nav:hover {
   color: #FF001F;
-}
-#footer .row--footer__footer {
-  margin: 0 173px;
 }
 
 /*# sourceMappingURL=style.css.map */

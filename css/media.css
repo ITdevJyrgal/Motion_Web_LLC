@@ -3091,6 +3091,137 @@
   #studio .row--studio__studio3 {
     font-size: 11px;
   }
+
+  #footer .row--footer__nav {
+    font-size: 9px;
+    margin: 6px 0;
+  }
+
+  #navbar .menu2 {
+    padding: 0 33px;
+    margin-left: -22px;
+  }
+
+  #navbar .menu {
+    margin-left: -53px;
+    font-size: 12px;
+  }
+
+  #navbar .card {
+    width: 394px;
+    margin-left: -437px;
+  }
+
+  #navbar .name {
+    width: 90%;
+    height: 35px;
+    margin: 8px 22px;
+  }
+
+  #navbar .name2 {
+    width: 90%;
+    height: 35px;
+    margin: 9px 20px;
+  }
+
+  #navbar .name3 {
+    width: 90%;
+    height: 35px;
+    margin: 7px 20px;
+  }
+
+  #navbar .name4 {
+    width: 90%;
+    height: 35px;
+    margin: 8px 20px;
+  }
+
+  #navbar .area {
+    width: 90%;
+    height: 70px;
+    margin: 3px 20px;
+  }
+
+  #navbar .__btn {
+    width: 90%;
+    height: 30px;
+    margin: 7px 20px;
+  }
+
+  #navbar .data {
+    font-size: 12px;
+  }
+
+  #navbar .group3 {
+    font-size: 12px;
+    padding: 5px 11px;
+  }
+
+  #navbar .group4 {
+    width: 403px;
+  }
+
+  #navbar .row--title__img {
+    width: 280px;
+  }
+
+  #navbar .row--title__card {
+    width: 281px;
+    height: 178px;
+  }
+
+  #navbar .row--title__lorem {
+    padding: 27px 15px;
+    font-size: 14px;
+  }
+
+  #navbar .row--title__lorem2 {
+    font-size: 11px;
+  }
+
+  #navbar .row--title-item {
+    margin-left: 30px;
+  }
+
+  #navbar .row--title-item2 {
+    margin-left: -106px;
+    margin-top: 201px;
+  }
+
+  #navbar .row--title-item3 {
+    margin-top: 393px;
+    margin-left: -241px;
+  }
+
+  #navbar .row--title-item4 {
+    margin-top: -16px;
+    margin-left: 29px;
+  }
+
+  #navbar .row--title-item5 {
+    margin-left: -106px;
+    margin-top: 177px;
+  }
+
+  #navbar .row--title-item6 {
+    margin-left: -241px;
+    margin-top: 274%;
+  }
+
+  #navbar .row--title___item {
+    margin-top: -4%;
+    margin-left: 21%;
+  }
+
+  #navbar .row--title-item8 {
+    margin-top: 188px;
+    margin-left: -106px;
+  }
+
+  #navbar .row--title-item9 {
+    margin-left: -241px;
+    margin-top: 282%;
+  }
 }
 @media (max-width: 375px) {
   #navbar .btn {
