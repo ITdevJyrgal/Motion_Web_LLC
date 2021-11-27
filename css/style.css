@@ -923,6 +923,11 @@ ul, ol, li {
   letter-spacing: 0.003em;
   color: #FFFFFF;
 }
+#studio .row--studio__studio4 {
+  margin-left: 930px;
+  margin-top: -360px;
+  padding: 50px 0;
+}
 
 #techno {
   padding-top: 30px;

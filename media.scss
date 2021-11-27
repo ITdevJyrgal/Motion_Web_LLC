@@ -1581,7 +1581,7 @@
     z-index: 13;
     position: absolute;
     margin-left: 602px;
-    margin-top: 22px;
+    margin-top: 4px;
   }
 
   #navbar .row--title__fixed {
@@ -1624,14 +1624,14 @@
     margin: -6px 34px;
   }
 
-  #navbar .row--title__mode {
-    margin: 20px 34px;
-    color: white;
-    font-size: 14px;
-  }
+    #navbar .row--title__mode {
+      margin-top: 5%;
+      margin-left: 5%;
+    }
+
 
   #navbar {
-    min-height: 46vh;
+    min-height: 70vh;
   }
 
 
@@ -2159,8 +2159,7 @@
     height: 400px;
     background: #9D0013;
     border-radius: 20px;
-    margin-left: -266px;
-    margin-top: 300px;
+    margin-left: 105px;
   }
 
   #application .row--application__your2 {
@@ -2422,7 +2421,9 @@
     color: #FFFFFF;
     margin: 10px;
   }
-
+  #footer .row--footer__footer {
+    margin: 0 42px;
+  }
 
 }
 
@@ -2800,9 +2801,23 @@
   #techno .card_node{margin-top: 97px;margin-left: -220px;}
   #techno .card_node2{margin-top: 97px;}
   #techno .card_node3{margin-top: 97px;}
-  #application .row--application__card {width: 387px;height: 374px;margin-left: -204px;margin-top: 329px;}
-}
+  #application .row--application__card {width: 387px;height: 423px;margin-left: 2px;margin-top: -19px;}
+  #application .row--application__name {width: 90%;height: 35px;margin: 9px 21px;}
+  #application .row--application__name2 {width: 90%;height: 36px;}
+  #application .row--application__name4 {width: 90%;height: 35px;margin-top: 10px;}
+  #application .row--application__name3 {width: 90%;margin-top: 10px;margin-left: 21px;}
+  #application .row--application__area {width: 351px;height: 76px;margin-top: 10px;}
+  #application .row--application__btn {width: 352px;height: 33px;}
+  #footer .row--footer__footer {margin-top: 102%;margin-left: -48%;}
+  #studio .row--studio__studio4 {margin-left: 106px;padding: 20px 0;     margin-top: -61px;}
+  #studio .row--studio__studio2 {font-size: 11px;}
+  #studio .row--studio__studio3 {font-size: 11px;}
 
+
+}
+//.swiper-wrapper{
+//  display: none !important;
+//}
 @media (max-width: 375px) {
   #navbar .btn {margin-left: 275px;margin-top: 1px;}
   #navbar .row--title__item {font-size: 34px;}
@@ -2818,16 +2833,10 @@
   #techno .card_node{margin-top: 97px;margin-left: -219px;}
   #techno .card_node2{margin-top: 97px;}
   #techno .card_node3{margin-top: 97px;}
-  #application .row--application__name {width: 150px;height: 35px;}
-  #application .row--application__name2 {width: 150px;height: 35px;margin-left: 19px;}
-  #application .row--application__name3 {width: 150px;height: 35px;}
-  #application .row--application__name4 {width: 150px;height: 35px;margin-left: 16px;}
-  #application .row--application__area {width: 345px;height: 75px;}
-  #application .row--application__btn {width: 347px;height: 33px;}
-  #application .row--application__data {font-size: 11px;}
 
 }
 
 @media (max-width: 320px) {
 
 }
+
