@@ -3241,7 +3241,7 @@
     content: "";
     position: absolute;
     width: 32px;
-    height: 3px;
+    height: 2.5px;
     background: #ff0000;
     margin: 17px -16px;
   }
@@ -3253,71 +3253,89 @@
     background: red;
     margin-top: 421px;
   }
+
+  #footer .row--footer__btn {
+    width: 164px;
+    height: 40px;
+    font-size: 15px;
+  }
 }
 @media (max-width: 375px) {
+  #navbar .row--title__web {
+    margin: 78px 97px;
+  }
+
+  #navbar .row--title__title {
+    margin: 75px -94px;
+    width: 13%;
+  }
+
   #navbar .btn {
-    margin-left: 275px;
-    margin-top: 1px;
+    margin-left: 277px;
+    margin-top: 6px;
   }
 
   #navbar .row--title__item {
-    font-size: 34px;
+    font-size: 30px;
+  }
+
+  #navbar .row--title--item {
+    padding: 131px 0;
+    font-size: 12px;
   }
 
   #navbar .row--title__btn2 {
-    width: 124px;
-    font-size: 9px;
-    margin: -20px 34px;
+    width: 143px;
+    font-size: 10px;
+  }
+
+  #navbar .row--title__fabs {
+    margin: -54px -49px;
+  }
+
+  #navbar .row--title__fab {
+    margin: 53px 27px;
+    font-size: 32px;
   }
 
   #navbar {
-    min-height: 47vh;
+    min-height: 56vh;
   }
 
   #work .row--works_item {
-    margin-left: 34px;
+    margin-left: 51px;
   }
 
   #work .row--works_item2 {
-    margin-left: -91px;
+    margin-left: -74px;
   }
 
   #work .row--works_item3 {
-    margin-top: 437px;
-    margin-left: -216px;
+    margin-left: -200px;
   }
 
   #work .row--works_item4 {
-    margin-left: 35px;
-    margin-top: -11px;
-  }
-
-  #work .row--works_item6 {
-    margin-left: -215px;
-    margin-top: 207px;
+    margin-left: 51px;
   }
 
   #work .row--works_item5 {
-    margin-top: 423px;
-    margin-left: -90px;
+    margin-left: -75px;
   }
 
-  #techno .wrapper nav label {
-    font-size: 12px;
-    padding: 0 10px;
+  #work .row--works_item6 {
+    margin-left: -200px;
   }
 
-  #techno .card_node {
-    margin-top: 97px;
-    margin-left: -219px;
+  #work .row--works_item7 {
+    margin-left: 50px;
   }
 
-  #techno .card_node2 {
-    margin-top: 97px;
+  #work .row--works_item8 {
+    margin-left: -75px;
   }
 
-  #techno .card_node3 {
-    margin-top: 97px;
+  #work .row--works_item9 {
+    margin-left: -200px;
   }
 }
 

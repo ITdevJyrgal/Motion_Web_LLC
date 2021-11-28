@@ -273,6 +273,7 @@ ul, ol, li {
 }
 #navbar #modalWin {
   display: none;
+  transition: 4s;
 }
 #navbar .ob {
   display: flex;
