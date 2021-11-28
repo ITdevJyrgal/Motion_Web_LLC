@@ -2240,7 +2240,7 @@
     height: 402px;
     background: #9D0013;
     border-radius: 20px;
-    margin-left: -585px;
+    margin-left: -526px;
     margin-top: 318px;
   }
 
@@ -2425,6 +2425,12 @@
     margin: 0 42px;
   }
 
+  #studio .row--studio__studio4 {
+    margin-left: 535px;}
+  #footer .row--footer__footer {
+    /* margin: 0 42px; */
+    margin-left: -428px;
+  }
 }
 
 @media (max-width: 540px) {

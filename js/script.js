@@ -14,6 +14,18 @@ closeBtn.addEventListener("click", () => {
     document.querySelector("#modalWin").style.display = "none"
 })
 
+let btn2 = document.querySelector(".row--title__btn2")
+btn2.addEventListener("click", () => {
+    document.querySelector(".row--title__block").style.display = "block"
+})
+
+let closeBtn2 = document.querySelector(".row--title__vk")
+closeBtn2.addEventListener("click", () => {
+    document.querySelector(".row--title__block").style.display = "none"
+})
+
+
+
 
 const swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
@@ -21,10 +33,10 @@ const swiper = new Swiper(".mySwiper", {
     centeredSlides: true,
     slidesPerView: "auto",
     coverflowEffect: {
-        rotate: 50,
+        rotate: 10,
         stretch: 0,
-        depth: 100,
-        modifier: 20,
+        depth: 50,
+        modifier: 8,
         slideShadows: true,
         autoplay: {
             delay: 5000,

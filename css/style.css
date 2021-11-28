@@ -83,6 +83,93 @@ ul, ol, li {
 #navbar .row--title__titles:hover {
   color: #FF001F;
 }
+#navbar .row--title__block {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  margin-top: -478px;
+  margin-left: -110px;
+  display: none;
+  background: rgba(0, 0, 0, 0.49);
+}
+#navbar .row--title__square {
+  width: 550px;
+  height: 380px;
+  background: rgba(0, 0, 0, 0.66);
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.62);
+  margin-left: 490px;
+  border-radius: 30px;
+  margin-top: 125px;
+  position: absolute;
+}
+#navbar .row--title__vk {
+  padding-left: 500px;
+  margin-top: 17px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+#navbar .row--title__vk:hover {
+  opacity: 2;
+}
+#navbar .row--title__name {
+  width: 100%;
+  height: 24%;
+  padding-left: 10px;
+  border: none;
+  margin-left: 14px;
+  margin-top: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.54);
+  background: transparent;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+#navbar .row--title__name:focus {
+  outline: none;
+}
+#navbar .row--title__name::placeholder {
+  color: rgba(255, 255, 255, 0.77);
+}
+#navbar .row--title__name2::placeholder {
+  color: rgba(255, 255, 255, 0.79);
+}
+#navbar .row--title__name2 {
+  width: 100%;
+  height: 24%;
+  background: none;
+  padding-left: 10px;
+  margin-left: 14px;
+  margin-top: 50px;
+  border: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.53);
+  color: #fff;
+  font-size: 20px;
+}
+#navbar .row--title__name2:focus {
+  outline: none;
+}
+#navbar .row--title__btn3 {
+  width: 50%;
+  height: 10%;
+  border: 2px solid rgba(255, 255, 255, 0.49);
+  background: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 135px;
+  margin-top: 66px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.7s;
+}
+#navbar .row--title__btn3:hover {
+  background: red;
+  border: 2px solid #fff;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: 0.7s;
+}
 #navbar .row--title__btn {
   border: 1px solid white;
   width: 147px;
