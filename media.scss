@@ -2849,14 +2849,14 @@
 //.swiper-wrapper{
 //  display: none !important;
 //}
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   #navbar .row--title__web {margin: 78px 97px;}
   #navbar .row--title__title {margin: 75px -94px;width: 13%;}
   #navbar .btn {margin-left: 277px;margin-top: 6px;}
   #navbar .row--title__item {font-size: 30px;}
   #navbar .row--title--item {padding: 131px 0;font-size: 12px;}
   #navbar .row--title__btn2 {width: 143px;font-size: 10px;}
-  #navbar .row--title__fabs {margin: -54px -49px;}
+  #navbar .row--title__fabs {margin: -54px 44px;}
   #navbar .row--title__fab {margin: 53px 27px;font-size: 32px;}
   #navbar {min-height: 56vh;}
   #work .row--works_item {margin-left: 51px;}
