@@ -3472,6 +3472,65 @@
     width: 351px;
     margin-top: 385px;
   }
+
+  #navbar .menu {
+    margin-left: -59px;
+  }
+
+  #navbar .menu2 {
+    padding: 0 25px;
+    margin-left: -22px;
+  }
+
+  #navbar .card {
+    width: 345px;
+    height: 412px;
+    margin-left: -393px;
+  }
+
+  #navbar .data {
+    font-size: 11px;
+  }
+
+  #navbar .row--title-item {
+    margin-left: 8px;
+  }
+
+  #navbar .row--title-item2 {
+    margin-left: -114px;
+  }
+
+  #navbar .row--title-item3 {
+    margin-left: -236px;
+  }
+
+  #navbar .row--title-item4 {
+    margin-left: 7px;
+  }
+
+  #navbar .row--title-item5 {
+    margin-left: -115px;
+  }
+
+  #navbar .row--title-item6 {
+    margin-left: -238px;
+    margin-top: 305%;
+  }
+
+  #navbar .row--title-item7 {
+    margin-top: -8%;
+    margin-left: 5%;
+  }
+
+  #navbar .row--title-item8 {
+    margin-top: 188px;
+    margin-left: -114px;
+  }
+
+  #navbar .row--title-item9 {
+    margin-left: -237px;
+    margin-top: 314%;
+  }
 }
 
 /*# sourceMappingURL=media.css.map */
