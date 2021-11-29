@@ -3987,6 +3987,10 @@
   #work .row--works__card {
     opacity: 0.5;
   }
+
+  #navbar .width:after {
+    height: 3px;
+  }
 }
 
 /*# sourceMappingURL=media.css.map */
