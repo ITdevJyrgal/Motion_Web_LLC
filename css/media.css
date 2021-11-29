@@ -3593,6 +3593,15 @@
     margin-left: -114px;
   }
 
+  #navbar .row--title__square {
+    width: 340px;
+    height: 336px;
+  }
+
+  #navbar .row--title__btn3 {
+    margin-left: 79px;
+  }
+
   #navbar .row--title-item9 {
     margin-left: -237px;
     margin-top: 314%;
