@@ -15,18 +15,18 @@ closeBtn.addEventListener("click", () => {
 })
 
 
-let pol = document.querySelector(".row--title__btn2")
-pol.addEventListener("click", () => {
+let block = document.querySelector(".row--title__btn2")
+block.addEventListener("click", () => {
     document.querySelector(".row--title__block").style.display = "block"
 })
 
-let close = document.querySelector(".row--title__vk")
-close.addEventListener("click", () => {
+let blockClose = document.querySelector(".row--title__vk")
+blockClose.addEventListener("click", () => {
     document.querySelector(".row--title__block").style.display = "none"
 })
 
 
-const swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".mySwipergit ", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
