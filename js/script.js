@@ -46,4 +46,3 @@ const swiper = new Swiper(".mySwipergit ", {
     },
 });
 swiper()
-

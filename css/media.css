@@ -3693,6 +3693,10 @@
     margin-left: -202px;
   }
 
+  #services .row--item-square2 {
+    margin-left: -105px;
+  }
+
   #services .row--item-square7 {
     margin-left: -6px;
     margin-top: -6px;
@@ -3916,6 +3920,72 @@
 
   #navbar .row--title__vk {
     padding-left: 245px;
+  }
+
+  #navbar .menu2 {
+    padding: 0 6px;
+    margin-left: -7px;
+    font-size: 11px;
+  }
+
+  #navbar .menu {
+    margin-left: -65px;
+  }
+
+  #navbar .card {
+    margin-left: -317px;
+  }
+
+  #navbar .group4 {
+    margin: 0 -13px;
+  }
+
+  #navbar .row--title-item {
+    margin-left: -17px;
+  }
+
+  #navbar .row--title-item2 {
+    margin-left: -121px;
+  }
+
+  #navbar .row--title-item3 {
+    margin-left: -225px;
+  }
+
+  #navbar .row--title-item4 {
+    margin-left: -18px;
+  }
+
+  #navbar .row--title-item5 {
+    margin-left: -122px;
+  }
+
+  #navbar .row--title-item6 {
+    margin-left: -226px;
+    margin-top: 356%;
+  }
+
+  #navbar .row--title-item7 {
+    margin-top: -16%;
+    margin-left: -17%;
+  }
+
+  #navbar .row--title-item8 {
+    margin-top: 175px;
+    margin-left: -121px;
+  }
+
+  #navbar .row--title-item9 {
+    margin-left: -223px;
+    margin-top: 356%;
+  }
+
+  #navbar .row--title__card {
+    opacity: 0.7;
+  }
+
+  #work .row--works__card {
+    opacity: 0.5;
   }
 }
 
