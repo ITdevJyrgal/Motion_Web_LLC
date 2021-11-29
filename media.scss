@@ -2741,7 +2741,10 @@
   #navbar .width:after {content: "";position: absolute;width: 32px;height: 2.5px;background: #ff0000;margin: 17px -16px;}
   #footer .row--footer__width{width: 391px;height: 5px;position: absolute;background: red;margin-top: 421px;}
   #footer .row--footer__btn {width: 164px;height: 40px;font-size: 15px;}
-
+  #navbar .row--title__square {margin-left: 17px;margin-top: 178px;width: 377px;height: 323px;}
+  #navbar .row--title__name {width: 90%;}
+  #navbar .row--title__name2 {width: 90%;}
+  #navbar .row--title__btn3 {margin-left: 103px;}
 }
 //.swiper-wrapper{
 //  display: none !important;

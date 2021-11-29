@@ -3306,6 +3306,25 @@
     height: 40px;
     font-size: 15px;
   }
+
+  #navbar .row--title__square {
+    margin-left: 17px;
+    margin-top: 178px;
+    width: 377px;
+    height: 323px;
+  }
+
+  #navbar .row--title__name {
+    width: 90%;
+  }
+
+  #navbar .row--title__name2 {
+    width: 90%;
+  }
+
+  #navbar .row--title__btn3 {
+    margin-left: 103px;
+  }
 }
 @media (max-width: 387px) {
   #navbar .row--title__web {
