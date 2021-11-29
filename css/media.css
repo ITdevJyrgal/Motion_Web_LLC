@@ -2851,6 +2851,16 @@
   #navbar .row--title-item9 {
     margin-left: -79px;
   }
+
+  #application .row--application__card {
+    margin-left: 2px;
+  }
+
+  #footer .row--footer__footer {
+    /* margin: 0 42px; */
+    margin-top: 363px;
+    margin-left: -183px;
+  }
 }
 @media (max-width: 415px) {
   #navbar {
