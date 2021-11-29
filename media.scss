@@ -2311,10 +2311,19 @@
   #navbar .row--title__fixed {
     margin-left: 0;
   }
-
+  #navbar .row--title__block {
+    margin-top: -273px;
+    margin-left: -12px;
+  }
   #navbar .btn {
     margin-left: 433px;
     margin-top: 4px;
+  }
+  #navbar .row--title__square {
+    margin-left: 3px;
+    margin-top: 178px;
+    width: 534px;
+    height: 356px;
   }
 
   #navbar {
