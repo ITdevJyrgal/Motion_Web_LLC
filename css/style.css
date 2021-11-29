@@ -184,6 +184,7 @@ ul, ol, li {
   background: #ff0f0f;
   border: none;
   color: #020202;
+  transition: 0.3s;
 }
 #navbar .row--title__items {
   padding-top: 130px;
