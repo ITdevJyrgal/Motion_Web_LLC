@@ -1666,7 +1666,17 @@
   }
 
   #navbar {
-    min-height: 70vh;
+    min-height: 53vh;
+  }
+
+  #navbar .row--title__block {
+    margin-top: -378px;
+    margin-left: -36px;
+  }
+
+  #navbar .row--title__square {
+    margin-left: 117px;
+    margin-top: 330px;
   }
 
   #motion .row--card__cards {
