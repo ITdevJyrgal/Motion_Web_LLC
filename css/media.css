@@ -1417,32 +1417,31 @@
     position: fixed;
     z-index: 4;
     width: 100%;
-    height: 27%;
-    margin-left: -15px;
+    height: 15%;
+    margin-left: -16px;
     background: rgba(0, 0, 0, 0.77);
   }
 
   #navbar .row--title__next {
-    margin-left: -36px;
-    animation: __next 1s ease-in-out alternate;
+    margin-left: 2px;
   }
 
   #navbar .btn {
-    border: none;
-    width: 70px;
-    height: 50px;
-    z-index: 13;
-    position: absolute;
-    margin-left: 878px;
-    margin-top: 34px;
+    margin-left: 874px;
+    margin-top: 29px;
   }
 
-  #application .row--application__card {
-    width: 516px;
-    height: 400px;
+  #navbar {
+    min-height: 78vh;
+  }
+
+  #navbar .card {
+    width: 433px;
+    height: 416px;
     background: #9D0013;
     border-radius: 20px;
-    margin: 20px -40px;
+    margin-left: -393px;
+    /* margin-top: 500px; */
   }
 
   #application .row--application__your2 {
@@ -1453,6 +1452,11 @@
     font-size: 12px;
     margin-left: -5px;
     color: #FFFFFF;
+  }
+
+  #footer .row--footer__footer {
+    margin-right: -550px;
+    z-index: 99;
   }
 
   #application .row--application__data {
@@ -1470,6 +1474,16 @@
     height: 329px;
     background: #222222;
     border-radius: 20px;
+  }
+
+  #navbar .row--title__block {
+    margin-top: -450px;
+    margin-left: -28px;
+  }
+
+  #navbar .row--title__square {
+    margin-left: 242px;
+    margin-top: 225px;
   }
 
   #navbar .row--title__fabs {
@@ -1528,25 +1542,11 @@
   }
 
   #navbar .area {
-    width: 381px;
-    height: 67px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 25px 15px;
-    outline: none;
-    padding: 0 18px;
+    width: 394px;
   }
 
   #navbar .__btn {
-    width: 383px;
-    height: 33px;
-    background: #222222;
-    border-radius: 10px;
-    border: none;
-    color: #FFFFFF;
-    margin: -7px 15px;
-    font-size: 16px;
+    width: 393px;
   }
 
   #navbar .data {
@@ -1607,10 +1607,6 @@
 
   #navbar .row--title__items {
     padding-top: 200px;
-  }
-
-  #navbar {
-    min-height: 117vh;
   }
 }
 @media (max-width: 768px) {
