@@ -110,6 +110,8 @@ $ser: #222222;
        //box-shadow: 5px 5px 30px 30px rgb(255, 0, 0);
          display: none;
        background: rgba(0, 0, 0, 0.49);
+       //transition: opacity 5000s ease-in-out;
+    transition: 5s;
      }
 
       &__square{
@@ -122,6 +124,7 @@ $ser: #222222;
           border-radius: 30px;
           margin-top: 125px;
           position: absolute;
+        transition: 5s;
       }
 
       &__vk {
@@ -261,6 +264,7 @@ $ser: #222222;
         font-size: 20px;
         margin: 50px 0;
         animation: __btn2 2s ease-in-out alternate;
+        transition: .4s;
       }
 
       @keyframes __btn2 {

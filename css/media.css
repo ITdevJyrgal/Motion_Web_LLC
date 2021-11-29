@@ -515,14 +515,19 @@
 }
 @media (max-width: 1024px) {
   #navbar {
-    min-height: 148vh;
+    min-height: 36vh;
+  }
+
+  #navbar .row--title__block {
+    margin-top: -450px;
+    margin-left: -44px;
   }
 
   #navbar .row--title__fixed {
     position: fixed;
     z-index: 4;
     width: 100%;
-    height: 27%;
+    height: 7%;
     margin-left: -33px;
     background: rgba(0, 0, 0, 0.77);
   }
@@ -537,14 +542,23 @@
     text-transform: uppercase;
     font-family: "Open Sans", sans-serif;
     margin: 71px 75px;
-    font-size: 28px;
+    font-size: 22px;
     color: red;
     width: 125%;
   }
 
+  #navbar .row--title__square {
+    margin-left: 242px;
+    margin-top: 525px;
+  }
+
   #navbar .row--title__next {
-    margin-left: -7px;
-    animation: __next 1s ease-in-out alternate;
+    margin-left: -51px;
+    margin-top: 11px;
+  }
+
+  #studio .row--studio__studio4 {
+    margin-left: 709px;
   }
 
   #navbar .row--title__titles {
@@ -561,7 +575,7 @@
     z-index: 13;
     position: absolute;
     margin-left: 892px;
-    margin-top: -1px;
+    margin-top: 17px;
   }
 
   #navbar .row--title__item {
@@ -1117,7 +1131,7 @@
     height: 400px;
     background: #9D0013;
     border-radius: 20px;
-    margin: 20px -32px;
+    margin: 20px 226px;
   }
 
   #application .row--application__name {
@@ -1194,15 +1208,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
-    color: #FFFFFF;
-    margin: 15px 66px;
-  }
-
-  #application .row--application__data {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
+    text-align: center;
     color: #FFFFFF;
     margin: 15px 66px;
   }
@@ -1260,7 +1266,7 @@
     height: 349px;
     background: #9D0013;
     border-radius: 20px;
-    margin-left: 9px;
+    margin-left: -393px;
   }
 
   #navbar .name {
@@ -1400,6 +1406,10 @@
     margin-top: -16px;
     color: #e1e1e1;
     padding: 0 15px;
+  }
+
+  #footer .row--footer__footer {
+    margin-left: -550px;
   }
 }
 @media (max-width: 992px) {
