@@ -2652,6 +2652,12 @@
 }
 
 @media (max-width: 415px){
+  #navbar .row--title__vk {
+    padding-left: 331px;
+    margin-top: 17px;
+    opacity: 0.5;
+    cursor: pointer;
+  }
   #navbar {min-height: 63vh;}
   #navbar .btn {margin-left: 317px;}
   #navbar .row--title__item {font-size: 38px;}
