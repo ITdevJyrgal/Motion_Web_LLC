@@ -45,6 +45,11 @@ ul, ol, li {
   margin-left: 227px;
   animation: __next 1s ease-in-out alternate;
 }
+@media (max-width: 768px) {
+  #navbar .row--title #header .row--title__next {
+    display: none;
+  }
+}
 @keyframes __next {
   0% {
     opacity: 0;
@@ -522,6 +527,7 @@ ul, ol, li {
   height: 140px;
   background: #FFFFFF;
   border-radius: 10px;
+  margin-left: 25px;
 }
 #card .row--card__card1 {
   font-family: "Montserrat", sans-serif;

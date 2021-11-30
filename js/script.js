@@ -14,6 +14,7 @@ closeBtn.addEventListener("click", () => {
     document.querySelector("#modalWin").style.display = "none"
 })
 
+////////////////////////////////////////////////////////////////
 
 let block = document.querySelector(".row--title__btn2")
 block.addEventListener("click", () => {
@@ -25,7 +26,7 @@ blockClose.addEventListener("click", () => {
     document.querySelector(".row--title__block").style.display = "none"
 })
 
-
+////////////////////////////////////////////////////////////////////
 let card = document.querySelector(".row--card--btn-2")
 card.addEventListener("click", () => {
     document.querySelector(".row--card__block").style.display = "block"
@@ -36,15 +37,19 @@ cardClose.addEventListener("click", () => {
     document.querySelector(".row--card__block").style.display = "none"
 })
 
+
+///////////////////////////////////////////////////////////////////
 let square = document.querySelector(".row--after__btn2")
 square.addEventListener("click", () => {
     document.querySelector(".row--after__block").style.display = "block"
-} )
+})
 
 let squareClose = document.querySelector(".row--after__vk")
 squareClose.addEventListener("click", () => {
     document.querySelector(".row--after__block").style.display = "none"
 })
+////////////////////////////////////////////////////////////////////////////////
+
 const swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,

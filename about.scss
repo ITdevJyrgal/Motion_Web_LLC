@@ -51,6 +51,11 @@ ul, ol, li {
         margin-left: 227px;
         animation: __next 1s ease-in-out alternate;
       }
+      @media (max-width: 768px) {
+        #header .row--title__next{
+          display: none;
+        }
+      }
 
       @keyframes __next {
         0% {
@@ -625,6 +630,7 @@ ul, ol, li {
         height: 140px;
         background: #FFFFFF;
         border-radius: 10px;
+        margin-left: 25px;
       }
 
       &__card1 {
@@ -1066,7 +1072,6 @@ ul, ol, li {
         margin-top: 145px;
         margin-left: 490px;
         position: absolute;
-
         transition: 5s;
       }
 
