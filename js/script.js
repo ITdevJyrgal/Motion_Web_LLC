@@ -25,6 +25,26 @@ blockClose.addEventListener("click", () => {
     document.querySelector(".row--title__block").style.display = "none"
 })
 
+
+let card = document.querySelector(".row--card--btn-2")
+card.addEventListener("click", () => {
+    document.querySelector(".row--card__block").style.display = "block"
+})
+
+let cardClose = document.querySelector(".row--card__vk")
+cardClose.addEventListener("click", () => {
+    document.querySelector(".row--card__block").style.display = "none"
+})
+
+let square = document.querySelector(".row--after__btn2")
+square.addEventListener("click", () => {
+    document.querySelector(".row--after__block").style.display = "block"
+} )
+
+let squareClose = document.querySelector(".row--after__vk")
+squareClose.addEventListener("click", () => {
+    document.querySelector(".row--after__block").style.display = "none"
+})
 const swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,

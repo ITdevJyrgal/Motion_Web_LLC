@@ -1,0 +1,148 @@
+@media (max-width: 1440px) {
+  #navbar .row--title__fixed {
+    margin-left: -60px;
+  }
+
+  #navbar .btn {
+    margin-left: 1282px;
+    margin-top: -3px;
+  }
+
+  #navbar {
+    min-height: 82vh;
+  }
+
+  #navbar .row--title__next {
+    margin-left: 189px;
+  }
+}
+@media (max-width: 1200px) {
+  #navbar .row--title__fixed {
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    height: 20%;
+    margin-left: -29px;
+    background: rgba(0, 0, 0, 0.77);
+  }
+
+  #navbar .row--title__title {
+    margin: 43px -36px;
+    width: 24%;
+    height: 100%;
+  }
+
+  #navbar .row--title__web {
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    margin: 61px 39px;
+    font-size: 28px;
+    color: red;
+    width: 125%;
+  }
+
+  #navbar .row--title__btn {
+    border: 1px solid white;
+    width: 133px;
+    height: 31px;
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    background: rgba(218, 218, 218, 0.13);
+  }
+
+  #navbar .row--title__titles {
+    color: white;
+    position: relative;
+    margin: 0 7px;
+    font-size: 12px;
+    width: 100px;
+  }
+
+  #navbar .row--title__next {
+    margin-left: 52px;
+  }
+
+  #navbar .row--title__item {
+    text-transform: uppercase;
+    font-size: 68px;
+    padding: 38px 66px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    filter: drop-shadow(5px 5px 5px #171717);
+    animation: __item 2s ease-in-out alternate;
+  }
+
+  #card .row--card--btn {
+    width: 247px;
+    font-size: 18px;
+  }
+
+  #card .row--card--btn2 {
+    font-size: 16px;
+  }
+
+  #logo .row__card--klassica {
+    margin-left: -40px;
+  }
+
+  #logo .row__card--klassica3 {
+    margin-left: 40px;
+  }
+
+  #navbar .btn {
+    margin-left: 1047px;
+    margin-top: 30px;
+  }
+
+  #navbar .row--title__btn2 {
+    margin-left: 75px;
+  }
+
+  #navbar .row--title__mode {
+    padding-left: 75px;
+  }
+
+  #navbar .row--title__fabs {
+    padding-left: 63px;
+  }
+
+  #card .row--card--btn-2 {
+    width: 250px;
+  }
+
+  #card .row--card--btn {
+    width: 206px;
+  }
+
+  #application .row--application__card {
+    width: 575px;
+  }
+
+  #application .row--application__name {
+    width: 250px;
+  }
+
+  #application .row--application__name2 {
+    width: 250px;
+  }
+
+  #application .row--application__name3 {
+    width: 250px;
+  }
+
+  #application .row--application__name4 {
+    width: 250px;
+  }
+
+  #application .row--application__area {
+    width: 533px;
+  }
+
+  #application .row--application__btn {
+    width: 533px;
+  }
+}
+
+/*# sourceMappingURL=about.media.css.map */
