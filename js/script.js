@@ -39,15 +39,15 @@ cardClose.addEventListener("click", () => {
 
 
 ///////////////////////////////////////////////////////////////////
-let square = document.querySelector(".row--after__btn2")
-square.addEventListener("click", () => {
-    document.querySelector(".row--after__block").style.display = "block"
-})
-
-let squareClose = document.querySelector(".row--after__vk")
-squareClose.addEventListener("click", () => {
-    document.querySelector(".row--after__block").style.display = "none"
-})
+// let square = document.querySelector(".row--after__btn2")
+// square.addEventListener("click", () => {
+//     document.querySelector(".row--after__block").style.display = "block"
+// })
+//
+// let squareClose = document.querySelector(".row--after__vk")
+// squareClose.addEventListener("click", () => {
+//     document.querySelector(".row--after__block").style.display = "none"
+// })
 ////////////////////////////////////////////////////////////////////////////////
 
 const swiper = new Swiper(".mySwiper", {
@@ -66,3 +66,4 @@ const swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
     },
 });
+

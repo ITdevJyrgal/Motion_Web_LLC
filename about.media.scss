@@ -224,7 +224,88 @@
     font-size: 19px;}
   #card .row--card__card {
     margin-left: 19px;
+    margin-top: 25px;
   }
+  #card .row--card__cards {
+    width: 250px;
+    height: 140px;
+    margin-top: 30px;}
+  #card .row--card__lorem {
+    padding: 40px 244px;
+  }
+  #logo .row__card--klassica {
+    margin-left: -85px;
+  }
+  #logo .row__card--klassica3 {
+    margin-left: 69px;}
+  #application .row--application__card {
+    margin-left: 9%;
+  }
+  #footer .row--footer__project {
+    font-size: 36px;}
+  #footer .row--footer__btn {
+    width: 260px;
+    font-size: 24px;}
+  #footer .row--footer__ins {
+    margin: -1px 28px;
+  }
+  #navbar .row--title__block {
+    margin-top: -371px;
+    margin-left: -35px;
+  }
+  #navbar .row--title__square {
+    margin-left: 111px;}
+  #card .row--card__block {
+    margin-top: -966px;
+    margin-left: -34px;
+  }
+  #card .row--card__square {
+    margin-left: 111px;}
+}
 
+@media (max-width: 576px){
+  #navbar .row--title__fixed {
+    margin-left: -17px;
+  }
+  #navbar .btn {
+    margin-left: 439px;
+    margin-top: 1px;
+  }
+  #navbar .row--title__item {
+    font-size: 38px;
+    margin-top: 25px;
+  }
+  #navbar .row--title__btn2 {
+    width: 196px;
+    font-size: 14px;
+  }
+  #navbar .row--title__btn3 {
+    width: 130px;
+    font-size: 14px;
+  }
+  #navbar .row--title__fab {
+    color: red;
+    margin: 0 64px;
+    font-size: 39px;
+  }
+  #card .row--card__card {
+    margin-left: 155px;
+    margin-top: 25px;
+  }
+  #card .row--card__cards {
+    margin-left: 135px;
+  }
+  #card .row--card__lorem {
+    padding: 40px 150px;
+  }
+  #card .row--card__items {
+    font-size: 31px;
+    text-align: center;}
+  #card .row--card__items2 {
+    font-size: 15px;
+    text-align: center;}
+  #card .row--card--btn-2 {
+    margin-left: 52px;
+  }
 
 }

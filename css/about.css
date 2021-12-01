@@ -1092,12 +1092,13 @@ ul, ol, li {
   border: 2px solid red;
 }
 #footer .row--footer__ins {
-  margin: 5px 60px;
+  margin: 0 60px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   color: #000000;
+  line-height: 30px;
   width: 100%;
   position: relative;
 }
