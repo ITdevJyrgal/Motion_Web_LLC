@@ -500,11 +500,10 @@
 @media (max-width: 1024px) {
   #navbar {min-height: 36vh;}
   #navbar .row--title__block {margin-top: -450px;margin-left: -44px;}
-  #navbar .row--title__fixed {position: fixed;z-index: 4;width: 100%;height: 7%;margin-left: -33px;background: rgba(0, 0, 0, 0.77);}
   #navbar .row--title__title {margin: 57px -70px;width: 19%;height: 100%;}
   #navbar .row--title__web {text-transform: uppercase;font-family: "Open Sans", sans-serif;margin: 71px 75px;font-size: 22px;    color: red;width: 125%;}
   #navbar .row--title__square {margin-left: 242px;margin-top: 525px;}
-  #navbar .row--title__next {margin-left: -51px;margin-top: 11px;}
+  #navbar .row--title__next {margin-left: 107px;margin-top: 11px;}
   #studio .row--studio__studio4 {margin-left: 709px;}
   #navbar .row--title__titles {color: white;position: relative;margin: 0 7px;font-size: 9px;}
   #navbar .btn {border: none;width: 70px;height: 50px;z-index: 13;position: absolute;margin-left: 892px;margin-top: 17px;}
@@ -517,6 +516,11 @@
     letter-spacing: 2px;
     color: #FFFFFF;
   }
+  #navbar .row--title__fixed {
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    height: 14%;}
 
   #motion .row--card__cards {
     width: 220px;
@@ -2652,6 +2656,7 @@
 }
 
 @media (max-width: 415px){
+  #navbar .row--title--img{margin-left: -78px;}
   #work .row--works__card {opacity: .6;}
   #navbar .row--title__vk {padding-left: 331px;margin-top: 17px;opacity: 0.5;cursor: pointer;}
   #navbar .row--title__vk {padding-left: 301px;}
@@ -2817,6 +2822,10 @@
 }
 
 @media (max-width: 320px) {
+  #navbar .row--title--img {
+    margin-left: -101px;
+    width: 154px;
+  }
   #navbar .row--title__web {margin: 78px 97px;font-size: 18px;}
   #navbar .btn {margin-left: 230px;margin-top: 6px;}
   #navbar .width {width: 32px;}
