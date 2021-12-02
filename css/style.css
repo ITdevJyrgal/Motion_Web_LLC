@@ -1023,6 +1023,8 @@ ul, ol, li {
 #techno {
   padding-top: 30px;
   background: #989898;
+  width: 90%;
+  margin-left: 80px;
 }
 #techno .row__card__tehno {
   font-family: "Montserrat", sans-serif;
@@ -1038,9 +1040,9 @@ ul, ol, li {
   backdrop-filter: blur(15px);
 }
 #techno .wrapper {
-  max-width: 723px;
+  max-width: 900px;
   width: 100%;
-  margin: 200px auto;
+  margin: 100px auto;
   padding: 25px 30px 30px 30px;
   border-radius: 5px;
   background: #fff;
@@ -1157,6 +1159,10 @@ ul, ol, li {
   font-size: 28px;
   color: #FF001E;
 }
+#command .row .swiper-slide img {
+  display: block;
+  width: 100%;
+}
 #command .row .swiper {
   width: 100%;
   padding-top: 50px;
@@ -1170,6 +1176,7 @@ ul, ol, li {
 }
 #command .row .swiper-slide__found {
   color: white;
+  filter: drop-shadow(1px 1px 1px #ffffff);
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -1189,10 +1196,6 @@ ul, ol, li {
 #command .row .swiper-slide__found3 {
   color: #ff0000;
   font-size: 20px;
-}
-#command .row .swiper-slide img {
-  display: block;
-  width: 100%;
 }
 
 #application {
