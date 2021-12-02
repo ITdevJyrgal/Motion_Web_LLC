@@ -437,7 +437,7 @@
   #navbar .row--title__btn3 {width: 113px;font-size: 11px;height: 40px;}
   #navbar .row--title__mode {font-size: 13px;}
   #navbar .row--title__fab {font-size: 42px;}
-  #navbar .row--title__fabs {margin-left: -78px;}
+  #navbar .row--title__fabs {margin-left: -32px;}
   #card .row--card__card {margin-left: 91px;}
   #card .row--card__cards {margin-left: 74px;}
   #card .row--card__lorem {padding: 40px 83px;}
@@ -451,10 +451,33 @@
   #after .row--after__what {font-size: 28px;}
   #after .row--after__after1 {margin-left: 3px;}
   #after .row--after__btn3 {font-size: 18px;margin-top: 100px;margin-left: -289px;}
-  #application .row--application__card {margin-left: 3%;width: 364px;}
-  #application .row--application__name {width: 90%;margin-left: 16px;margin-top: 11px}
+  #application .row--application__card {margin-left: 3%;width: 364px;height: 480px;}  #application .row--application__name {width: 90%;margin-left: 16px;margin-top: 11px}
   #application .row--application__name2 {width: 90%;margin: -14px 16px;}
-
-
-
+  #application .row--application__name3 {width: 90%;margin: 28px 14px;}
+  #application .row--application__name4 {width: 90%;margin: -8px 13px;}
+  #application .row--application__area {width: 141%;margin-left: 14px;height: 30px;}
+  #application .row--application__btn {width: 90%;font-size: 20px;margin: -36px 16px;}
+  #footer .row--footer__ins {margin: 0 42px;}
+  #footer .row--footer--width {width: 386px;}
+  #footer .row--footer__project {font-size: 31px;}
+  #footer .row--footer__btn {width: 180px;font-size: 16px;height: 41px;}
+  //.row>* {
+  //  flex-shrink: 0;
+  //  width: 90%;}
+  //#after .row--after__btn {
+  //  display: flex;
+  //  justify-content: center;
+  //  align-items: center;
+  //  text-align: center;
+  //  margin: -63px 21px;
+  //}
+.row{width: 100%;}
+  #application .row--application {
+    text-align: center;
+    margin: 20px -6px;
+    padding-left: 22px;
+  }
+  #footer .row--footer__ins {
+    margin: 0 12px;
+  }
 }

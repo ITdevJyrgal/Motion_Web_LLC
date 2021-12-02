@@ -681,7 +681,7 @@ ul, ol, li {
   justify-content: center;
   margin-left: -30px;
 }
-#services .row--item__petitioner2 {
+#services .row--item__btn2 {
   color: white;
   width: 413px;
   height: 80px;
@@ -695,11 +695,101 @@ ul, ol, li {
   box-sizing: border-box;
   border-radius: 10px;
   margin: 30px 0;
+  transition: 0.5s;
 }
-#services .row--item__petitioner2:hover {
+#services .row--item__btn2:hover {
   background: red;
   color: black;
   border: 2px solid black;
+}
+#services .row--item__block {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  margin-top: -478px;
+  margin-left: -110px;
+  display: none;
+  background: rgba(0, 0, 0, 0.49);
+  transition: 5s;
+}
+#services .row--item__square2 {
+  width: 550px;
+  height: 380px;
+  background: rgba(0, 0, 0, 0.66);
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.62);
+  margin-left: 490px;
+  border-radius: 30px;
+  margin-top: 125px;
+  position: absolute;
+  transition: 5s;
+}
+#services .row--item__vk {
+  padding-left: 500px;
+  margin-top: 17px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+#services .row--item__vk:hover {
+  opacity: 2;
+}
+#services .row--item__name {
+  width: 100%;
+  height: 24%;
+  padding-left: 10px;
+  border: none;
+  margin-left: 14px;
+  margin-top: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.54);
+  background: transparent;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+#services .row--item__name:focus {
+  outline: none;
+}
+#services .row--item__name::placeholder {
+  color: rgba(255, 255, 255, 0.77);
+}
+#services .row--item__name2::placeholder {
+  color: rgba(255, 255, 255, 0.79);
+}
+#services .row--item__name2 {
+  width: 100%;
+  height: 24%;
+  background: none;
+  padding-left: 10px;
+  margin-left: 14px;
+  margin-top: 50px;
+  border: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.53);
+  color: #fff;
+  font-size: 20px;
+}
+#services .row--item__name2:focus {
+  outline: none;
+}
+#services .row--item__btn3 {
+  width: 50%;
+  height: 10%;
+  border: 2px solid rgba(255, 255, 255, 0.49);
+  background: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 135px;
+  margin-top: 66px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.7s;
+}
+#services .row--item__btn3:hover {
+  background: red;
+  border: 2px solid #fff;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: 0.7s;
 }
 
 #product {

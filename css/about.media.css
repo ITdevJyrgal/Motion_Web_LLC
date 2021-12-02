@@ -665,7 +665,7 @@
   }
 
   #navbar .row--title__fabs {
-    margin-left: -78px;
+    margin-left: -32px;
   }
 
   #card .row--card__card {
@@ -730,6 +730,7 @@
   #application .row--application__card {
     margin-left: 3%;
     width: 364px;
+    height: 480px;
   }
 
   #application .row--application__name {
@@ -741,6 +742,60 @@
   #application .row--application__name2 {
     width: 90%;
     margin: -14px 16px;
+  }
+
+  #application .row--application__name3 {
+    width: 90%;
+    margin: 28px 14px;
+  }
+
+  #application .row--application__name4 {
+    width: 90%;
+    margin: -8px 13px;
+  }
+
+  #application .row--application__area {
+    width: 141%;
+    margin-left: 14px;
+    height: 30px;
+  }
+
+  #application .row--application__btn {
+    width: 90%;
+    font-size: 20px;
+    margin: -36px 16px;
+  }
+
+  #footer .row--footer__ins {
+    margin: 0 42px;
+  }
+
+  #footer .row--footer--width {
+    width: 386px;
+  }
+
+  #footer .row--footer__project {
+    font-size: 31px;
+  }
+
+  #footer .row--footer__btn {
+    width: 180px;
+    font-size: 16px;
+    height: 41px;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  #application .row--application {
+    text-align: center;
+    margin: 20px -6px;
+    padding-left: 22px;
+  }
+
+  #footer .row--footer__ins {
+    margin: 0 12px;
   }
 }
 
