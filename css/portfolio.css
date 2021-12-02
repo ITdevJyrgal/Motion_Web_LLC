@@ -42,7 +42,7 @@ ul, ol, li {
   color: red;
 }
 #navbar .row--title__next {
-  margin-left: 227px;
+  margin-left: 300px;
   animation: __next 1s ease-in-out alternate;
 }
 @keyframes __next {
@@ -418,7 +418,6 @@ ul, ol, li {
 #work {
   background: #222222;
   padding-top: 50px;
-  margin-top: 30px;
 }
 #work .row--works__our {
   font-family: "Poppins", sans-serif;

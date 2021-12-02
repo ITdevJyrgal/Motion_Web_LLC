@@ -42,7 +42,7 @@ ul, ol, li {
   color: red;
 }
 #navbar .row--title__next {
-  margin-left: 227px;
+  margin-left: 300px;
   animation: __next 1s ease-in-out alternate;
 }
 @media (max-width: 768px) {
@@ -835,6 +835,13 @@ ul, ol, li {
   color: #000000;
   text-align: center;
   padding: 35px 0;
+}
+#after .row--after__img {
+  width: 100%;
+  height: 100%;
+  padding: 13px 10px;
+  margin: 0 -84px;
+  position: absolute;
 }
 #after .row--after__btn {
   display: flex;

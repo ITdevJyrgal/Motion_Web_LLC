@@ -42,7 +42,7 @@ ul, ol, li {
   color: red;
 }
 #navbar .row--title__next {
-  margin-left: 227px;
+  margin-left: 300px;
   animation: __next 1s ease-in-out alternate;
 }
 @keyframes __next {
@@ -623,7 +623,7 @@ ul, ol, li {
   border-radius: 20px;
 }
 #offer .row--offer__img {
-  margin: 30px 50px;
+  margin: 24px 50px;
 }
 #offer .row--offer__teh {
   font-family: "Montserrat", sans-serif;
@@ -633,6 +633,15 @@ ul, ol, li {
   color: #000000;
   text-align: center;
   margin-top: -20px;
+}
+#offer .row--offer__teh1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+  margin-top: -15px;
 }
 #offer .row--offer__por {
   font-family: "Montserrat", sans-serif;

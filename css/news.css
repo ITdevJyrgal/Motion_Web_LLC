@@ -42,7 +42,7 @@ ul, ol, li {
   color: red;
 }
 #navbar .row--title__next {
-  margin-left: 227px;
+  margin-left: 300px;
   animation: __next 1s ease-in-out alternate;
 }
 @keyframes __next {

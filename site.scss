@@ -48,7 +48,7 @@ ul, ol, li {
       }
 
       &__next {
-        margin-left: 227px;
+        margin-left: 300px;
         animation: __next 1s ease-in-out alternate;
       }
 
@@ -744,7 +744,7 @@ ul, ol, li {
       }
 
       &__img {
-        margin: 30px 50px;
+        margin: 24px 50px;
       }
 
       &__teh {
@@ -756,6 +756,16 @@ ul, ol, li {
         text-align: center;
         margin-top: -20px;
       }
+      &__teh1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        color: #000000;
+        text-align: center;
+        margin-top: -15px;
+      }
+
 
       &__por {
         font-family: 'Montserrat', sans-serif;
