@@ -967,5 +967,212 @@
     margin-left: 18px;
   }
 }
+@media (max-width: 320px) {
+  #navbar .row--title__item {
+    font-size: 24px;
+    margin-top: -24px;
+  }
+
+  #navbar .row--title--img {
+    margin-left: -87px;
+    width: 135%;
+  }
+
+  #navbar .btn {
+    margin-left: 227px;
+    margin-top: -8px;
+  }
+
+  #navbar .width {
+    width: 31px;
+  }
+
+  #navbar .width:before {
+    content: "";
+    position: absolute;
+    width: 31px;
+    margin: 8px -15px;
+  }
+
+  #navbar .width:after {
+    content: "";
+    position: absolute;
+    width: 31px;
+    height: 3px;
+    background: #ff0000;
+    margin: 15px -15px;
+  }
+
+  #navbar .row--title__btn2 {
+    width: 112px;
+    font-size: 8px;
+  }
+
+  #navbar .row--title__btn3 {
+    width: 85px;
+    font-size: 8px;
+  }
+
+  #navbar .row--title__mode {
+    font-size: 11px;
+    margin-top: -18px;
+  }
+
+  #navbar .row--title__fab {
+    margin: 53px 29px;
+    font-size: 30px;
+  }
+
+  #card .row--card__card {
+    margin-left: 45px;
+  }
+
+  #card .row--card__cards {
+    margin-left: 26px;
+  }
+
+  #card .row--card__lorem {
+    width: 114%;
+  }
+
+  #card .row--card__items {
+    font-size: 24px;
+  }
+
+  #card .row--card__items2 {
+    font-size: 12px;
+    text-align: center;
+    padding-left: 34px;
+  }
+
+  #card .row--card--btn-2 {
+    margin-left: 48px;
+    height: 33px;
+    font-size: 13px;
+  }
+
+  #card .row--card--btn {
+    width: 169px;
+    font-size: 13px;
+    margin-left: 71px;
+    height: 33px;
+  }
+
+  #logo .row__card--choice1 {
+    font-size: 25px;
+  }
+
+  #logo .row__card--choice2 {
+    font-size: 13px;
+  }
+
+  #logo .row__card--google {
+    margin-left: -131px;
+  }
+
+  #after .row--after__what {
+    font-size: 25px;
+  }
+
+  #after .row--after__after1 {
+    margin-left: -37px;
+    width: 124%;
+  }
+
+  #after .row--after__btn2 {
+    font-size: 15px;
+  }
+
+  #after .row--after__btn3 {
+    font-size: 15px;
+  }
+
+  #application .row--application__your {
+    font-size: 25px;
+  }
+
+  #application .row--application__your2 {
+    font-size: 13px;
+  }
+
+  #application .row--application__card {
+    margin-left: 2%;
+    width: 289px;
+  }
+
+  #application .row--application__area {
+    width: 111%;
+  }
+
+  #application .row--application__btn {
+    width: 90%;
+    font-size: 20px;
+    margin: -36px 14px;
+  }
+
+  #application .row--application__data {
+    font-size: 12px;
+  }
+
+  #footer .row--footer__project {
+    font-size: 25px;
+  }
+
+  #footer .row--footer__btn {
+    width: 165px;
+    font-size: 15px;
+    height: 36px;
+  }
+
+  #footer .row--footer--width {
+    width: 296px;
+  }
+
+  #footer .row--footer__ins {
+    margin: 0 7px;
+    font-size: 15px;
+  }
+
+  #after .row--after__btn3 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  #navbar .row--title__block {
+    margin-top: -323px;
+  }
+
+  #navbar .row--title__square {
+    margin-left: 19px;
+    width: 280px;
+  }
+
+  #navbar .row--title__btn4 {
+    margin-left: 68px;
+  }
+
+  #navbar .row--title__vk {
+    padding-left: 241px;
+  }
+
+  #card .row--card__block {
+    margin-top: -418%;
+    margin-left: -12px;
+  }
+
+  #card .row--card__square {
+    margin-left: 20px;
+    width: 280px;
+  }
+
+  #card .row--card__btn4 {
+    margin-left: 68px;
+  }
+
+  #card .row--card__vk {
+    padding-left: 240px;
+  }
+}
 
 /*# sourceMappingURL=about.media.css.map */
