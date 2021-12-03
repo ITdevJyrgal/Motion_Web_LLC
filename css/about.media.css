@@ -836,7 +836,7 @@
   }
 
 }
-@media (max-width: 376px) it {
+@media (max-width: 376px)  {
   #navbar .row--title__fixed {
     height: 10%;
   }
