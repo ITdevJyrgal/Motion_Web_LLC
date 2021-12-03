@@ -299,7 +299,7 @@ ul, ol, li {
   z-index: 13;
   position: absolute;
   margin-left: 1286px;
-  margin-top: -5px;
+  margin-top: -2px;
 }
 #navbar .modal {
   display: flex;
@@ -325,6 +325,7 @@ ul, ol, li {
 #navbar .modal-window {
   position: relative;
   width: 100%;
+  height: 100%;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);

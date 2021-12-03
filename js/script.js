@@ -46,6 +46,8 @@ squareClose.addEventListener("click", () => {
     document.querySelector(".row--item__block").style.display = "none"
 })
 
+document.getElementById("defaultOpen").click();
+
 const swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
