@@ -45,24 +45,3 @@ let squareClose = document.querySelector(".row--item__vk")
 squareClose.addEventListener("click", () => {
     document.querySelector(".row--item__block").style.display = "none"
 })
-
-document.getElementById("defaultOpen").click();
-
-const swiper = new Swiper(".mySwiper", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-        delayTime : 500
-    },
-    pagination: {
-        el: ".swiper-pagination",
-    },
-});
-
