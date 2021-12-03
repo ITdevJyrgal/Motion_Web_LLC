@@ -251,7 +251,7 @@ ul, ol, li {
   border: none;
   background: none;
   opacity: 0.4;
-  right: 30px;
+  right: 60px;
   top: 25px;
 }
 #navbar .btn-close:hover {
@@ -650,15 +650,12 @@ ul, ol, li {
   text-align: center;
   color: #000000;
 }
-#offer .row--offer__flex {
-  padding-left: 40px;
-}
 
 #product {
   padding-top: 30px;
 }
 #product .row--product__proses {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -675,7 +672,7 @@ ul, ol, li {
   padding: 33px 33px;
 }
 #product .row--product__planning {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -907,11 +904,11 @@ ul, ol, li {
 #product .row--product__five2 {
   display: flex;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
-  margin-top: -250px;
+  margin-top: -190px;
   color: #FF001E;
 }
 #product .row--product__five3 {
@@ -937,17 +934,18 @@ ul, ol, li {
   color: #FFFFFF;
 }
 #product .row--product__btn {
-  width: 250px;
-  height: 40px;
+  width: 300px;
+  height: 70px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   color: #ffffff;
   background: #FF001E;
-  border-radius: 10px;
+  border-radius: 13px;
   border: none;
   margin-bottom: 30px;
+  transition: 0.4s;
 }
 #product .row--product__btn:hover {
   background: #000;

@@ -338,7 +338,7 @@ ul, ol, li {
   border: none;
   background: none;
   opacity: 0.4;
-  right: 30px;
+  right: 60px;
   top: 25px;
 }
 #navbar .btn-close:hover {
@@ -963,7 +963,7 @@ ul, ol, li {
   padding: 30px 30px;
 }
 #product .row--product__fo2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -1026,7 +1026,7 @@ ul, ol, li {
 #product .row--product__five2 {
   display: flex;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;

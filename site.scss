@@ -299,7 +299,7 @@ ul, ol, li {
     border: none;
     background: none;
     opacity: .4;
-    right: 30px;
+    right: 60px;
     top: 25px;
 
   }
@@ -776,9 +776,6 @@ ul, ol, li {
         color: #000000;
       }
 
-      &__flex {
-        padding-left: 40px;
-      }
     }
   }
 }
@@ -789,7 +786,7 @@ ul, ol, li {
   .row {
     &--product {
       &__proses {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 28px;
@@ -809,7 +806,7 @@ ul, ol, li {
       }
 
       &__planning {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
@@ -1078,11 +1075,11 @@ ul, ol, li {
       &__five2 {
         display: flex;
         justify-content: center;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
-        margin-top: -250px;
+        margin-top: -190px;
         color: #FF001E;
       }
 
@@ -1112,17 +1109,18 @@ ul, ol, li {
       }
 
       &__btn {
-        width: 250px;
-        height: 40px;
+        width: 300px;
+        height: 70px;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
         color: #ffffff;
         background: #FF001E;
-        border-radius: 10px;
+        border-radius: 13px;
         border: none;
         margin-bottom: 30px;
+        transition: .4s;
       }
 
       &__btn:hover {

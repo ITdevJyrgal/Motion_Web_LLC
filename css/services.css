@@ -244,7 +244,7 @@ ul, ol, li {
   border: none;
   background: none;
   opacity: 0.4;
-  right: 30px;
+  right: 60px;
   top: 25px;
 }
 #navbar .btn-close:hover {
@@ -424,6 +424,7 @@ ul, ol, li {
   height: 400px;
   background: #FFFFFF;
   border-radius: 20px;
+  margin: 15px 0;
 }
 #services .row--item__square {
   width: 400px;
@@ -431,6 +432,7 @@ ul, ol, li {
   background: #000000;
   border-radius: 20px;
   filter: drop-shadow(10px 10px 10px #171717);
+  margin-bottom: 20px;
 }
 #services .row--item__dots {
   width: 10px;
@@ -487,9 +489,6 @@ ul, ol, li {
   font-size: 22px;
   line-height: 33px;
   color: #FF001E;
-}
-#services .row--item__bot {
-  margin-bottom: 20px;
 }
 #services .row--item__petitioner {
   display: flex;
