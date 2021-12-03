@@ -281,10 +281,6 @@
   }
 }
 @media (max-width: 768px) {
-  #navbar .row--title--img{
-    margin-left: -66px;
-  }
-
   #navbar .row--title__next {
     margin-left: -65px;
     display: none;
@@ -388,7 +384,6 @@
   }
 }
 @media (max-width: 576px) {
-
   #navbar .row--title__fixed {
     margin-left: -17px;
   }
@@ -595,25 +590,31 @@
   #card .row--card__vk {
     padding-left: 298px;
   }
+
   #navbar .row--title__block {
     margin-top: -351px;
     margin-left: -11px;
   }
+
   #navbar .row--title__square {
     margin-left: 39px;
     width: 340px;
   }
+
   #navbar .row--title__btn4 {
     margin-left: 86px;
   }
+
   #card .row--card__block {
     margin-top: -334%;
     margin-left: -12px;
   }
+
   #card .row--card__square {
     margin-left: 39px;
     width: 340px;
   }
+
   #card .row--card__btn4 {
     margin-left: 91px;
   }
@@ -828,29 +829,34 @@
   #footer .row--footer__ins {
     margin: 0 12px;
   }
+
   #after .row--after__btn {
     margin: -62px 19px;
   }
-  #navbar .row--title--img{
+
+  #navbar .row--title--img {
     margin-left: -84px;
   }
-
 }
-@media (max-width: 376px)  {
+@media (max-width: 376px) {
   #navbar .row--title__fixed {
     height: 10%;
   }
+
   #navbar .row--title--img {
     margin-left: -87px;
   }
+
   #navbar .btn {
     margin-left: 276px;
     margin-top: -8px;
   }
+
   #navbar .row--title__mode {
     font-size: 13px;
     margin-top: -18px;
   }
+
   #navbar .row--title__btn2 {
     width: 138px;
     font-size: 9px;
@@ -858,84 +864,105 @@
     margin-left: 10px;
     margin-top: 22px;
   }
+
   #navbar .row--title__btn3 {
     width: 101px;
     font-size: 9px;
     height: 33px;
   }
+
   #card .row--card__card {
     margin-left: 72px;
   }
+
   #card .row--card__cards {
     margin-left: 52px;
   }
+
   #card .row--card__items {
     font-size: 29px;
     margin-left: 40px;
     text-align: center;
   }
+
   #card .row--card__lorem {
     padding: 40px 61px;
   }
+
   #card .row--card__items2 {
     font-size: 15px;
     text-align: center;
     padding-left: 34px;
   }
+
   #card .row--card--btn-2 {
     margin-left: 74px;
     height: 40px;
   }
+
   #card .row--card--btn {
     width: 169px;
     font-size: 16px;
     margin-left: 93px;
     height: 40px;
   }
+
   #logo .row__card--choice1 {
     font-size: 27px;
   }
+
   #logo .row__card--choice2 {
     font-size: 15px;
   }
+
   #logo .row__card--google {
     margin-left: -101px;
   }
+
   #after .row--after__what {
     font-size: 26px;
   }
+
   #after .row--after__after1 {
     margin-left: -16px;
   }
+
   #application .row--application__card {
     margin-left: 2%;
     width: 345px;
     height: 480px;
   }
+
   #application .row--application__area {
     width: 134%;
     margin-left: 14px;
     height: 30px;
   }
+
   #footer .row--footer--width {
     width: 349px;
   }
+
   #navbar .row--title__square {
     margin-left: 16px;
     width: 340px;
   }
+
   #card .row--card__block {
     margin-top: -371%;
     margin-left: -12px;
   }
+
   #card .row--card__square {
     margin-left: 18px;
     width: 340px;
   }
+
   #navbar .row--title__fab {
     margin: 53px 39px;
     font-size: 30px;
   }
+
   #navbar .row--title__fabs {
     margin-left: 18px;
   }
