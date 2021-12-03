@@ -348,9 +348,6 @@ ul, ol, li {
   display: none;
   transition: 4s;
 }
-#navbar .ob {
-  display: flex;
-}
 #navbar .menu {
   padding: 0 20px;
   font-family: "Montserrat", sans-serif;
@@ -384,7 +381,7 @@ ul, ol, li {
 }
 #navbar .card {
   width: 642px;
-  height: 400px;
+  height: 420px;
   background: #9D0013;
   border-radius: 20px;
 }
@@ -394,7 +391,7 @@ ul, ol, li {
   background: #FFFFFF;
   border-radius: 10px;
   border: none;
-  margin: 30px 25px;
+  margin: 30px 17px;
   outline: none;
   padding: 0 20px;
 }
@@ -413,7 +410,7 @@ ul, ol, li {
   background: #FFFFFF;
   border-radius: 10px;
   border: none;
-  margin: 0 25px;
+  margin: 0 17px;
   outline: none;
   padding: 0 20px;
 }
@@ -432,7 +429,7 @@ ul, ol, li {
   background: #FFFFFF;
   border-radius: 10px;
   border: none;
-  margin: 25px 25px;
+  margin: 25px 17px;
   outline: none;
   padding: 0 35px;
 }
@@ -443,8 +440,9 @@ ul, ol, li {
   border-radius: 10px;
   border: none;
   color: #FFFFFF;
-  margin: -7px 25px;
+  margin: -7px 17px;
   font-size: 20px;
+  transition: 0.4s;
 }
 #navbar .__btn:hover {
   background: red;
@@ -458,6 +456,7 @@ ul, ol, li {
   font-size: 17px;
   color: #FFFFFF;
   margin: 15px 25px;
+  text-align: center;
 }
 #navbar .group {
   padding-top: 50px;

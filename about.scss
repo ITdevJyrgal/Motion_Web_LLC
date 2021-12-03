@@ -426,9 +426,7 @@ ul, ol, li {
     display: none;
   }
 
-  .ob {
-    display: flex;
-  }
+
 
   .menu {
     padding: 0 20px;
@@ -474,7 +472,6 @@ ul, ol, li {
     height: 400px;
     background: #9D0013;
     border-radius: 20px;
-    margin-left: 100px;
   }
 
   .name {
@@ -554,6 +551,7 @@ ul, ol, li {
     font-size: 17px;
     color: #FFFFFF;
     margin: 15px 25px;
+    text-align: center;
   }
 
 

@@ -423,9 +423,7 @@ $ser: #222222;
     transition: 4s;
   }
 
-  .ob {
-    display: flex;
-  }
+
 
   .menu {
     padding: 0 20px;
@@ -468,9 +466,10 @@ $ser: #222222;
 
   .card {
     width: 642px;
-    height: 400px;
+    height: 420px;
     background: #9D0013;
     border-radius: 20px;
+
   }
 
   .name {
@@ -479,7 +478,7 @@ $ser: #222222;
     background: #FFFFFF;
     border-radius: 10px;
     border: none;
-    margin: 30px 25px;
+    margin: 30px 17px;
     outline: none;
     padding: 0 20px;
   }
@@ -500,7 +499,7 @@ $ser: #222222;
     background: #FFFFFF;
     border-radius: 10px;
     border: none;
-    margin: 0 25px;
+    margin: 0 17px;
     outline: none;
     padding: 0 20px;
   }
@@ -521,7 +520,7 @@ $ser: #222222;
     background: #FFFFFF;
     border-radius: 10px;
     border: none;
-    margin: 25px 25px;
+    margin: 25px 17px;
     outline: none;
     padding: 0 35px;
   }
@@ -533,8 +532,9 @@ $ser: #222222;
     border-radius: 10px;
     border: none;
     color: #FFFFFF;
-    margin: -7px 25px;
+    margin: -7px 17px;
     font-size: 20px;
+    transition: .4s;
   }
 
   .__btn:hover {
@@ -550,6 +550,7 @@ $ser: #222222;
     font-size: 17px;
     color: #FFFFFF;
     margin: 15px 25px;
+    text-align: center;
   }
 
 
