@@ -5,10 +5,12 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Motion Web LLC</title>
+    <title>Motion Web</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800&family=Montserrat+Alternates:wght@300;500;600;700&family=Montserrat:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+          rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600&display=swap"
           rel="stylesheet">
@@ -18,10 +20,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="media.scss">
     <link rel="stylesheet" href="css/media.css">
-    <link
-            rel="stylesheet"
-            href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 </head>
 <body>
 <header id="navbar">
@@ -1036,7 +1035,7 @@
 
             <div class="wrapper">
 
-                <input type="radio" name="slider" id="blog">
+                <input type="radio" name="slider" id="blog" checked>
                 <input type="radio" name="slider" id="code">
                 <input type="radio" name="slider" id="help">
                 <input type="radio" name="slider" id="about">
@@ -1350,6 +1349,7 @@
                 <div class="d-flex flex-column">
                     <div class="d-flex flex-column">
                         <h1 class="row--footer__menu3">Меню</h1>
+                        <a href="#" class="row--footer__nav">Главная</a>
                         <a href="#" class="row--footer__nav"> Разработка логотипа</a>
                         <a href="#" class="row--footer__nav"> Разработка сайта</a>
                         <a href="#" class="row--footer__nav"> Услуги</a>
@@ -1398,7 +1398,7 @@
     AOS.init();
 </script>
 <script>
-    var swiper = new Swiper(".mySwiper", {
+    const swiper = new Swiper(".mySwiper", {
         effect: "coverflow",
         grabCursor: true,
         centeredSlides: true,

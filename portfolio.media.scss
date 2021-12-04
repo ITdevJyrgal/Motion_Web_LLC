@@ -217,7 +217,7 @@
     cursor: pointer;
   }
 }
-@media (max-width: 415px) {
+@media (max-width: 415px)   {
   #navbar .row--title__fixed {
     margin-left: -1px;
     height: 9%;
@@ -330,9 +330,139 @@
     padding-left: 332px;}
 }
 @media (max-width: 377px) {
+  #navbar .btn {
+    margin-left: 276px;
+    margin-top: -6px;
+  }
+  #navbar .row--title__item {
+    font-size: 45px;
+    margin-top: -50px;
+    margin-left: 13px;
+  }
+  #navbar .row--title__item2 {
+    font-size: 16px;
+    margin-left: 13px;
+  }
+  #navbar .row--title__btn2 {
+    width: 200px;
+    margin-left: 13px;
+    height: 45px;
+    font-size: 14px;
+  }
+  #navbar .row--title__mode {
+    margin-top: 26px;
+    color: white;
+    font-size: 16px;
+    margin-left: 13px;
+  }
+  #navbar .row--title__fabs {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 1px;
+  }
+  #work .row--works__card {
+    margin-left: 1px;
+    z-index: 3;
+    width: 101%;
+
+    height: 212px;
+  }
+  #work .row--works__lorem {
+    padding: 51px;
+  }
+  #work .row--works__pod {
+    margin-left: 141px;
+  }
+  #application .row--application__area {
+    width: 286px;
+  }
+  #application .row--application__btn {
+    width: 289px;
+    height: 40px;
+    margin-left: 17px;
+  }
+  #navbar .row--title__square {
+    margin-left: 20px;
+    width: 90%;
+    margin-top: 195px;
+  }
+  #navbar .row--title__vk {
+    padding-left: 299px;
+  }
 
 }
 @media (max-width: 320px) {
+  #navbar .row--title--img {
+    margin-left: -93px;
+    width: 141%;
+  }
+  #navbar .btn {
+    margin-left: 223px;
+    margin-top: -6px;
+  }
+  #navbar .row--title__item {
+    font-size: 40px;
+    margin-top: -72px;
+    margin-left: 13px;
+  }
+  #navbar .row--title__btn2 {
+    width: 150px;
+    margin-left: 12px;
+    height: 40px;
+    font-size: 11px;
+  }
+  #navbar .row--title__mode {
+    margin-top: 26px;
+    color: white;
+    font-size: 14px;}
+  #navbar .row--title__fab {
+    color: red;
+    margin: 0 27px;
+    font-size: 40px;
+  }
+  #navbar .row--title__fabs {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 8px;
+  }
+  #work .row--works__card {
+    margin-left: 0;
+    z-index: 3;
+    width: 104%;
 
-}
+    height: 181px;
+  }
+  #work .row--works__lorem {
+    padding: 29px;
+  }
+  #work .row--works__pod {
+    margin-left: 116px;
+  }
+  #application .row--application__card {
+    margin: 20px 15px;
+    width: 90%;
+    height: 498px;
+  }
+  #application .row--application__area {
+    width: 239px;
+  }
+  #application .row--application__btn {
+    width: 239px;}
+  #application .row--application__data {
+    font-size: 12px;
+  }
+  #footer .row--footer__ins {
+    margin: 5px 20px;
+    font-size: 16px;
+  }
+  #navbar .row--title__block {
+    margin-top: -389px;
+  }
+  #navbar .row--title__vk {
+    padding-left: 252px;
+  }
+  #navbar .row--title__btn3 {
+    margin-left: 73px;
+  }
+  }
 

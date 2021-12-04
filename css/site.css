@@ -131,13 +131,14 @@ ul, ol, li {
   background: #e70018;
   border-radius: 10px;
   border: none;
-  color: #000000;
+  color: #ffffff;
   font-size: 20px;
   margin: 50px 0;
+  transition: 0.4s;
 }
 #navbar .row--title__btn1:hover {
   background: #000;
-  color: #FFFFFF;
+  color: #ff0000;
   border: 1px solid red;
 }
 #navbar .row--title__mode {

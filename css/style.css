@@ -174,7 +174,7 @@ ul, ol, li {
   text-transform: uppercase;
   font-size: 100px;
   font-weight: 900;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
   filter: drop-shadow(5px 5px 5px #171717);
   animation: __item 2s ease-in-out alternate;
@@ -195,7 +195,7 @@ ul, ol, li {
 #navbar .row--title--item {
   width: 300px;
   height: 25px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 2px;
@@ -1093,9 +1093,7 @@ ul, ol, li {
 
 #techno {
   padding-top: 30px;
-  background: #989898;
-  width: 90%;
-  margin-left: 80px;
+  background: #222222;
 }
 #techno .row__card__tehno {
   font-family: "Montserrat", sans-serif;
@@ -1116,8 +1114,7 @@ ul, ol, li {
   margin: 100px auto;
   padding: 25px 30px 30px 30px;
   border-radius: 5px;
-  background: #fff;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  background: #000;
 }
 #techno .wrapper header {
   font-size: 30px;
@@ -1140,7 +1137,7 @@ ul, ol, li {
   cursor: pointer;
   position: relative;
   z-index: 1;
-  color: #000000;
+  color: #a2a0a0;
   font-size: 17px;
   border-radius: 5px;
   margin: 0 5px;
@@ -1182,7 +1179,9 @@ ul, ol, li {
 }
 #techno section .content {
   display: none;
-  background: #fff;
+  background: #222222;
+  padding: 20px 20px;
+  margin-top: 20px;
 }
 #techno #home:checked ~ section .content-1,
 #techno #blog:checked ~ section .content-2,
@@ -1197,14 +1196,12 @@ ul, ol, li {
 #techno .card {
   width: 70px;
   height: 70px;
-  background: rgba(54, 53, 53, 0.6);
+  background: rgba(138, 133, 133, 0.6);
   margin: 20px 2px;
-  box-shadow: 0 5px 20px -3px black;
   cursor: grab;
 }
 #techno .icon {
   padding: 15px 22px;
-  filter: drop-shadow(3px 3px 3px #000000);
 }
 #techno .web {
   color: white;
@@ -1213,7 +1210,6 @@ ul, ol, li {
   margin-top: -10px;
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
-  filter: drop-shadow(3px 3px 3px #000000);
 }
 #techno .dis {
   display: flex;
@@ -1358,6 +1354,7 @@ ul, ol, li {
   font-size: 17px;
   color: #FFFFFF;
   margin: 15px 25px;
+  text-align: center;
 }
 
 #footer {
@@ -1382,6 +1379,7 @@ ul, ol, li {
   background: #FF001E;
   border-radius: 10px;
   border: none;
+  transition: 0.4s;
 }
 #footer .row--footer__btn:hover {
   background: black;
