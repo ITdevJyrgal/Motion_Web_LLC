@@ -520,5 +520,16 @@
     margin: 5px 27px;
   }
 }
+@media (max-width: 375px) {
+  #navbar .row--title--img {
+    margin-left: -94px;
+    width: 141%;
+  }
+
+  #navbar .btn {
+    margin-left: 274px;
+    margin-top: -4px;
+  }
+}
 
 /*# sourceMappingURL=services.media.css.map */
