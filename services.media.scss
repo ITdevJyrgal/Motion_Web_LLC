@@ -198,6 +198,198 @@
   }
 
 }
+@media (max-width: 576px){
+  #navbar .row--title__fixed {
+    margin-left: -17px;
+    height: 9%;
+  }
+  #navbar .btn {
+    margin-left: 450px;
+    margin-top: -7px;
+  }
+  #navbar .row--title__item {
+    font-size: 53px;
+    margin-top: -75px;
+  }
+  #navbar .row--title__item2 {
+    font-size: 16px;
+  }
+  #navbar .row--title__btn2 {
+    width: 218px;
+    height: 44px;
+    font-size: 16px;
+  }
+  #navbar .row--title__fabs {
+    margin-left: 95px;
+  }
+  #services .row--item--square {
+    margin: 15px 62px;
+  }
+  #services .row--item__petitioner {
+    margin-left: 12px;
+  }
+  #application .row--application__card {
+    width: 526px;
+    height: 530px;
+    margin-left: -3px}
+  #application .row--application__name {
+    width: 90%;}
+  #application .row--application__name2 {
+    width: 90%;
+    margin: -10px 25px;
+
+  }
+  #application .row--application__name3 {
+    width: 90%;
+    margin: 27px 25px}
+  #application .row--application__name4 {
+    width: 90%;
+    margin: -5px 26px;}
+  #application .row--application__area {
+    width: 475px;
+    height: 76px;}
+  #application .row--application__btn {
+    width: 479px;
+    font-size: 20px;}
+  #footer .row--footer__width{width: 537px;
+    height: 3px;
+    margin-top: 123px;
+    position: absolute;
+    background: red;}
+  #footer .row-footer__footer{
+    margin-top: 10px;
+  }
+  #navbar .row--title__block {
+    margin-top: -410px;
+    margin-left: -31px;
+  }
+  #navbar .row--title__square {
+    margin-left: 32px;
+    margin-top: 250px;
+    width: 90%;
+  }
+  #navbar .row--title__vk {
+    padding-left: 475px;}
+  #navbar .row--title__name {
+    width: 90%;
+    margin-left: 24px;}
+  #navbar .row--title__name2 {
+    width: 90%;
+    margin-left: 24px;}
+}
+@media (max-width: 415px) {
+  #navbar .row--title__fixed {
+    margin-left: 0;
+    height: 9%;
+  }
+  #navbar .btn {
+    margin-left: 313px;
+    margin-top: -7px;
+  }
+  #navbar .row--title__item {
+    font-size: 45px;
+    margin-top: -85px;
+  }
+  #navbar .row--title__item2 {
+    font-size: 14px;
+  }
+  #navbar .row--title__btn2 {
+    width: 155px;
+    height: 38px;
+    font-size: 12px;
+  }
+  #navbar .row--title__mode {
+    font-size: 13px;
+  }
+  #navbar .row--title__fabs {
+    margin-left: 44px;
+  }
+  #services .row--item--square {
+    margin: 15px 19px;
+    width: 90%;
+  }
+  #services .row--item__square {
+
+    width: 100%;
+    height: 88px;}
+  #services .row--item__dots {
+    width: 9px;
+    height: 6px;}
+  #services .row--item__page {
+    font-size: 21px;
+   }
+  #services .row--item__page2 {
+    font-size: 13px;
+  }
+  #services .row--item__price2 {
+    font-size: 14px;}
+  #services .row--item__price3 {
+    font-size: 18px;}
+  #application .row--application__card {
+    width: 90%;
+    height: 530px;
+    margin-left: 21px;}
+  #application .row--application__name {
+    width: 90%;
+    margin-left: 16px;
+  }
+  #application .row--application__name2 {
+    width: 90%;
+    margin: -10px 15px;
+  }
+  #application .row--application__name3 {
+    width: 90%;
+    margin: 27px 15px;
+  }
+  #application .row--application__name4 {
+    width: 90%;
+    margin: -5px 15px;
+  }
+  #application .row--application__area {
+    width: 316px;
+    margin-left: 15px;
+    height: 76px;
+  }
+  #application .row--application__btn {
+    width: 320px;
+    margin-left: 13px;
+    font-size: 20px;
+  }
+  #application .row--application__data {
+    font-size: 15px;}
+  #navbar .width {
+    width: 40px;
+    height: 4px;}
+  #footer .row--footer__width {
+    width: 90%;
+    margin-left: 19px;
+  }
+  #navbar .row--title__block {
+    margin-top: -410px;
+    margin-left: -12px;
+  }
+  #navbar .row--title__square {
+    margin-left: 23px;
+    margin-top: 250px;
+    width: 90%;
+  }
+  #navbar .row--title__name {
+    width: 90%;
+    margin-left: 16px;
+  }
+  #navbar .row--title__name2 {
+    width: 90%;
+    margin-left: 16px;
+  }
+  #navbar .row--title__btn3 {
+    margin-left: 88px;}
+  #navbar .row--title__vk {
+    padding-left: 333px;
+  }
+  #footer .row--footer__ins {
+    margin: 5px 27px;
+  }
+}
 
 
 
