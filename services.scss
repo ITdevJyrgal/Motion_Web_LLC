@@ -43,6 +43,12 @@ $ew:#454545;
         animation: __next 1s ease-in-out alternate;
       }
 
+      @media (max-width: 768px) {
+           #navbar .row--title__next{
+             display: none;
+           }
+      }
+
       @keyframes __next {
         0% {
           opacity: 0;
@@ -134,7 +140,7 @@ $ew:#454545;
 
       }
 
-      &__btn1 {
+      &__btn2 {
         width: 322px;
         height: 50px;
         background: rgb(231, 0, 24);
@@ -143,13 +149,140 @@ $ew:#454545;
         color: #000000;
         font-size: 20px;
         margin: 50px 0;
+        transition: .4s;
       }
 
-      &__btn1:hover {
+      &__btn2:hover {
         background: #000;
         color: #FFFFFF;
         border: 1px solid red;
       }
+
+
+
+
+
+
+
+
+      &__block {
+        position: fixed;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        margin-top: -478px;
+        margin-left: -110px;
+        //box-shadow: 5px 5px 30px 30px rgb(255, 0, 0);
+        display: none;
+        background: rgba(0, 0, 0, 0.49);
+        //transition: opacity 5000s ease-in-out;
+        transition: 5s;
+      }
+
+      &__square {
+        width: 550px;
+        height: 380px;
+        background: rgba(0, 0, 0, 0.66);
+        //filter: drop-shadow(20px 20px 20px  red);
+        box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.62);
+        margin-left: 490px;
+        border-radius: 30px;
+        margin-top: 125px;
+        position: absolute;
+        transition: 5s;
+      }
+
+      &__vk {
+        padding-left: 500px;
+        margin-top: 17px;
+        opacity: .5;
+        cursor: pointer;
+      }
+
+      &__vk:hover {
+        opacity: 2;
+      }
+
+      &__name {
+        width: 100%;
+        height: 24%;
+        padding-left: 10px;
+        border: none;
+        margin-left: 14px;
+        margin-top: 40px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.54);
+        background: transparent;
+        color: #FFFFFF;
+        font-size: 20px;
+      }
+
+      &__name:focus {
+        outline: none;
+      }
+
+      &__name::placeholder {
+        color: rgba(255, 255, 255, 0.77);
+      }
+
+      &__name2::placeholder {
+        color: rgba(255, 255, 255, 0.79);
+      }
+
+      &__name2 {
+        width: 100%;
+        height: 24%;
+        background: none;
+        padding-left: 10px;
+        margin-left: 14px;
+        margin-top: 50px;
+        border: transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.53);
+        color: #fff;
+        font-size: 20px;
+      }
+
+      &__name2:focus {
+        outline: none;
+      }
+
+      &__btn3 {
+        width: 50%;
+        height: 10%;
+        border: 2px solid rgba(255, 255, 255, 0.49);
+        background: none;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 20px;
+        margin-left: 135px;
+        margin-top: 66px;
+        font-weight: 600;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: .7s;
+
+      }
+
+
+      &__btn3:hover {
+        background: red;
+        border: 2px solid #fff;
+        color: #ffffff;
+        text-transform: uppercase;
+        transition: .7s;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       &__mode {
@@ -421,7 +554,7 @@ $ew:#454545;
   }
 
   .data {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
@@ -479,7 +612,7 @@ $ew:#454545;
     content: '';
     position: absolute;
     width: 40px;
-    height: 3px;
+    height: 3.5px;
     background: #ff0000;
     margin: 15px -20px;
   }
@@ -495,7 +628,7 @@ $ew:#454545;
     &--item {
       &__ser {
         color: red;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 30px;
@@ -546,12 +679,132 @@ $ew:#454545;
         letter-spacing: 0.003em;
       }
 
-      &__page2 {
 
-        font-family: 'Poppins', sans-serif;
+
+
+
+
+      &__block {
+        position: fixed;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        margin-top: -478px;
+        margin-left: -110px;
+        //box-shadow: 5px 5px 30px 30px rgb(255, 0, 0);
+        display: none;
+        background: rgba(0, 0, 0, 0.49);
+        //transition: opacity 5000s ease-in-out;
+        transition: 5s;
+      }
+
+      &__square2 {
+        width: 550px;
+        height: 380px;
+        background: rgba(0, 0, 0, 0.66);
+        //filter: drop-shadow(20px 20px 20px  red);
+        box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.62);
+        margin-left: 490px;
+        border-radius: 30px;
+        margin-top: 125px;
+        position: absolute;
+        transition: 5s;
+      }
+
+      &__vk {
+        padding-left: 500px;
+        margin-top: 17px;
+        opacity: .5;
+        cursor: pointer;
+      }
+
+      &__vk:hover {
+        opacity: 2;
+      }
+
+      &__name {
+        width: 100%;
+        height: 24%;
+        padding-left: 10px;
+        border: none;
+        margin-left: 14px;
+        margin-top: 40px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.54);
+        background: transparent;
+        color: #FFFFFF;
+        font-size: 20px;
+      }
+
+      &__name:focus {
+        outline: none;
+      }
+
+      &__name::placeholder {
+        color: rgba(255, 255, 255, 0.77);
+      }
+
+      &__name2::placeholder {
+        color: rgba(255, 255, 255, 0.79);
+      }
+
+      &__name2 {
+        width: 100%;
+        height: 24%;
+        background: none;
+        padding-left: 10px;
+        margin-left: 14px;
+        margin-top: 50px;
+        border: transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.53);
+        color: #fff;
+        font-size: 20px;
+      }
+
+      &__name2:focus {
+        outline: none;
+      }
+
+      &__btn3 {
+        width: 50%;
+        height: 10%;
+        border: 2px solid rgba(255, 255, 255, 0.49);
+        background: none;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 20px;
+        margin-left: 135px;
+        margin-top: 66px;
+        font-weight: 600;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: .7s;
+
+      }
+
+
+      &__btn3:hover {
+        background: red;
+        border: 2px solid #fff;
+        color: #ffffff;
+        text-transform: uppercase;
+        transition: .7s;
+      }
+
+
+
+
+
+
+
+
+
+
+
+      &__page2 {
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.003em;
         color: #000000;
@@ -567,7 +820,7 @@ $ew:#454545;
       }
 
       &__price2 {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -593,7 +846,7 @@ $ew:#454545;
         margin-left: -30px;
       }
 
-      &__petitioner2 {
+      &__btn2 {
         color: white;
         width: 413px;
         height: 80px;
@@ -607,9 +860,10 @@ $ew:#454545;
         box-sizing: border-box;
         border-radius: 10px;
         margin: 30px 0;
+        transition:.4s;
       }
 
-      &__petitioner2:hover {
+      &__btn2:hover {
         background: red;
         color: black;
         border: 2px solid black;
@@ -626,7 +880,7 @@ $ew:#454545;
   .row {
     &--application {
       &__your {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 28px;
@@ -635,7 +889,7 @@ $ew:#454545;
 
       &__your2 {
         padding: 35px 0;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -644,7 +898,7 @@ $ew:#454545;
 
       &__card {
         width: 642px;
-        height: 405px;
+        height: 420px;
         background: #9D0013;
         border-radius: 20px;
         margin: 20px 0;
@@ -714,12 +968,13 @@ $ew:#454545;
       }
 
       &__data {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 17px;
         color: #FFFFFF;
         margin: 15px 25px;
+        text-align: center;
       }
     }
   }
@@ -732,7 +987,7 @@ $ew:#454545;
       padding-top: 40px;
 
       &__project {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 48px;
@@ -741,7 +996,7 @@ $ew:#454545;
       &__btn{
         width: 294px;
         height: 59px;
-        font-family: 'Poppins',sans-serif;
+        font-family: 'Montserrat',sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 26px;
@@ -750,6 +1005,7 @@ $ew:#454545;
         background: #FF001E;
         border-radius: 8px;
         margin: 20px 0;
+        transition: .4s;
       }
       &__btn:hover{
         background: #000000;
@@ -758,7 +1014,7 @@ $ew:#454545;
       }
       &__ins{
         margin: 5px 60px;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 18px;

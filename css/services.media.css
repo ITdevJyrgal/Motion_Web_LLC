@@ -1,0 +1,264 @@
+@media (max-width: 1440px) {
+  #navbar .row--title__fixed {
+    margin-left: -60px;
+  }
+
+  #navbar .btn {
+    margin-top: -8px;
+  }
+
+  #navbar .row--title__fab {
+    color: red;
+    margin: 0 31px;
+    font-size: 44px;
+  }
+
+  #navbar .row--title__fabs {
+    margin-top: 17px;
+    margin-left: -31px;
+  }
+
+  #navbar .row--title__block {
+    margin-left: -77px;
+  }
+}
+@media (max-width: 1200px) {
+  #navbar .row--title__next {
+    margin-left: 166px;
+    margin-top: 19px;
+    animation: __next 1s ease-in-out alternate;
+  }
+
+  #navbar .btn {
+    border: none;
+    width: 70px;
+    height: 50px;
+    z-index: 13;
+    position: absolute;
+    margin-left: 1051px;
+    margin-top: -4px;
+  }
+
+  #navbar .row--title__fixed {
+    margin-left: -30px;
+    height: 17%;
+  }
+
+  #navbar .row--title--img {
+    margin-left: -75px;
+  }
+
+  #services .row--item__page2 {
+    font-size: 16px;
+  }
+
+  #services .row--item--square {
+    margin: 15px 67px;
+  }
+
+  #application .row--application {
+    text-align: center;
+  }
+
+  #application .row--application__card {
+    margin: 20px 232px;
+  }
+
+  #footer .row--footer__project {
+    font-size: 40px;
+  }
+
+  #footer .row--footer__btn {
+    width: 260px;
+    height: 55px;
+    font-size: 23px;
+  }
+
+  #navbar .row--title__block {
+    margin-top: -528px;
+    margin-left: -42px;
+  }
+
+  #navbar .row--title__square {
+    margin-left: 330px;
+  }
+}
+@media (max-width: 1024px) {
+  #navbar .row--title__fixed {
+    margin-left: -48px;
+    height: 14%;
+  }
+
+  #navbar .btn {
+    margin-left: 879px;
+    margin-top: 5px;
+  }
+
+  #navbar .row--title__next {
+    margin-left: 41px;
+  }
+
+  #navbar .row--title__titles {
+    font-size: 13px;
+  }
+
+  #navbar .row--title__item {
+    font-size: 73px;
+  }
+
+  #navbar .row--title__btn2 {
+    width: 300px;
+  }
+
+  #application .row--application__card {
+    margin: 20px 156px;
+  }
+
+  #services .row--item__btn2 {
+    width: 383px;
+    height: 73px;
+  }
+
+  #services .row--item__petitioner {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  #navbar .row--title--img {
+    margin-left: -77px;
+  }
+
+  #navbar .row--title__titles {
+    font-size: 12px;
+  }
+
+  #navbar .row--title__next {
+    margin-left: 26px;
+  }
+
+  #navbar .btn {
+    margin-left: 860px;
+    margin-top: 5px;
+  }
+
+  #services .row--item--square {
+    margin: 15px 28px;
+  }
+
+  #footer .row--footer__ins {
+    margin: 5px 40px;
+  }
+
+  #navbar .row--title__fixed {
+    margin-left: -17px;
+  }
+
+  #application .row--application__card {
+    margin: 20px 151px;
+  }
+
+  #navbar .row--title__block {
+    margin-top: -515px;
+    margin-left: -28px;
+  }
+
+  #navbar .row--title__square {
+    margin-left: 239px;
+  }
+
+  #footer .row--footer__project {
+    font-size: 35px;
+  }
+
+  #footer .row--footer__btn {
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 768px) {
+  #navbar .row--title__next {
+    margin-left: 26px;
+    display: none;
+  }
+
+  #navbar .row--title__fixed {
+    margin-left: -24px;
+    height: 7%;
+  }
+
+  #navbar .btn {
+    margin-left: 634px;
+    margin-top: -6px;
+  }
+
+  #navbar .row--title__item {
+    font-size: 67px;
+  }
+
+  #navbar .row--title__item2 {
+    font-size: 17px;
+  }
+
+  #navbar .row--title__btn2 {
+    width: 240px;
+    font-size: 17px;
+  }
+
+  #navbar .row--title__mode {
+    font-size: 15px;
+  }
+
+  #navbar {
+    min-height: 64vh;
+  }
+
+  #services .row--item__ser {
+    font-size: 27px;
+  }
+
+  #services .row--item--square {
+    margin: 15px 145px;
+  }
+
+  #services .row--item__btn2 {
+    width: 293px;
+    height: 52px;
+    font-size: 19px;
+  }
+
+  #application .row--application__your2 {
+    font-size: 15px;
+  }
+
+  #application .row--application__card {
+    margin: 20px 31px;
+  }
+
+  #footer .row--footer__project {
+    font-size: 27px;
+  }
+
+  #footer .row--footer__btn {
+    width: 204px;
+    height: 44px;
+    font-size: 18px;
+  }
+
+  #footer {
+    min-height: 25vh;
+  }
+
+  #navbar .row--title__block {
+    margin-top: -515px;
+    margin-left: -36px;
+  }
+
+  #navbar .row--title__square {
+    margin-left: 115px;
+    margin-top: 250px;
+  }
+}
+
+/*# sourceMappingURL=services.media.css.map */

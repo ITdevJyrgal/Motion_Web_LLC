@@ -35,7 +35,6 @@ cardClose.addEventListener("click", () => {
     document.querySelector(".row--card__block").style.display = "none"
 })
 
-
 let square = document.querySelector(".row--item__btn2")
 square.addEventListener("click", () => {
     document.querySelector(".row--item__block").style.display = "block"

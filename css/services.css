@@ -39,6 +39,11 @@ ul, ol, li {
   margin-left: 370px;
   animation: __next 1s ease-in-out alternate;
 }
+@media (max-width: 768px) {
+  #navbar .row--title #navbar .row--title__next {
+    display: none;
+  }
+}
 @keyframes __next {
   0% {
     opacity: 0;
@@ -118,7 +123,7 @@ ul, ol, li {
   font-size: 18px;
   color: #FFFFFF;
 }
-#navbar .row--title__btn1 {
+#navbar .row--title__btn2 {
   width: 322px;
   height: 50px;
   background: #e70018;
@@ -127,11 +132,101 @@ ul, ol, li {
   color: #000000;
   font-size: 20px;
   margin: 50px 0;
+  transition: 0.4s;
 }
-#navbar .row--title__btn1:hover {
+#navbar .row--title__btn2:hover {
   background: #000;
   color: #FFFFFF;
   border: 1px solid red;
+}
+#navbar .row--title__block {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  margin-top: -478px;
+  margin-left: -110px;
+  display: none;
+  background: rgba(0, 0, 0, 0.49);
+  transition: 5s;
+}
+#navbar .row--title__square {
+  width: 550px;
+  height: 380px;
+  background: rgba(0, 0, 0, 0.66);
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.62);
+  margin-left: 490px;
+  border-radius: 30px;
+  margin-top: 125px;
+  position: absolute;
+  transition: 5s;
+}
+#navbar .row--title__vk {
+  padding-left: 500px;
+  margin-top: 17px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+#navbar .row--title__vk:hover {
+  opacity: 2;
+}
+#navbar .row--title__name {
+  width: 100%;
+  height: 24%;
+  padding-left: 10px;
+  border: none;
+  margin-left: 14px;
+  margin-top: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.54);
+  background: transparent;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+#navbar .row--title__name:focus {
+  outline: none;
+}
+#navbar .row--title__name::placeholder {
+  color: rgba(255, 255, 255, 0.77);
+}
+#navbar .row--title__name2::placeholder {
+  color: rgba(255, 255, 255, 0.79);
+}
+#navbar .row--title__name2 {
+  width: 100%;
+  height: 24%;
+  background: none;
+  padding-left: 10px;
+  margin-left: 14px;
+  margin-top: 50px;
+  border: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.53);
+  color: #fff;
+  font-size: 20px;
+}
+#navbar .row--title__name2:focus {
+  outline: none;
+}
+#navbar .row--title__btn3 {
+  width: 50%;
+  height: 10%;
+  border: 2px solid rgba(255, 255, 255, 0.49);
+  background: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 135px;
+  margin-top: 66px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.7s;
+}
+#navbar .row--title__btn3:hover {
+  background: red;
+  border: 2px solid #fff;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: 0.7s;
 }
 #navbar .row--title__mode {
   margin-top: -30px;
@@ -354,7 +449,7 @@ ul, ol, li {
   color: #FFFFFF;
 }
 #navbar .data {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -402,7 +497,7 @@ ul, ol, li {
   content: "";
   position: absolute;
   width: 40px;
-  height: 3px;
+  height: 3.5px;
   background: #ff0000;
   margin: 15px -20px;
 }
@@ -413,7 +508,7 @@ ul, ol, li {
 }
 #services .row--item__ser {
   color: red;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -457,11 +552,100 @@ ul, ol, li {
   color: #FF001E;
   letter-spacing: 0.003em;
 }
+#services .row--item__block {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  margin-top: -478px;
+  margin-left: -110px;
+  display: none;
+  background: rgba(0, 0, 0, 0.49);
+  transition: 5s;
+}
+#services .row--item__square2 {
+  width: 550px;
+  height: 380px;
+  background: rgba(0, 0, 0, 0.66);
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.62);
+  margin-left: 490px;
+  border-radius: 30px;
+  margin-top: 125px;
+  position: absolute;
+  transition: 5s;
+}
+#services .row--item__vk {
+  padding-left: 500px;
+  margin-top: 17px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+#services .row--item__vk:hover {
+  opacity: 2;
+}
+#services .row--item__name {
+  width: 100%;
+  height: 24%;
+  padding-left: 10px;
+  border: none;
+  margin-left: 14px;
+  margin-top: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.54);
+  background: transparent;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+#services .row--item__name:focus {
+  outline: none;
+}
+#services .row--item__name::placeholder {
+  color: rgba(255, 255, 255, 0.77);
+}
+#services .row--item__name2::placeholder {
+  color: rgba(255, 255, 255, 0.79);
+}
+#services .row--item__name2 {
+  width: 100%;
+  height: 24%;
+  background: none;
+  padding-left: 10px;
+  margin-left: 14px;
+  margin-top: 50px;
+  border: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.53);
+  color: #fff;
+  font-size: 20px;
+}
+#services .row--item__name2:focus {
+  outline: none;
+}
+#services .row--item__btn3 {
+  width: 50%;
+  height: 10%;
+  border: 2px solid rgba(255, 255, 255, 0.49);
+  background: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 135px;
+  margin-top: 66px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.7s;
+}
+#services .row--item__btn3:hover {
+  background: red;
+  border: 2px solid #fff;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: 0.7s;
+}
 #services .row--item__page2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.003em;
   color: #000000;
@@ -474,7 +658,7 @@ ul, ol, li {
   padding: 10px 0;
 }
 #services .row--item__price2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -495,7 +679,7 @@ ul, ol, li {
   justify-content: center;
   margin-left: -30px;
 }
-#services .row--item__petitioner2 {
+#services .row--item__btn2 {
   color: white;
   width: 413px;
   height: 80px;
@@ -509,8 +693,9 @@ ul, ol, li {
   box-sizing: border-box;
   border-radius: 10px;
   margin: 30px 0;
+  transition: 0.4s;
 }
-#services .row--item__petitioner2:hover {
+#services .row--item__btn2:hover {
   background: red;
   color: black;
   border: 2px solid black;
@@ -521,7 +706,7 @@ ul, ol, li {
   padding-top: 70px;
 }
 #application .row--application__your {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -529,7 +714,7 @@ ul, ol, li {
 }
 #application .row--application__your2 {
   padding: 35px 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -537,7 +722,7 @@ ul, ol, li {
 }
 #application .row--application__card {
   width: 642px;
-  height: 405px;
+  height: 420px;
   background: #9D0013;
   border-radius: 20px;
   margin: 20px 0;
@@ -600,12 +785,13 @@ ul, ol, li {
   margin: -7px 25px;
 }
 #application .row--application__data {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
   color: #FFFFFF;
   margin: 15px 25px;
+  text-align: center;
 }
 
 #footer {
@@ -615,7 +801,7 @@ ul, ol, li {
   padding-top: 40px;
 }
 #footer .row--footer__project {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -624,7 +810,7 @@ ul, ol, li {
 #footer .row--footer__btn {
   width: 294px;
   height: 59px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
@@ -633,6 +819,7 @@ ul, ol, li {
   background: #FF001E;
   border-radius: 8px;
   margin: 20px 0;
+  transition: 0.4s;
 }
 #footer .row--footer__btn:hover {
   background: #000000;
@@ -641,7 +828,7 @@ ul, ol, li {
 }
 #footer .row--footer__ins {
   margin: 5px 60px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
