@@ -390,7 +390,7 @@
     margin: 5px 27px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 377px) {
   #navbar .row--title--img {
     margin-left: -94px;
     width: 141%;
@@ -399,9 +399,52 @@
     margin-left: 274px;
     margin-top: -4px;
   }
+  #navbar .row--title__item {
+    font-size: 40px;
+    margin-top: -85px;
+  }
+  #navbar .row--title__mode {
+    font-size: 12px;
+  }
+  #navbar .row--title__fabs {
+    margin-left: 23px;
+  }
+  #services .row--item__general {
+    padding: 0 40px;
+  }
+  #services .row--item__page2 {
+    font-size: 12px;
+  }
+  #services .row--item__price2 {
+    font-size: 13px;
+  }
+  #services .row--item__price3 {
+    font-size: 13px;
+  }
+  #application .row--application__area {
+    width: 285px;
+  }
+  #application .row--application__btn {
+    width: 285px;
+  }
+  #application .row--application__data {
+    font-size: 14px;
+  }
+  #footer .row--footer__ins {
+    margin: 5px 10px;
+  }
+  #footer .row--footer__ins {
+    margin: 5px 33px;
+    font-size: 15px;
+  }
+  #navbar .row--title__block {
+    margin-top: -373px;
+    margin-left: -12px;
+  }
+  #navbar .row--title__vk {
+    padding-left: 295px;
+  }
 }
-
-
 //.amanSoft{
 //  font-size: 100px; max-width:;
 //}
