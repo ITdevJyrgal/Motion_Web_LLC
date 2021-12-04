@@ -533,7 +533,7 @@ ul, ol, li {
   margin-top: 30px;
 }
 #work .row--works__our {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -579,7 +579,7 @@ ul, ol, li {
 }
 #services .row--item__ser {
   color: red;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -638,7 +638,7 @@ ul, ol, li {
   padding: 10px 0;
 }
 #services .row--item__price2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -777,7 +777,7 @@ ul, ol, li {
   padding-top: 30px;
 }
 #product .row--product__proses {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -794,7 +794,7 @@ ul, ol, li {
   padding: 33px 33px;
 }
 #product .row--product__planning {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -856,7 +856,7 @@ ul, ol, li {
   margin: 25px 25px;
 }
 #product .row--product__design {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -928,7 +928,7 @@ ul, ol, li {
   display: flex;
   justify-content: center;
   margin: -230px 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -1060,7 +1060,7 @@ ul, ol, li {
   background: #222222;
 }
 #studio .row--studio__studio {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -1068,7 +1068,7 @@ ul, ol, li {
   margin: 40px 0;
 }
 #studio .row--studio__studio2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -1077,7 +1077,7 @@ ul, ol, li {
   color: #FFFFFF;
 }
 #studio .row--studio__studio3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -1247,7 +1247,6 @@ ul, ol, li {
 }
 #command .row .swiper-slide__found {
   color: white;
-  filter: drop-shadow(1px 1px 1px #ffffff);
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
