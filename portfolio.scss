@@ -136,7 +136,7 @@ ul, ol, li {
 
       }
 
-      &__btn1 {
+      &__btn2 {
         width: 322px;
         height: 50px;
         background: rgb(231, 0, 24);
@@ -145,13 +145,144 @@ ul, ol, li {
         color: #000000;
         font-size: 20px;
         margin: 50px 0;
+        transition: .4s;
       }
 
-      &__btn1:hover {
+      &__btn2:hover {
         background: #000;
         color: #FFFFFF;
         border: 1px solid red;
       }
+
+
+
+
+
+
+
+
+      &__block {
+        position: fixed;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        margin-top: -478px;
+        margin-left: -110px;
+        //box-shadow: 5px 5px 30px 30px rgb(255, 0, 0);
+        display: none;
+        background: rgba(0, 0, 0, 0.49);
+        //transition: opacity 5000s ease-in-out;
+        transition: 5s;
+      }
+
+      &__square {
+        width: 550px;
+        height: 380px;
+        background: rgba(0, 0, 0, 0.66);
+        //filter: drop-shadow(20px 20px 20px  red);
+        box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.62);
+        margin-left: 490px;
+        border-radius: 30px;
+        margin-top: 125px;
+        position: absolute;
+        transition: 5s;
+      }
+
+      &__vk {
+        padding-left: 500px;
+        margin-top: 17px;
+        opacity: .5;
+        cursor: pointer;
+      }
+
+      &__vk:hover {
+        opacity: 2;
+      }
+
+      &__name {
+        width: 100%;
+        height: 24%;
+        padding-left: 10px;
+        border: none;
+        margin-left: 14px;
+        margin-top: 40px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.54);
+        background: transparent;
+        color: #FFFFFF;
+        font-size: 20px;
+      }
+
+      &__name:focus {
+        outline: none;
+      }
+
+      &__name::placeholder {
+        color: rgba(255, 255, 255, 0.77);
+      }
+
+      &__name2::placeholder {
+        color: rgba(255, 255, 255, 0.79);
+      }
+
+      &__name2 {
+        width: 100%;
+        height: 24%;
+        background: none;
+        padding-left: 10px;
+        margin-left: 14px;
+        margin-top: 50px;
+        border: transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.53);
+        color: #fff;
+        font-size: 20px;
+      }
+
+      &__name2:focus {
+        outline: none;
+      }
+
+      &__btn3 {
+        width: 50%;
+        height: 10%;
+        border: 2px solid rgba(255, 255, 255, 0.49);
+        background: none;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 20px;
+        margin-left: 135px;
+        margin-top: 66px;
+        font-weight: 600;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: .7s;
+
+      }
+
+
+      &__btn3:hover {
+        background: red;
+        border: 2px solid #fff;
+        color: #ffffff;
+        text-transform: uppercase;
+        transition: .7s;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       &__mode {

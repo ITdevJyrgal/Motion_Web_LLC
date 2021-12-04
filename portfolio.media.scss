@@ -1,25 +1,333 @@
 @media (max-width: 1440px) {
-  #navbar .row--title__fixed{
+  #navbar .row--title__fixed {
+    margin-left: -61px;}
+  #navbar .row--title__block {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    margin-top: -528px;
+    margin-left: -75px;}
 
-  }
 }
 @media (max-width: 1200px) {
+  #navbar .row--title__fixed {
+    margin-left: -30px;
+  }
+  #navbar .row--title--img{
+    margin-left: -63px;
+  }
+  #navbar .row--title__next {
+    margin-left: 164px;
+    padding-top: 15px;
+  }
+  #navbar .btn {
+    margin-left: 1063px;
+    margin-top: 4px;
+  }
+  #work .row--works__item {
+    padding: 10px 62px;
+  }
+  #application .row--application{
+    text-align: center;
+  }
+  #application .row--application__card {
+    margin: 20px 236px;
+  }
+  #navbar .row--title__block {
+    margin-top: -478px;
+    margin-left: -43px;}
+  #navbar .row--title__square {
+    margin-left: 309px;}
 
 }
 @media (max-width: 1024px) {
+  #navbar .row--title__fixed {
+    margin-left: -33px;
+  }
+  #navbar .row--title__titles {
+    font-size: 13px;}
+  #navbar .row--title__next {
+    margin-left: 18px;
+    padding-top: 15px;
+  }
+  #navbar .btn {
+    margin-left: 876px;
+    margin-top: 4px;
+  }
+  #work .row--works__item {
+    padding: 10px 16px;
+  }
+  #application .row--application__card {
+    margin: 20px 154px;
+  }
+  #footer .row--footer__ins {
+    margin: 5px 55px;}
+  #navbar .row--title__square {
+    margin-left: 222px;
+  }
 
 }
 @media (max-width: 992px) {
-
+  #navbar .row--title__fixed {
+    margin-left: -18px;
+  }
+  #navbar .row--title__next {
+    margin-left: 13px;
+    padding-top: 15px;
+  }
+  #navbar .row--title__block {
+    margin-top: -528px;
+    margin-left: -27px;
+  }
 }
 @media (max-width: 768px) {
+  #navbar .row--title__next {
+    margin-left: 13px;
+    padding-top: 15px;
+    display: none;
+  }
+  #navbar .row--title__fixed {
+    margin-left: -24px;
+  }
+  #navbar .btn {
+    margin-left: 630px;
+    margin-top: 4px;
+  }
+  #navbar .row--title__item {
+    font-size: 70px;}
+  #navbar .row--title__btn2 {
+    width: 299px;
+    height: 50px;}
+  #work .row--works__item {
+    padding: 10px 136px;
+  }
+  #application .row--application__card {
+    margin: 20px 40px;
+  }
+  #footer .row--footer--footer{    width: 90%;
+    height: 3px;
+    background: red;
+    margin-top: 170px;
+    position: absolute;
+  }
+  #footer .row--footer__foot{    padding-top: 32px;}
+  #navbar .row--title__block {
+    margin-top: -513px;
+    margin-left: -36px;
+  }
+  #navbar .row--title__square {
+    margin-left: 107px;
+    margin-top: 195px;
+  }
+  #navbar .row--title__fab {
+    color: red;
+    margin: 0 35px;
+    font-size: 40px;
+  }
 
 }
 @media (max-width: 576px) {
-
+  #navbar .row--title__fixed {
+    margin-left: -19px;
+  }
+  #navbar .btn {
+    margin-left: 446px;
+    margin-top: 4px;
+  }
+  #navbar .row--title__item {
+    font-size: 60px;
+  }
+  #navbar .row--title__btn2 {
+    width: 250px;
+    height: 45px;
+    font-size: 18px;
+  }
+  #navbar .row--title__fabs {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 47px;
+  }
+  #navbar .row--title__fab {
+    color: red;
+    margin: 0 50px;
+    font-size: 40px;
+  }
+  #work .row--works__item {
+    padding: 10px 46px;
+  }
+  #application .row--application__card {
+    margin: 20px 28px;
+    width: 90%;
+    height: 498px;
+  }
+  #application .row--application__name {
+    width: 90%;
+    height: 40px;}
+  #application .row--application__name2 {
+    width: 90%;
+    height: 40px;
+    margin: -10px 25px;}
+  #application .row--application__name3 {
+    width: 90%;
+    height: 40px;
+    margin: 29px 25px;}
+  #application .row--application__name4 {
+    width: 90%;
+    margin: -8px 26px;
+    height: 40px;}
+  #application .row--application__area {
+    width: 421px;
+    height: 76px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin: 25px 25px;
+    outline: none;
+    padding: 1px 20px;
+  }
+  #application .row--application__btn {
+    width: 421px;
+    height: 40px;}
+  #application .row--application__data {
+    text-align: center;
+    font-size: 14px;}
+  #navbar .row--title__block {
+    margin-top: -497px;
+    margin-left: -31px;
+  }
+  #navbar .row--title__square {
+    margin-left: 24px;
+    width: 90%;
+    margin-top: 195px;
+  }
+  #navbar .row--title__name {
+    width: 90%;
+    margin-left: 23px;}
+  #navbar .row--title__name2 {
+    width: 90%;
+    margin-left: 21px;
+   }
+  #navbar .row--title__btn3 {
+    margin-left: 117px;}
+  #navbar .row--title__vk {
+    padding-left: 477px;
+    margin-top: 17px;
+    opacity: 0.5;
+    cursor: pointer;
+  }
 }
 @media (max-width: 415px) {
-
+  #navbar .row--title__fixed {
+    margin-left: -1px;
+    height: 9%;
+  }
+  #navbar .row--title--img {
+    margin-left: -93px;
+  }
+  #navbar .btn {
+    margin-left: 307px;
+    margin-top: -6px;
+  }
+  #navbar .row--title__item {
+    font-size: 50px;
+    margin-top: -50px;
+  }
+  #navbar .row--title__item2 {
+    font-size: 16px;}
+  #navbar .row--title__btn2 {
+    width: 200px;
+    height: 45px;
+    font-size: 15px;
+  }
+  #navbar .row--title__mode {
+    margin-top: 26px;
+    color: white;
+    font-size: 14px;
+  }
+  #navbar .row--title__fab {
+    color: red;
+    margin: 0 40px;
+    font-size: 40px;
+  }
+  #navbar .row--title__fabs {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 18px;
+  }
+  #work .row--works__img {
+    position: absolute;
+    width: 90%;
+  }
+  #work .row--works__card {
+    z-index: 3;
+    width: 100%;
+    height: 235px;}
+  #work .row--works__lorem {
+    padding: 59px;
+  }
+  #work .row--works__pod {
+    margin-left: 164px;
+  }
+  #work .row--works__item {
+    padding: 10px 20px;
+  }
+  #application .row--application__name {
+    width: 90%;
+    margin-left: 18px;
+    height: 40px;
+  }
+  #application .row--application__name2 {
+    width: 90%;
+    height: 40px;
+    margin: -10px 17px;
+  }
+  #application .row--application__name3 {
+    width: 90%;
+    height: 40px;
+    margin: 29px 17px;
+  }
+  #application .row--application__name4 {
+    width: 90%;
+    margin: -8px 18px;
+    height: 40px;
+  }
+  #application .row--application__area {
+    width: 317px;
+    margin-left: 18px;
+    padding: 1px 16px;
+  }
+  #application .row--application__btn {
+    width: 321px;
+    height: 40px;
+    margin-left: 17px;
+  }
+  #application .row--application__data {
+    text-align: center;
+    font-size: 13px;
+  }
+  #footer .row--footer__project {
+    font-size: 30px;
+  }
+  #footer .row--footer__btn {
+    width: 204px;
+    height: 47px;
+    font-size: 19px;}
+  #footer .row--footer--footer {
+    margin-top: 145px;}
+  #footer .row--footer__ins {
+    margin: 5px 29px;
+    font-size: 16px;
+  }
+  #navbar .row--title__block {
+    margin-top: -435px;
+    margin-left: -13px;
+  }
+  #navbar .row--title__btn3 {
+    margin-left: 96px;
+  }
+  #navbar .row--title__vk {
+    padding-left: 332px;}
 }
 @media (max-width: 377px) {
 
