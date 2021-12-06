@@ -646,6 +646,26 @@
   #navbar .row--title__vk {
     padding-left: 299px;
   }
+
+  #navbar .menu {
+    margin-left: -93px;
+    font-size: 15px;
+  }
+
+  #navbar .menu2 {
+    margin-left: -126px;
+  }
+
+  #navbar .card {
+    margin: 29px -67px;
+    width: 183%;
+    height: 90%;
+  }
+
+  #navbar .modal-window {
+    width: 100%;
+    height: 148%;
+  }
 }
 @media (max-width: 320px) {
   #navbar .row--title--img {
@@ -655,7 +675,7 @@
 
   #navbar .btn {
     margin-left: 223px;
-    margin-top: -6px;
+    margin-top: -12px;
   }
 
   #navbar .row--title__item {
@@ -737,6 +757,68 @@
 
   #navbar .row--title__btn3 {
     margin-left: 73px;
+  }
+
+  #navbar .menu3 {
+    font-size: 8px;
+    margin-left: -47px;
+  }
+
+  #navbar .menu31 {
+    margin-left: 11px;
+    padding: 10px 86px;
+  }
+
+  #navbar .menu {
+    margin-left: -97px;
+    font-size: 15px;
+  }
+
+  #navbar .modal-window {
+    width: 100%;
+    height: 191%;
+  }
+
+  #navbar .card {
+    margin: 29px -74px;
+    width: 225%;
+    height: 90%;
+  }
+
+  #navbar .name {
+    width: 90%;
+    height: 35px;
+    margin: 15px 13px;
+  }
+
+  #navbar .name2 {
+    width: 90%;
+    height: 35px;
+    margin: -34px 12px;
+  }
+
+  #navbar .name3 {
+    width: 90%;
+    height: 35px;
+    margin: 14px 12px;
+  }
+
+  #navbar .name4 {
+    HEIGHT: 35PX;
+    width: 90%;
+    margin: -3px 11px;
+  }
+
+  #navbar .area {
+    width: 90%;
+    HEIGHT: 62PX;
+    margin: 17px 12px;
+  }
+
+  #navbar .__btn {
+    width: 90%;
+    height: 35px;
+    margin: -13px 13px;
   }
 }
 
