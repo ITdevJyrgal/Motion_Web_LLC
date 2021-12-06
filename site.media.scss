@@ -1,25 +1,1090 @@
 @media (max-width: 1440px) {
+  #navbar .btn {
+    margin-top: 3px;
+  }
+  #navbar .row--title__fixed {
+    margin-left: -61px;
+  }
+  #navbar .row--title__block {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    margin-top: -528px;
+    margin-left: -75px;
+  }
 }
+
+
 @media (max-width: 1200px) {
+  #navbar .row--title__fixed {
+    margin-left: -30px;
+  }
+  #navbar .row--title--img {
+    margin-left: -63px;
+  }
+  #navbar .row--title__next {
+    margin-left: 164px;
+    padding-top: 15px;
+  }
+  #navbar .modal-window {
+    position: relative;
+    width: 100%;
+    height: 150%;
+  }
+  #navbar .btn {
+    margin-left: 1063px;
+    margin-top: 4px;
+  }
+  #application .row--application {
+    text-align: center;
+  }
+  #application .row--application__card {
+    margin: 20px 236px;
+  }
+  #navbar .row--title__block {
+    margin-top: -478px;
+    margin-left: -43px;
+  }
+  #navbar .row--title__square {
+    margin-left: 309px;
+  }
+  #navbar .menu {
+    margin-left: 147px;
+  }
+  #navbar .menu2 {
+    margin-left: 147px;
+  }
+  #navbar .card {
+    margin: 35px 198px;
+  }
+  #work .row--works__item {
+    padding: 10px 62px;
+  }
+
+  #offer .row--offer__card {
+    margin: 30px -26px;
+    width: 694px;
+    height: 350px;
+  }
+  #offer .row--offer__ot2 {
+    font-size: 20px;
+  }
+  #product .row--product--square {
+    margin: 30px 317px;
+    width: 480px;
+    height: 440px;
+  }
+
+  #product .row--product--square2 {
+    width: 755px;
+    height: 446px;
+    margin: 0 194px;
+
+  }
+  #product .row--product__square3 {
+    margin: 25px 219px;
+    width: 700px;
+  }
+
+  #product .row--product__square4 {
+    width: 541px;
+    margin: 6px 307px;
+  }
+  #product .row--product__square5 {
+    margin: 41px 30px;
+    width: 1061px;
+  }
+  #product .row--product--five {
+    margin: 21px 7px;
+  }
+
+  #product .row--product__five2 {
+    margin-top: -245px;
+
+  }
+
+  #internet .row--internet__inet2 {
+    font-size: 15px;
+  }
 }
+
 @media (max-width: 1024px) {
+  #navbar .row--title__fixed {
+    margin-left: -33px;
+  }
+  #navbar .row--title__titles {
+    font-size: 13px;
+  }
+  #navbar .row--title__next {
+    margin-left: 18px;
+    padding-top: 15px;
+  }
+  #navbar .btn {
+    margin-left: 876px;
+    margin-top: -2px;
+  }
+
+  #navbar .row--title__square {
+    margin-left: 238px;
+  }
+  #navbar .row--title__block {
+    margin-top: -498px;
+    margin-left: -43px;
+  }
+  #navbar .menu {
+    margin-left: 90px;
+  }
+  #navbar .menu2 {
+    margin-left: 90px;
+  }
+  #navbar .card {
+    margin: 28px 101px;
+  }
+
+  #navbar .modal-window {
+    height: 156%;
+  }
+
+  #application .row--application__card {
+    margin: 20px 154px;
+  }
+  #work .row--works__item {
+    padding: 10px 16px;
+  }
+
+  #navbar .row--title__item {
+    font-size: 70px;
+    margin-top: -61px;
+  }
+
+  #navbar .row--title__item2 {
+
+    font-size: 17px;
+  }
+
+  #navbar .row--title__btn2 {
+    width: 260px;
+    height: 43px;
+    font-size: 18px;
+    margin: 45px 0;
+
+  }
+  #navbar .row--title__fab {
+    color: red;
+    margin: 0 30px;
+    font-size: 40px;
+  }
+
+  #navbar .row--title__fabs {
+
+    margin-left: -28px;
+
+  }
+
+  #internet .row--internet--obsh {
+    text-align: center;
+  }
+  #internet .row--internet--obsh2 {
+    margin: 26px 200px;
+  }
+
+  #offer .row--offer__we {
+    font-size: 30px;}
+
+  #offer .row--offer__card {
+    margin: 30px 113px;
+    width: 694px;
+    height: 350px;
+  }
+  #offer .row--offer__cards {
+    padding: 30px 270px;
+  }
+
+  #offer .row--offer__cards3 {
+    margin: 50px 129px;}
+
+  #product .row--product--square {
+    margin: 30px 236px;}
+  #product .row--product--square2 {
+
+    width: 755px;
+    height: 446px;
+    margin: 0 97px;
+  }
+
+  #product .row--product__square3 {
+    margin: 25px 130px;
+    width: 700px;
+  }
+  #product .row--product__square4 {
+    width: 541px;
+    margin: 6px 214px;
+  }
+  #product .row--product__square5 {
+    margin: 41px -32px;
+    width: 1001px;
+  }
+  #product .row--product__btn {
+    width: 250px;
+    height: 50px;}
+  #card .row--analysis__card {
+    width: 280px;
+    margin: 10px 74px;}
+  #footer .row--footer__project {
+    font-size: 40px;}
+  #footer .row--footer__btn {
+    width: 254px;
+    height: 50px;
+    font-size: 23px;
+  }
 
 }
+
+
 @media (max-width: 992px) {
+  #navbar .row--title__fixed {
+    margin-left: -16px;
+  }
+  #navbar .row--title__next {
+    margin-left: 13px;
+    padding-top: 15px;
+  }
+  #navbar .row--title__block {
+    margin-top: -528px;
+    margin-left: -27px;
+  }
+
+  #footer .row--footer__ins {
+    margin: 5px 40px;
+  }
+  #product .row--product__square5 {
+    margin: 41px -6px;
+    width: 944px;
+  }
 
 }
+
+
 @media (max-width: 768px) {
+  #navbar .row--title__next {
+    margin-left: 13px;
+    padding-top: 15px;
+    display: none;
+  }
+  #navbar .row--title__fixed {
+    margin-left: -24px;
+  }
+  #navbar .btn {
+    margin-left: 630px;
+    margin-top: 4px;
+  }
+  #navbar .row--title__item {
+    font-size: 70px;
+  }
+
+  #navbar .row--title__block {
+    margin-top: -513px;
+    margin-left: -36px;
+  }
+  #navbar .row--title__square {
+    margin-left: 107px;
+    margin-top: 195px;
+  }
+  #navbar .row--title__fab {
+    color: red;
+    margin: 0 35px;
+    font-size: 40px;
+  }
+  #navbar .menu {
+    margin-left: 6px;
+  }
+  #navbar .hello {
+    padding: 20px;
+    margin-left: -83px;
+  }
+  #navbar .menu2 {
+    margin-left: 10px;
+  }
+  #navbar .card {
+    margin: 28px -34px;
+  }
+  #navbar .btn-close {
+    right: 30px;
+  }
+  #navbar .modal-window {
+    width: 100%;
+    height: 164%;
+  }
+  #application .row--application__card {
+    margin: 20px 40px;
+  }
+  #work .row--works__item {
+    padding: 10px 136px;
+  }
+  #footer .row--footer--footer {
+    width: 90%;
+    height: 3px;
+    background: red;
+    margin-top: 170px;
+    position: absolute;
+  }
+  #footer .row--footer__foot {
+    padding-top: 32px;
+  }
+  #internet .row--internet--obsh2 {
+    margin: 26px 73px;
+  }
+
+  #offer .row--offer__card {
+    margin: 30px 1px;
+    width: 694px;
+    height: 350px;
+  }
+
+  #offer .row--offer__cards {
+    padding: 30px 138px;
+  }
+
+  #product .row--product--square {
+    margin: 30px 125px;
+  }
+
+  #product .row--product--square2 {
+    width: 707px;
+    height: 446px;
+    margin: 0 4px;
+  }
+
+  #product .row--product__design {
+    font-size: 33px;}
+
+  #product .row--product__square3 {
+    margin: 25px 11px;
+    width: 700px;
+  }
+
+  #product .row--product__square4 {
+    width: 541px;
+    margin: 6px 91px;
+  }
+
+  #product .row--product__square5 {
+    margin: 41px 0;
+    width: 100%;
+  }
+
+  #product .row--product__five2 {
+    margin-top: -245px;
+    font-size: 33px;
+  }
+
+  #card .row--analysis__card {
+    width: 280px;
+    margin: 10px 210px;
+  }
+
+
 
 }
+
+
 @media (max-width: 576px) {
+  #navbar .row--title__fixed {
+    margin-left: -19px;
+  }
+  #navbar .btn {
+    margin-left: 446px;
+    margin-top: 4px;
+  }
+  #navbar .row--title__item {
+    font-size: 60px;
+  }
+  #navbar .row--title__btn2 {
+    width: 250px;
+    height: 45px;
+    font-size: 18px;
+  }
+  #navbar .row--title__fabs {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 47px;
+  }
+  #navbar .row--title__fab {
+    color: red;
+    margin: 0 50px;
+    font-size: 40px;
+  }
+
+  #navbar .row--title__block {
+    margin-top: -497px;
+    margin-left: -31px;
+  }
+  #navbar .row--title__square {
+    margin-left: 24px;
+    width: 90%;
+    margin-top: 195px;
+  }
+  #navbar .row--title__name {
+    width: 90%;
+    margin-left: 23px;
+  }
+  #navbar .row--title__name2 {
+    width: 90%;
+    margin-left: 21px;
+  }
+  #navbar .row--title__btn3 {
+    margin-left: 117px;
+  }
+  #navbar .row--title__vk {
+    padding-left: 477px;
+    margin-top: 17px;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  #navbar .menu3 {
+    font-size: 12px;
+    margin-left: -1px;
+  }
+  #navbar .menu31 {
+    margin-left: 0;
+    padding: 10px 29px;
+  }
+  #navbar .menu {
+    margin-left: -18px;
+  }
+  #navbar .menu2 {
+    margin-left: -24px;
+    padding: 0 0;
+  }
+  #navbar .card {
+    margin: 28px 1px;
+    width: 100%;
+    height: 90%;
+  }
+  #navbar .name {
+    width: 90%;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin: 30px 18px;
+    outline: none;
+    padding: 0 20px;
+  }
+  #navbar .name2 {
+    width: 90%;
+    margin: -22px 18px;
+  }
+  #navbar .name3 {
+    width: 90%;
+    margin: 30px 18px;
+  }
+  #navbar .modal-window {
+    width: 100%;
+    height: 203%;
+  }
+  #navbar .name4 {
+    width: 90%;
+    margin: -10px 18px;
+  }
+  #navbar .area {
+    width: 90%;
+    margin: 25px 18px;
+  }
+  #navbar .__btn {
+    width: 90%;
+    margin: -13px 18px;
+  }
+
+  #application .row--application__card {
+    margin: 20px 28px;
+    width: 90%;
+    height: 498px;
+  }
+  #application .row--application__name {
+    width: 90%;
+    height: 40px;
+  }
+  #application .row--application__name2 {
+    width: 90%;
+    height: 40px;
+    margin: -10px 25px;
+  }
+  #application .row--application__name3 {
+    width: 90%;
+    height: 40px;
+    margin: 29px 25px;
+  }
+  #application .row--application__name4 {
+    width: 90%;
+    margin: -8px 26px;
+    height: 40px;
+  }
+  #application .row--application__area {
+    width: 421px;
+    height: 76px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    margin: 25px 25px;
+    outline: none;
+    padding: 1px 20px;
+  }
+  #application .row--application__btn {
+    width: 421px;
+    height: 40px;
+  }
+  #application .row--application__data {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  #work .row--works__item {
+    padding: 10px 46px;
+  }
+
+  #internet .row--internet--obsh2 {
+    margin: 26px -16px;
+  }
+
+  #offer .row--offer__card {
+    margin: 30px 29px;
+    width: 90%;
+    height: 350px;
+  }
+
+  #offer .row--offer__full {
+    font-size: 21px;
+    padding: 23px 30px;
+  }
+
+  #offer .row--offer__full2 {
+    font-size: 11px;
+  }
+
+  #offer .row--offer__btn {
+    width: 155px;
+    height: 40px;
+    font-size: 11px;
+  }
+
+  #offer .row--offer__ob {
+    margin: 60px -90px;
+  }
+
+  #offer .row--offer__cards {
+    padding: 30px 51px;
+  }
+
+  #offer .row--offer__btn2 {
+    width: 155px;
+    font-size: 11px;
+  }
+
+  #offer .row--offer__ob1 {
+    margin: 67px -80px;
+  }
+
+  #product .row--product__proses {
+    font-size: 25px;
+  }
+
+  #product .row--product--square {
+    margin: 30px 24px;
+    width: 90%;
+  }
+
+  #product .row--product__planning {
+    font-size: 30px;
+  }
+
+
+  #product .row--product__literate {
+    font-size: 14px;
+  }
+
+  #product .row--product__analysis {
+    font-size: 14px;
+    padding: 250px 61px;
+  }
+
+  #product .row--product__analysis2 {
+    margin: -15px 23px;
+    font-size: 14px;
+  }
+
+  #product .row--product__blvd {
+    margin: 257px 38px;
+  }
+
+  #product .row--product--square2 {
+    width: 90%;
+    margin: 0 28px;
+  }
+
+  #product .row--product__design {
+    font-size: 30px;
+    margin: -238px 82px;
+  }
+  #product .row--product__stage {
+    font-size: 14px;
+  }
+
+  #product .row--product__stage2 {
+    font-size: 14px;
+  }
+
+  #product .row--product__analysis3 {
+    margin: -272px 50px;
+    font-size: 14px;
+  }
+
+  #product .row--product__analysis4 {
+    margin: -314px 50px;
+    font-size: 14px;
+  }
+
+  #product .row--product__square3 {
+    margin: 25px 30px;
+    width: 90%;
+    height: 400px;
+  }
+
+  #product .row--product__try2 {
+    font-size: 30px;
+  }
+
+
+  #product .row--product__try3 {
+    font-size: 14px;
+  }
+
+  #product .row--product__try4 {
+    font-size: 14px;
+  }
+
+  #product .row--product--lab {
+    width: 184%;
+  }
+
+  #product .row--product__labaratori {
+    padding: 275px 28px;
+    margin: 9px -24px;
+    width: 68%;
+  }
+
+
+  #product .row--product__square4 {
+    width: 90%;
+    margin: 6px 33px;
+    height: 400px;
+  }
+
+
+  #product .row--product__fo2 {
+    font-size: 30px;
+  }
+
+  #product .row--product__fo3 {
+    font-size: 14px;
+  }
+
+  #product .row--product__exa {
+    font-size: 14px;
+    margin: -15px 100px;
+  }
+
+  #product .row--product__exa2 {
+    font-size: 14px;
+    margin: -51px 100px;
+  }
+
+  #product .row--product__status {
+    padding: 80px 32px;
+  }
+
+  #product .row--product__five2 {
+    margin-top: -245px;
+    font-size: 30px;
+    margin-left: 104px;
+  }
+
+  #product .row--product__five3 {
+    font-size: 14px;
+  }
+
+  #product .row--product__install {
+    font-size: 14px;
+    margin: 1px 0;
+  }
+
+  #card .row--analysis__card {
+    margin: 10px 125px;
+  }
+
+
 
 }
+
+
 @media (max-width: 415px) {
+  #navbar .row--title__fixed {
+    margin-left: -1px;
+    height: 9%;
+  }
+  #navbar .row--title--img {
+    margin-left: -93px;
+  }
+  #navbar .btn {
+    margin-left: 307px;
+    margin-top: -6px;
+  }
+  #navbar .row--title__item {
+    font-size: 50px;
+    margin-top: -50px;
+  }
+  #navbar .row--title__item2 {
+    font-size: 16px;
+  }
+  #navbar .row--title__btn2 {
+    width: 200px;
+    height: 45px;
+    font-size: 15px;
+  }
+  #navbar .row--title__mode {
+    margin-top: 26px;
+    color: white;
+    font-size: 14px;
+  }
+  #navbar .row--title__fab {
+    color: red;
+    margin: 0 40px;
+    font-size: 40px;
+  }
+  #navbar .row--title__fabs {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 18px;
+  }
+  #navbar .row--title__block {
+    margin-top: -435px;
+    margin-left: -13px;
+  }
+  #navbar .row--title__btn3 {
+    margin-left: 96px;
+  }
+  #navbar .row--title__vk {
+    padding-left: 332px;
+  }
+  #navbar .menu {
+    margin-left: -87px;
+  }
+  #navbar .menu3 {
+    font-size: 10px;
+    margin-left: -59px;
+  }
+  #navbar .menu2 {
+    margin-left: -119px;
+  }
+  #navbar .menu31 {
+    margin-left: 27px;
+    padding: 10px 86px;
+  }
+  #navbar .menu {
+    margin-left: -87px;
+    font-size: 15px;
+  }
+  #navbar .card {
+    margin: 29px -67px;
+    width: 163%;
+    height: 90%;
+  }
+  #navbar .modal-window {
+    width: 100%;
+    height: 161%;
+  }
 
+  #application .row--application__name {
+    width: 90%;
+    margin-left: 18px;
+    height: 40px;
+  }
+  #application .row--application__name2 {
+    width: 90%;
+    height: 40px;
+    margin: -10px 17px;
+  }
+  #application .row--application__name3 {
+    width: 90%;
+    height: 40px;
+    margin: 29px 17px;
+  }
+  #application .row--application__name4 {
+    width: 90%;
+    margin: -8px 18px;
+    height: 40px;
+  }
+  #application .row--application__area {
+    width: 317px;
+    margin-left: 18px;
+    padding: 1px 16px;
+  }
+  #application .row--application__btn {
+    width: 321px;
+    height: 40px;
+    margin-left: 17px;
+  }
+  #application .row--application__data {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  #work .row--works__img {
+    position: absolute;
+    width: 90%;
+  }
+  #work .row--works__card {
+    z-index: 3;
+    width: 100%;
+    height: 235px;
+  }
+  #work .row--works__lorem {
+    padding: 59px;
+  }
+  #work .row--works__pod {
+    margin-left: 164px;
+  }
+  #work .row--works__item {
+    padding: 10px 20px;
+  }
+
+  #footer .row--footer__project {
+    font-size: 30px;
+  }
+  #footer .row--footer__btn {
+    width: 204px;
+    height: 47px;
+    font-size: 19px;
+  }
+  #footer .row--footer--footer {
+    margin-top: 145px;
+  }
+  #footer .row--footer__ins {
+    margin: 5px 29px;
+    font-size: 16px;
+  }
 }
+
 @media (max-width: 377px) {
+  #navbar .btn {
+    margin-left: 276px;
+    margin-top: -6px;
+  }
+  #navbar .row--title__item {
+    font-size: 45px;
+    margin-top: -50px;
+    margin-left: 13px;
+  }
+  #navbar .row--title__item2 {
+    font-size: 16px;
+    margin-left: 13px;
+  }
+  #navbar .row--title__btn2 {
+    width: 200px;
+    margin-left: 13px;
+    height: 45px;
+    font-size: 14px;
+  }
+  #navbar .row--title__mode {
+    margin-top: 26px;
+    color: white;
+    font-size: 16px;
+    margin-left: 13px;
+  }
+  #navbar .row--title__fabs {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 1px;
+  }
+  #work .row--works__card {
+    margin-left: 1px;
+    z-index: 3;
+    width: 101%;
+
+    height: 212px;
+  }
+  #navbar .modal-window {
+    width: 100%;
+    height: 191%;
+  }
+  #navbar .menu {
+    margin-left: -93px;
+    font-size: 15px;
+  }
+  #navbar .menu2 {
+    margin-left: -126px;
+  }
+  #navbar .card {
+    margin: 29px -67px;
+    width: 183%;
+    height: 90%;
+  }
+
+  #application .row--application__area {
+    width: 286px;
+  }
+  #application .row--application__btn {
+    width: 289px;
+    height: 40px;
+    margin-left: 17px;
+  }
+
+  #work .row--works__card {
+    margin-left: 1px;
+    z-index: 3;
+    width: 101%;
+
+    height: 212px;
+  }
+  #work .row--works__lorem {
+    padding: 51px;
+  }
+  #work .row--works__pod {
+    margin-left: 141px;
+  }
 
 }
-@media (max-width: 320px) {
 
+@media (max-width: 320px) {
+  #navbar .row--title--img {
+    margin-left: -93px;
+    width: 141%;
+  }
+  #navbar .btn {
+    margin-left: 223px;
+    margin-top: -12px;
+  }
+  #navbar .row--title__item {
+    font-size: 40px;
+    margin-top: -72px;
+    margin-left: 13px;
+  }
+  #navbar .row--title__btn2 {
+    width: 150px;
+    margin-left: 12px;
+    height: 40px;
+    font-size: 11px;
+  }
+  #navbar .row--title__mode {
+    margin-top: 26px;
+    color: white;
+    font-size: 14px;
+  }
+  #navbar .row--title__fab {
+    color: red;
+    margin: 0 27px;
+    font-size: 40px;
+  }
+  #navbar .row--title__fabs {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 8px;
+  }
+  #navbar .row--title__block {
+    margin-top: -389px;
+  }
+  #navbar .row--title__vk {
+    padding-left: 252px;
+  }
+  #navbar .row--title__btn3 {
+    margin-left: 73px;
+  }
+  #navbar .menu3 {
+    font-size: 8px;
+    margin-left: -47px;
+  }
+  #navbar .menu31 {
+    margin-left: 11px;
+    padding: 10px 86px;
+  }
+  #navbar .menu {
+    margin-left: -97px;
+    font-size: 15px;
+  }
+  #navbar .modal-window {
+    width: 100%;
+    height: 191%;
+  }
+  #navbar .card {
+    margin: 29px -74px;
+    width: 225%;
+    height: 90%;
+  }
+  #navbar .name {
+    width: 90%;
+    height: 35px;
+    margin: 15px 13px;
+  }
+  #navbar .name2 {
+    width: 90%;
+    height: 35px;
+    margin: -34px 12px;
+  }
+  #navbar .name3 {
+    width: 90%;
+    height: 35px;
+    margin: 14px 12px;
+  }
+  #navbar .name4 {
+    HEIGHT: 35PX;
+    width: 90%;
+    margin: -3px 11px;
+  }
+  #navbar .area {
+    width: 90%;
+    HEIGHT: 62PX;
+    margin: 17px 12px;
+  }
+  #navbar .__btn {
+    width: 90%;
+    height: 35px;
+    margin: -13px 13px;
+  }
+
+
+  #application .row--application__card {
+    margin: 20px 15px;
+    width: 90%;
+    height: 498px;
+  }
+  #application .row--application__area {
+    width: 239px;
+  }
+  #application .row--application__btn {
+    width: 239px;
+  }
+  #application .row--application__data {
+    font-size: 12px;
+  }
+
+  #work .row--works__card {
+    margin-left: 0;
+    z-index: 3;
+    width: 104%;
+
+    height: 181px;
+  }
+  #work .row--works__lorem {
+    padding: 29px;
+  }
+  #work .row--works__pod {
+    margin-left: 116px;
+  }
+
+
+  #footer .row--footer__ins {
+    margin: 5px 20px;
+    font-size: 16px;
+  }
 }

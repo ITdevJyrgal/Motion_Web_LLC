@@ -113,8 +113,8 @@ ul, ol, li {
       &__item {
         text-transform: uppercase;
         font-size: 80px;
-        font-weight: bold;
-        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
         color: white;
         filter: drop-shadow(5px 5px 5px rgb(23, 23, 23));
         animation: __item 2s ease-in-out alternate;
@@ -236,7 +236,7 @@ ul, ol, li {
         width: 100%;
         height: 100%;
         margin-top: -600px;
-        margin-left: -115 px;
+        margin-left: -115px;
         //box-shadow: 5px 5px 30px 30px rgb(255, 0, 0);
         display: none;
         background: rgba(0, 0, 0, 0.49);
@@ -822,7 +822,7 @@ ul, ol, li {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: bold;
-        font-size: 24px;
+        font-size: 20px;
         color: #FF001E;
       }
 
@@ -989,7 +989,7 @@ ul, ol, li {
       }
 
       &__design {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
@@ -1113,7 +1113,7 @@ ul, ol, li {
       }
 
       &__fo2 {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
@@ -1182,6 +1182,9 @@ ul, ol, li {
       &__five {
         margin: 60px 20px;
       }
+      &--five{
+        margin: 20px 10px;
+      }
 
       &__five2 {
         display: flex;
@@ -1190,7 +1193,7 @@ ul, ol, li {
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
-        margin-top: -190px;
+        margin-top: -230px;
         color: #FF001E;
       }
 
@@ -1293,7 +1296,7 @@ ul, ol, li {
   .row {
     &--works {
       &__our {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 28px;
@@ -1354,7 +1357,7 @@ ul, ol, li {
   .row {
     &--application {
       &__your {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 28px;
@@ -1363,7 +1366,7 @@ ul, ol, li {
 
       &__your2 {
         padding: 35px 0;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -1372,7 +1375,7 @@ ul, ol, li {
 
       &__card {
         width: 642px;
-        height: 405px;
+        height: 420px;
         background: #9D0013;
         border-radius: 20px;
         margin: 20px 0;
@@ -1442,12 +1445,13 @@ ul, ol, li {
       }
 
       &__data {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 17px;
         color: #FFFFFF;
         margin: 15px 25px;
+        text-align: center;
       }
     }
   }
@@ -1461,7 +1465,7 @@ ul, ol, li {
       padding-top: 40px;
 
       &__project {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 48px;
@@ -1471,7 +1475,7 @@ ul, ol, li {
       &__btn {
         width: 294px;
         height: 59px;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 26px;
@@ -1490,7 +1494,7 @@ ul, ol, li {
 
       &__ins {
         margin: 5px 60px;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
