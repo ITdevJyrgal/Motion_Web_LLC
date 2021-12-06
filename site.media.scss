@@ -1179,25 +1179,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 320px) {
   #navbar .row--title--img {
     margin-left: -93px;
@@ -1208,8 +1189,12 @@
     margin-top: -12px;
   }
   #navbar .row--title__item {
-    font-size: 40px;
+    font-size: 36px;
     margin-top: -72px;
+    margin-left: 13px;
+  }
+  #navbar .row--title__item2 {
+    font-size: 14px;
     margin-left: 13px;
   }
   #navbar .row--title__btn2 {
@@ -1219,9 +1204,9 @@
     font-size: 11px;
   }
   #navbar .row--title__mode {
-    margin-top: 26px;
+    margin-top: 21px;
     color: white;
-    font-size: 14px;
+    font-size: 12px;
   }
   #navbar .row--title__fab {
     color: red;
@@ -1329,4 +1314,92 @@
     margin: 5px 20px;
     font-size: 16px;
   }
+
+
+
+  #internet .row--internet__inet {
+    font-size: 21px;
+  }
+  #internet .row--internet__inet2 {
+    font-size: 12px;
+  }
+  #internet .row--internet__design3 {
+    margin-left: 175px;}
+  #internet .row--internet__design6 {
+    margin-left: 163px;}
+  #internet .row--internet__design8 {
+    margin-left: 202px;}
+  #internet .row--internet__design10 {
+    margin-left: 151px;
+  }
+  #offer .row--offer__we {
+    font-size: 21px;
+  }
+  #offer .row--offer__full2 {
+    font-size: 11px;
+  }
+  #offer .row--offer__ot2 {
+       font-size: 16px;
+    padding: 5px 0;
+     }
+  #offer .row--offer__ot {
+    font-size: 13px;}
+  #offer .row--offer__ob {
+    margin: 67px -250px;}
+  #offer .row--offer__ob1 {
+    margin: 67px -241px;
+  }
+  #offer .row--offer__card {
+    margin: 30px 19px;
+    width: 90%;
+    height: 489px;
+  }
+  #offer .row--offer__cards2 {
+    margin: 0 3px;
+    width: 142px;
+  }
+  #offer .row--offer__cards {
+    margin: 30px -10px;
+  }
+  #offer .row--offer__cards3 {
+    margin: 7px 74px;
+  }
+  #product .row--product__img {
+    padding: 33px 31px;
+    width: 51%;
+  }
+  #product .row--product__planning {
+    font-size: 21px;
+    /* text-align: center; */
+    margin-left: 56px;
+    margin-top: -244px;
+  }
+  #product .row--product__literate {
+    font-size: 12px;
+    margin: 0 -15px;
+  }
+  #product .row--product__analysis {
+    font-size: 12px;
+    padding: 236px 40px;
+  }
+  #product .row--product__analysis2 {
+    margin: -26px 3px;
+    font-size: 12px;
+  }
+  #product .row--product__tu {
+    width: 44%;
+    margin: 25px 25px;
+  }
+  #product .row--product__design {
+    font-size: 21px;
+    margin: -205px 32px;
+  }
+  #product .row--product__stage {
+    font-size: 12px;
+  }
+  #product .row--product__stage2 {
+    font-size: 13px;
+  }
+
+
 }
