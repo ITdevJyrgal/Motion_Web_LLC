@@ -82,6 +82,10 @@
   #navbar .card {
     margin: 28px 101px;
   }
+
+  #navbar .modal-window {
+    height: 156%;}
+
 }
 @media (max-width: 992px) {
   #navbar .row--title__fixed {
@@ -501,6 +505,10 @@
   #navbar .row--title__vk {
     padding-left: 299px;
   }
+  #navbar .modal-window {
+    width: 100%;
+    height: 191%;
+  }
   #navbar .menu {
     margin-left: -93px;
     font-size: 15px;
@@ -513,10 +521,7 @@
     width: 183%;
     height: 90%;
   }
-  #navbar .modal-window {
-    width: 100%;
-    height: 148%;
-  }
+
 }
 
 @media (max-width: 320px) {
