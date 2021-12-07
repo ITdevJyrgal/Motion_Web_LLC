@@ -3036,11 +3036,18 @@
   #techno .card10{
     margin-top: -90px;
   }
+  #navbar .row--title--img {
+    margin-left: -93px;
+  }
 }
 @media (max-width: 377px) {
+  #navbar .row--title--img {
+    margin-left: -96px;
+    width: 127%;
+  }
   #navbar .row--title__web {margin: 78px 97px;}
   #navbar .row--title__title {margin: 75px -94px;width: 13%;}
-  #navbar .btn {margin-left: 277px;margin-top: 6px;}
+  #navbar .btn {margin-left: 277px;margin-top: 2px;}
   #navbar .row--title__item {font-size: 30px;}
   #navbar .row--title--item {padding: 131px 0;font-size: 12px;}
   #navbar .row--title__btn2 {width: 143px;font-size: 10px;}
@@ -3371,6 +3378,10 @@
   #techno .card {
     width: 56px;
     height: 56px;
+  }
+  #navbar .row--title--img {
+    margin-left: -93px;
+    width: 141%;
   }
 
 }

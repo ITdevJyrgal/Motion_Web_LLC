@@ -3328,8 +3328,17 @@
   #techno .card10 {
     margin-top: -90px;
   }
+
+  #navbar .row--title--img {
+    margin-left: -93px;
+  }
 }
 @media (max-width: 377px) {
+  #navbar .row--title--img {
+    margin-left: -96px;
+    width: 127%;
+  }
+
   #navbar .row--title__web {
     margin: 78px 97px;
   }
@@ -3341,7 +3350,7 @@
 
   #navbar .btn {
     margin-left: 277px;
-    margin-top: 6px;
+    margin-top: 2px;
   }
 
   #navbar .row--title__item {
@@ -4061,6 +4070,11 @@
   #techno .card {
     width: 56px;
     height: 56px;
+  }
+
+  #navbar .row--title--img {
+    margin-left: -93px;
+    width: 141%;
   }
 }
 
