@@ -3336,7 +3336,7 @@
 @media (max-width: 377px) {
   #navbar .row--title--img {
     margin-left: -96px;
-    width: 127%;
+    width: 155%;
   }
 
   #navbar .row--title__web {
@@ -3535,12 +3535,12 @@
   }
 
   #navbar .menu {
-    margin-left: -119px;
+    margin-left: -136px;
     font-size: 18px;
   }
 
   #navbar .menu2 {
-    margin-left: -76px;
+    margin-left: -95px;
   }
 
   #navbar .card {
@@ -3583,7 +3583,7 @@
 
   #navbar .row--tench2 {
     margin-top: 0;
-    margin-left: -31px;
+    margin-left: -18px;
   }
 
   #navbar .name {

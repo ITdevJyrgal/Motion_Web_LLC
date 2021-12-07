@@ -96,13 +96,13 @@ $ser: #222222;
       &__square {
         width: 550px;
         height: 380px;
+        position: absolute;
         background: rgba(0, 0, 0, 0.66);
         //filter: drop-shadow(20px 20px 20px  red);
         box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.62);
         margin-left: 490px;
         border-radius: 30px;
         margin-top: 125px;
-        position: absolute;
         transition: 5s;
       }
 
@@ -198,7 +198,7 @@ $ser: #222222;
       &__btn:hover {
         background: #ff0f0f;
         border: none;
-        color: #020202;
+        color: #000000;
         transition: .3s;
       }
 
@@ -759,11 +759,10 @@ $ser: #222222;
       }
 
       &__page2 {
-
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.003em;
         color: #000000;

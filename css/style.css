@@ -78,12 +78,12 @@ ul, ol, li {
 #navbar .row--title__square {
   width: 550px;
   height: 380px;
+  position: absolute;
   background: rgba(0, 0, 0, 0.66);
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.62);
   margin-left: 490px;
   border-radius: 30px;
   margin-top: 125px;
-  position: absolute;
   transition: 5s;
 }
 #navbar .row--title__vk {
@@ -159,12 +159,13 @@ ul, ol, li {
   height: 31px;
   border-radius: 7px;
   color: white;
+  z-index: 11;
   background: rgba(218, 218, 218, 0.13);
 }
 #navbar .row--title__btn:hover {
   background: #ff0f0f;
   border: none;
-  color: #020202;
+  color: white;
   transition: 0.3s;
 }
 #navbar .row--title__items {
@@ -623,7 +624,7 @@ ul, ol, li {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.003em;
   color: #000000;
@@ -1471,3 +1472,19 @@ ul, ol, li {
 }
 
 /*# sourceMappingURL=style.css.map */
+.push {
+  display: none;
+  position: fixed;
+  z-index: 213;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.49);
+  transition: 5s;
+}
+.row--title__vk009867{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
