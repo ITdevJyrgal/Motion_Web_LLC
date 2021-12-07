@@ -702,15 +702,15 @@
     height: 90%;
   }
 }
-@media (max-width: 377px) {
+@media (max-width: 376px) {
   #navbar .row--title--img {
     margin-left: -94px;
     width: 141%;
   }
 
   #navbar .btn {
-    margin-left: 274px;
-    margin-top: -4px;
+    margin-left: 280px;
+    margin-top: -12px;
   }
 
   #navbar .row--title__item {

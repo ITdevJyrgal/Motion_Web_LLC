@@ -223,12 +223,24 @@
   }
 
   #navbar .btn {
-    margin-left: 446px;
-    margin-top: 4px;
+    margin-left: 276px;
+    margin-top: -12px;
   }
 
   #navbar .row--title__item {
     font-size: 60px;
+  }
+
+  #application .row--application__area {
+    width: 125%;
+    margin-left: 18px;
+    padding: 1px 16px;
+  }
+
+  #application .row--application__btn {
+    width: 290px;
+    height: 40px;
+    margin-left: 17px;
   }
 
   #navbar .row--title__btn2 {
@@ -607,7 +619,7 @@
     height: 90%;
   }
 }
-@media (max-width: 377px) {
+@media (max-width: 375px) {
   #navbar .btn {
     margin-left: 276px;
     margin-top: -6px;

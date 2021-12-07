@@ -2887,7 +2887,7 @@
   }
 
   #navbar {
-    min-height: 63vh;
+    min-height: 75vh;
   }
 
   #navbar .btn {
@@ -3331,6 +3331,7 @@
 
   #navbar .row--title--img {
     margin-left: -93px;
+    width: 132%;
   }
 }
 @media (max-width: 377px) {
@@ -3629,7 +3630,7 @@
 
   #navbar .modal-window {
     width: 100%;
-    height: 160%;
+    height: 201%;
   }
 
   #navbar .hello {

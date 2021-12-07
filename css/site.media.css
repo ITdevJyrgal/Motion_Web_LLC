@@ -877,7 +877,7 @@
   }
 
   #navbar .menu2 {
-    margin-left: -51px;
+    margin-left: -77px;
   }
 
   #navbar .menu31 {
@@ -886,7 +886,7 @@
   }
 
   #navbar .menu {
-    margin-left: -75px;
+    margin-left: -101px;
     font-size: 18px;
   }
 
@@ -1192,6 +1192,12 @@
 
   #work .row--works__our {
     font-size: 25px;
+  }
+
+  #footer .row--footer__btn {
+    width: 204px;
+    height: 47px;
+    font-size: 14px;
   }
 }
 @media (max-width: 377px) {
