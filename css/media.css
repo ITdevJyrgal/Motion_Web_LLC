@@ -2515,44 +2515,6 @@
     min-height: 49vh;
   }
 
-  #work .row--works_item3 {
-    margin-top: 143px;
-    margin-left: -306px;
-  }
-
-  #work .row--works_item2 {
-    margin-left: 139px;
-  }
-
-  #work .row--works_item {
-    margin-left: 55px;
-  }
-
-  #work .row--works_item4 {
-    margin-left: 319px;
-    margin-top: -148px;
-  }
-
-  #work .row--works_item5 {
-    margin: 0 -127px;
-  }
-
-  #work .row--works_item6 {
-    margin: 0 -41px;
-  }
-
-  #work .row--works_item8 {
-    margin-top: 159px;
-  }
-
-  #work .row--works_item7 {
-    margin-left: 53px;
-  }
-
-  #work .row--works_item9 {
-    margin-left: -41px;
-  }
-
   #services .row--item-square2 {
     margin-left: 116px;
   }
@@ -2791,63 +2753,101 @@
     margin-left: -3px;
   }
 
-  #navbar .menu {
-    margin-left: -51px;
+  #navbar .menu3 {
+    font-size: 12px;
+    margin-left: -83px;
   }
 
-  #navbar .menu3 {
-    font-size: 10px;
+  #navbar .menu31 {
+    margin-left: 0;
+    padding: 5px 60px;
+    /* font-size: 14px; */
+  }
+
+  #navbar .menu {
+    margin-left: -67px;
+  }
+
+  #navbar .tench {
+    width: 90%;
+    height: 3px;
+    position: absolute;
+    background: red;
+    margin: 359px -68px;
+  }
+
+  #navbar .row--tench {
+    margin-top: 0;
+    margin-left: 0;
   }
 
   #navbar .menu2 {
-    padding: 0 56px;
-    margin-left: -42px;
+    margin-left: -24px;
+    padding: 0 0;
+  }
+
+  #navbar .card {
+    margin-left: 10px;
+    margin-top: 60px;
+  }
+
+  #navbar .name {
+    margin: 11px 22px;
+  }
+
+  #navbar .name2 {
+    margin: 11px 16px;
+  }
+
+  #navbar .name3 {
+    margin: 11px 22px;
   }
 
   #navbar .modal-window {
     position: relative;
     width: 100%;
-    overflow: hidden;
+    height: 153%;
+  }
+
+  #navbar .name {
+    width: 90%;
+    height: 40px;
+    background: #FFFFFF;
     border-radius: 10px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
-    background: #222222;
-    padding: 0 5px;
-    transition: inherit;
+    border: none;
+    margin: 30px 18px;
+    outline: none;
+    padding: 0 20px;
   }
 
-  #navbar .card {
-    margin-left: -549px;
+  #navbar .name2 {
+    width: 90%;
+    margin: -22px 18px;
   }
 
-  #navbar .row--title-item2 {
-    margin-left: 100px;
+  #navbar .name3 {
+    width: 90%;
+    margin: 30px 18px;
   }
 
-  #navbar .row--title-item3 {
-    margin-top: 144px;
-    margin-left: -352px;
+  #navbar .modal-window {
+    width: 100%;
+    height: 203%;
   }
 
-  #navbar .row--title-item4 {
-    margin-top: -147px;
-    margin-left: 276px;
+  #navbar .name4 {
+    width: 90%;
+    margin: -10px 18px;
   }
 
-  #navbar .row--title-item5 {
-    margin-left: -176px;
+  #navbar .area {
+    width: 90%;
+    margin: 25px 18px;
   }
 
-  #navbar .row--title-item6 {
-    margin-left: -78px;
-  }
-
-  #navbar .row--title-item8 {
-    margin-top: 142px;
-    margin-left: -41px;
-  }
-
-  #navbar .row--title-item9 {
-    margin-left: -79px;
+  #navbar .__btn {
+    width: 90%;
+    margin: -13px 18px;
   }
 
   #application .row--application__card {
@@ -2866,7 +2866,13 @@
   }
 
   #work .row--works__card {
-    opacity: 0.6;
+    opacity: 0;
+  }
+
+  #services .row--item__btn2 {
+    width: 166px;
+    height: 50px;
+    font-size: 10px;
   }
 
   #navbar .row--title__vk {
@@ -2930,50 +2936,6 @@
 
   #work .row--works__pod {
     margin-left: 110px;
-  }
-
-  #work .row--works_item {
-    margin-left: 68px;
-  }
-
-  #work .row--works_item2 {
-    margin-left: -70px;
-    margin-top: 190px;
-  }
-
-  #work .row--works_item3 {
-    margin-top: 379px;
-    margin-left: -208px;
-  }
-
-  #work .row--works_item4 {
-    margin-left: 68px;
-    margin-top: -13px;
-  }
-
-  #work .row--works_item5 {
-    margin-top: 177px;
-    margin-left: -70px;
-  }
-
-  #work .row--works_item6 {
-    margin-top: 367px;
-    margin-left: -208px;
-  }
-
-  #work .row--works_item7 {
-    margin-left: 69px;
-    margin-top: -11px;
-  }
-
-  #work .row--works_item8 {
-    margin-top: 178px;
-    margin-left: -69px;
-  }
-
-  #work .row--works_item9 {
-    margin-left: -207px;
-    margin-top: 367px;
   }
 
   #services .row--item-square2 {
@@ -3072,6 +3034,7 @@
 
   #product .row--product__square5 {
     width: 367px;
+    height: 273px;
   }
 
   #motion .row--card__cards2 {
@@ -3167,59 +3130,82 @@
     margin: 6px 0;
   }
 
+  #navbar .row--tench2 {
+    margin-left: -41px;
+    margin-top: 0;
+  }
+
+  #navbar .menu3 {
+    font-size: 15px;
+    margin-left: -117px;
+  }
+
   #navbar .menu2 {
-    padding: 0 33px;
-    margin-left: -22px;
+    margin-left: -30px;
+  }
+
+  #navbar .menu31 {
+    margin-left: 27px;
+    padding: 10px 86px;
   }
 
   #navbar .menu {
-    margin-left: -53px;
-    font-size: 12px;
+    margin-left: -95px;
+    font-size: 21px;
+  }
+
+  #navbar .row--tench {
+    margin-top: 235%;
+    margin-left: -300px;
+  }
+
+  #navbar .tench {
+    width: 90%;
+    height: 3px;
+    position: absolute;
+    background: red;
+    margin: 447px -75px;
+  }
+
+  #navbar .modal-window {
+    width: 100%;
+    height: 210%;
   }
 
   #navbar .card {
-    width: 394px;
-    margin-left: -437px;
+    margin: 29px -79px;
+    width: 178%;
+    height: 90%;
   }
 
   #navbar .name {
     width: 90%;
-    height: 35px;
-    margin: 8px 22px;
+    margin: 11px 19px;
   }
 
   #navbar .name2 {
     width: 90%;
-    height: 35px;
-    margin: 9px 20px;
+    height: 40px;
+    margin: 2px 18px;
   }
 
   #navbar .name3 {
     width: 90%;
-    height: 35px;
-    margin: 7px 20px;
+    margin: 11px 18px;
   }
 
   #navbar .name4 {
     width: 90%;
-    height: 35px;
-    margin: 8px 20px;
+    margin: 3px 18px;
   }
 
-  #navbar .area {
-    width: 90%;
-    height: 70px;
-    margin: 3px 20px;
+  #work .row--works__item {
+    padding: 10px 66px;
   }
 
-  #navbar .__btn {
-    width: 90%;
-    height: 30px;
-    margin: 7px 20px;
-  }
-
-  #navbar .data {
-    font-size: 12px;
+  #navbar .hello {
+    width: 195px;
+    margin-left: -72px;
   }
 
   #navbar .group3 {
@@ -3247,50 +3233,6 @@
 
   #navbar .row--title__lorem2 {
     font-size: 11px;
-  }
-
-  #navbar .row--title-item {
-    margin-left: 30px;
-  }
-
-  #navbar .row--title-item2 {
-    margin-left: -106px;
-    margin-top: 201px;
-  }
-
-  #navbar .row--title-item3 {
-    margin-top: 393px;
-    margin-left: -241px;
-  }
-
-  #navbar .row--title-item4 {
-    margin-top: -16px;
-    margin-left: 29px;
-  }
-
-  #navbar .row--title-item5 {
-    margin-left: -106px;
-    margin-top: 177px;
-  }
-
-  #navbar .row--title-item6 {
-    margin-left: -241px;
-    margin-top: 274%;
-  }
-
-  #navbar .row--title-item7 {
-    margin-top: -4%;
-    margin-left: 21%;
-  }
-
-  #navbar .row--title-item8 {
-    margin-top: 188px;
-    margin-left: -106px;
-  }
-
-  #navbar .row--title-item9 {
-    margin-left: -241px;
-    margin-top: 282%;
   }
 
   #navbar .width {
@@ -3348,8 +3290,46 @@
   #navbar .row--title__btn3 {
     margin-left: 103px;
   }
+
+  #navbar .area {
+    width: 90%;
+    height: 85px;
+    margin: 9px 18px;
+  }
+
+  #navbar .__btn {
+    width: 90%;
+    height: 33px;
+    margin: 2px 19px;
+  }
+
+  #techno .card6 {
+    margin-top: 234px;
+    margin-left: -293px;
+  }
+
+  #techno .card2 {
+    margin-top: 131px;
+    margin-left: -72px;
+  }
+
+  #techno .card7 {
+    margin-top: -90px;
+  }
+
+  #techno .card8 {
+    margin-top: 8px;
+  }
+
+  #techno .card9 {
+    margin-top: -90px;
+  }
+
+  #techno .card10 {
+    margin-top: -90px;
+  }
 }
-@media (max-width: 387px) {
+@media (max-width: 377px) {
   #navbar .row--title__web {
     margin: 78px 97px;
   }
@@ -3389,42 +3369,6 @@
 
   #navbar {
     min-height: 56vh;
-  }
-
-  #work .row--works_item {
-    margin-left: 51px;
-  }
-
-  #work .row--works_item2 {
-    margin-left: -74px;
-  }
-
-  #work .row--works_item3 {
-    margin-left: -200px;
-  }
-
-  #work .row--works_item4 {
-    margin-left: 51px;
-  }
-
-  #work .row--works_item5 {
-    margin-left: -75px;
-  }
-
-  #work .row--works_item6 {
-    margin-left: -200px;
-  }
-
-  #work .row--works_item7 {
-    margin-left: 50px;
-  }
-
-  #work .row--works_item8 {
-    margin-left: -75px;
-  }
-
-  #work .row--works_item9 {
-    margin-left: -200px;
   }
 
   #services .row--item-square {
@@ -3476,21 +3420,12 @@
 
   #product .row--product__square5 {
     width: 368px;
+    height: 271px;
     margin-left: 4px;
   }
 
   #techno .card7 {
     margin-top: -189px;
-  }
-
-  #techno .card6 {
-    margin-top: 321px;
-    margin-left: -292px;
-  }
-
-  #techno .card2 {
-    margin-top: 131px;
-    margin-left: -73px;
   }
 
   #techno .card8 {
@@ -3504,6 +3439,34 @@
 
   #techno .card10 {
     margin-top: -189px;
+  }
+
+  #techno .card2 {
+    margin-top: 117px;
+    margin-left: 3px;
+    width: 64px;
+    position: absolute;
+  }
+
+  #techno .icon {
+    padding: 15px 16px;
+  }
+
+  #techno .card3 {
+    margin-top: 117px;
+  }
+
+  #techno .card4 {
+    margin-top: 117px;
+  }
+
+  #techno .card5 {
+    margin-top: 117px;
+  }
+
+  #techno .card6 {
+    margin-top: 321px;
+    margin-left: -269px;
   }
 
   #techno #code:checked ~ nav .slider {
@@ -3563,57 +3526,106 @@
   }
 
   #navbar .menu {
-    margin-left: -59px;
+    margin-left: -119px;
+    font-size: 18px;
   }
 
   #navbar .menu2 {
-    padding: 0 25px;
-    margin-left: -22px;
+    margin-left: -76px;
   }
 
   #navbar .card {
-    width: 345px;
-    height: 412px;
-    margin-left: -393px;
+    margin: 75px -74px;
+    width: 189%;
+    height: 82%;
   }
 
-  #navbar .data {
-    font-size: 11px;
+  #navbar .menu31 {
+    margin-left: 41px;
+    padding: 4px 98px;
   }
 
-  #navbar .row--title-item {
-    margin-left: 8px;
+  #navbar .tench {
+    width: 90%;
+    height: 3px;
+    position: absolute;
+    background: red;
+    margin: 334px -78px;
   }
 
-  #navbar .row--title-item2 {
-    margin-left: -114px;
+  #navbar .menu3 {
+    font-size: 14px;
+    margin-left: -117px;
   }
 
-  #navbar .row--title-item3 {
-    margin-left: -236px;
+  #navbar .tench2 {
+    width: 90%;
+    height: 3px;
+    background: red;
+    position: absolute;
+    margin-top: 180%;
+    margin-left: -83px;
   }
 
-  #navbar .row--title-item4 {
-    margin-left: 7px;
+  #navbar .row--tench {
+    margin-top: 213%;
+    margin-left: -261px;
   }
 
-  #navbar .row--title-item5 {
-    margin-left: -115px;
+  #navbar .row--tench2 {
+    margin-top: 0;
+    margin-left: -31px;
   }
 
-  #navbar .row--title-item6 {
-    margin-left: -238px;
-    margin-top: 305%;
+  #navbar .name {
+    width: 90%;
+    height: 35px;
+    margin: 14px 14px;
+    padding: 0 0;
   }
 
-  #navbar .row--title-item7 {
-    margin-top: -8%;
-    margin-left: 5%;
+  #navbar .name2 {
+    width: 90%;
+    height: 35px;
+    margin: -6px 14px;
+    padding: 0 0;
   }
 
-  #navbar .row--title-item8 {
-    margin-top: 188px;
-    margin-left: -114px;
+  #navbar .name3 {
+    width: 90%;
+    height: 35px;
+    margin: 13px 14px;
+    padding: 0 0;
+  }
+
+  #navbar .name4 {
+    width: 90%;
+    padding: 0 0;
+    height: 35px;
+    margin: -10px 14px;
+  }
+
+  #navbar .__btn {
+    width: 90%;
+    height: 35px;
+    margin: -33px 14px;
+  }
+
+  #navbar .area {
+    width: 90%;
+    padding: 4px 17px;
+    height: 70px;
+    margin: 14px 14px;
+  }
+
+  #navbar .modal-window {
+    width: 100%;
+    height: 160%;
+  }
+
+  #navbar .hello {
+    width: 195px;
+    margin-left: -75px;
   }
 
   #navbar .row--title__square {
@@ -3625,9 +3637,13 @@
     margin-left: 79px;
   }
 
-  #navbar .row--title-item9 {
-    margin-left: -237px;
-    margin-top: 314%;
+  #footer .row--footer__footer {
+    margin-top: 102%;
+    margin-left: -59%;
+  }
+
+  #work .row--works__item {
+    padding: 10px 46px;
   }
 }
 @media (max-width: 320px) {
@@ -3672,40 +3688,8 @@
     margin-left: -332px;
   }
 
-  #work .row--works_item {
-    margin-left: 22px;
-  }
-
-  #work .row--works_item2 {
-    margin-left: -84px;
-  }
-
-  #work .row--works_item3 {
-    margin-left: -192px;
-  }
-
-  #work .row--works_item4 {
-    margin-left: 22px;
-  }
-
-  #work .row--works_item5 {
-    margin-left: -85px;
-  }
-
-  #work .row--works_item6 {
-    margin-left: -193px;
-  }
-
-  #work .row--works_item7 {
-    margin-left: 21px;
-  }
-
-  #work .row--works_item8 {
-    margin-left: -85px;
-  }
-
-  #work .row--works_item9 {
-    margin-left: -192px;
+  #work .row--works__item {
+    padding: 10px 24px;
   }
 
   #services .row--item-square {
@@ -3827,34 +3811,62 @@
   }
 
   #techno .card3 {
-    margin-top: 115px;
+    margin-top: 103px;
+    margin-left: -2px;
   }
 
   #techno .card4 {
-    margin-top: 115px;
+    margin-top: 103px;
+  }
+
+  #techno .dis {
+    display: flex;
+    position: absolute;
   }
 
   #techno .card5 {
-    margin-top: 115px;
+    margin-top: 254px;
+    margin-left: -174px;
   }
 
   #techno .card6 {
-    margin-top: 321px;
-    margin-left: -373px;
+    margin-top: 323px;
   }
 
   #techno .cards {
-    margin-left: -18px;
+    margin-left: -7px;
   }
 
   #techno .card2 {
-    margin-top: 115px;
-    margin-left: 27px;
+    margin-top: 103px;
+    margin-left: -8px;
   }
 
   #techno .card8 {
-    margin-top: -189px;
-    margin-left: -16px;
+    margin-top: -214px;
+    margin-left: -5px;
+  }
+
+  #techno .card6 {
+    margin-top: 317px;
+    margin-left: -234px;
+  }
+
+  #techno .card9 {
+    margin-top: -214px;
+  }
+
+  #techno .card7 {
+    margin-top: -214px;
+  }
+
+  #techno .web {
+    color: white;
+    font-size: 9px;
+  }
+
+  #techno .card10 {
+    margin-top: -214px;
   }
 
   #techno .wrapper nav label {
@@ -3947,62 +3959,91 @@
     padding-left: 245px;
   }
 
-  #navbar .menu2 {
-    padding: 0 6px;
-    margin-left: -7px;
-    font-size: 11px;
+  #navbar .menu {
+    margin-left: -40px;
+    font-size: 23px;
   }
 
-  #navbar .menu {
-    margin-left: -65px;
+  #navbar .menu2 {
+    margin-left: 2px;
+  }
+
+  #navbar .row--tench {
+    margin-top: 544%;
+    margin-left: -285px;
+  }
+
+  #navbar .tench2 {
+    width: 90%;
+    height: 3px;
+    background: red;
+    position: absolute;
+    margin-top: 196%;
+    margin-left: -77px;
+  }
+
+  #navbar .modal-window {
+    width: 100%;
+    height: 250%;
+  }
+
+  #navbar .tench {
+    width: 90%;
+    height: 3px;
+    position: absolute;
+    background: red;
+    margin: 236px -76px;
+  }
+
+  #navbar .row--tench2 {
+    margin-top: 225%;
+    margin-left: -267px;
   }
 
   #navbar .card {
-    margin-left: -317px;
+    margin: 29px -74px;
+    width: 228%;
+    height: 90%;
+  }
+
+  #navbar .name {
+    width: 90%;
+    height: 35px;
+    margin: 15px 13px;
+  }
+
+  #navbar .name2 {
+    width: 90%;
+    height: 35px;
+    margin: -34px 12px;
+  }
+
+  #navbar .name3 {
+    width: 90%;
+    height: 35px;
+    margin: 14px 12px;
+  }
+
+  #navbar .name4 {
+    HEIGHT: 35PX;
+    width: 90%;
+    margin: -3px 11px;
+  }
+
+  #navbar .area {
+    width: 90%;
+    HEIGHT: 62PX;
+    margin: 17px 12px;
+  }
+
+  #navbar .__btn {
+    width: 90%;
+    height: 35px;
+    margin: -13px 13px;
   }
 
   #navbar .group4 {
     margin: 0 -13px;
-  }
-
-  #navbar .row--title-item {
-    margin-left: -17px;
-  }
-
-  #navbar .row--title-item2 {
-    margin-left: -121px;
-  }
-
-  #navbar .row--title-item3 {
-    margin-left: -225px;
-  }
-
-  #navbar .row--title-item4 {
-    margin-left: -18px;
-  }
-
-  #navbar .row--title-item5 {
-    margin-left: -122px;
-  }
-
-  #navbar .row--title-item6 {
-    margin-left: -226px;
-    margin-top: 356%;
-  }
-
-  #navbar .row--title-item7 {
-    margin-top: -16%;
-    margin-left: -17%;
-  }
-
-  #navbar .row--title-item8 {
-    margin-top: 175px;
-    margin-left: -121px;
-  }
-
-  #navbar .row--title-item9 {
-    margin-left: -223px;
-    margin-top: 356%;
   }
 
   #navbar .row--title__card {
@@ -4010,11 +4051,16 @@
   }
 
   #work .row--works__card {
-    opacity: 0.5;
+    opacity: 0;
   }
 
   #navbar .width:after {
     height: 3px;
+  }
+
+  #techno .card {
+    width: 56px;
+    height: 56px;
   }
 }
 

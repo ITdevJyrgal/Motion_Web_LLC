@@ -189,7 +189,8 @@
   }
 
   #offer .row--offer__we {
-    font-size: 30px;}
+    font-size: 30px;
+  }
 
   #offer .row--offer__card {
     margin: 30px 113px;
@@ -201,10 +202,12 @@
   }
 
   #offer .row--offer__cards3 {
-    margin: 50px 129px;}
+    margin: 50px 129px;
+  }
 
   #product .row--product--square {
-    margin: 30px 236px;}
+    margin: 30px 236px;
+  }
   #product .row--product--square2 {
 
     width: 755px;
@@ -226,12 +229,15 @@
   }
   #product .row--product__btn {
     width: 250px;
-    height: 50px;}
+    height: 50px;
+  }
   #card .row--analysis__card {
     width: 280px;
-    margin: 10px 74px;}
+    margin: 10px 74px;
+  }
   #footer .row--footer__project {
-    font-size: 40px;}
+    font-size: 40px;
+  }
   #footer .row--footer__btn {
     width: 254px;
     height: 50px;
@@ -354,7 +360,8 @@
   }
 
   #product .row--product__design {
-    font-size: 33px;}
+    font-size: 33px;
+  }
 
   #product .row--product__square3 {
     margin: 25px 11px;
@@ -380,7 +387,6 @@
     width: 280px;
     margin: 10px 210px;
   }
-
 
 
 }
@@ -448,9 +454,8 @@
     /* font-size: 14px; */
   }
 
-    #navbar .menu {
-      margin-left: -67px;
-
+  #navbar .menu {
+    margin-left: -67px;
   }
   #navbar .tench {
     width: 90%;
@@ -460,9 +465,8 @@
     margin: 359px -68px;
   }
   #navbar .row--tench {
-    margin-top: 406px;
-    margin-left: -140px;
-
+    margin-top: 6px;
+    margin-left: 0;
   }
   #navbar .menu2 {
     margin-left: -24px;
@@ -493,7 +497,7 @@
   }
   #navbar .modal-window {
     width: 100%;
-    height: 229%;
+    height: 169%;
   }
   #navbar .name4 {
     width: 90%;
@@ -735,7 +739,6 @@
   }
 
 
-
 }
 
 @media (max-width: 415px) {
@@ -788,22 +791,23 @@
     padding-left: 332px;
   }
   #navbar .menu {
-    margin-left: -86px;    font-size: 21px;
+    margin-left: -86px;
+    font-size: 21px;
   }
   #navbar .menu3 {
     font-size: 15px;
     margin-left: -117px;
   }
   #navbar .menu2 {
-    margin-left: -87px;
+    margin-left: -51px;
   }
   #navbar .menu31 {
     margin-left: 27px;
     padding: 10px 86px;
   }
   #navbar .menu {
-    margin-left: -87px;
-    font-size: 15px;
+    margin-left: -75px;
+    font-size: 18px;
   }
   #navbar .card {
     margin: 29px -67px;
@@ -1053,6 +1057,10 @@
   }
 }
 
+@media (max-width: 385px) {
+
+}
+
 @media (max-width: 377px) {
   #navbar .btn {
     margin-left: 276px;
@@ -1093,19 +1101,19 @@
   }
   #navbar .modal-window {
     width: 100%;
-    height: 210%;
+    height: 226%;
   }
   #navbar .menu {
-    margin-left: 19px;
-    font-size: 25px;
+    margin-left: -96px;
+    font-size: 18px;
   }
   #navbar .menu2 {
-    margin-left: 17px;
+    margin-left: -96px;
   }
   #navbar .card {
-    margin: 29px -67px;
+    margin: 66px -67px;
     width: 183%;
-    height: 90%;
+    height: 82%;
   }
 
   #navbar .menu31 {
@@ -1118,26 +1126,29 @@
     height: 3px;
     position: absolute;
     background: red;
-    margin: 230px -76px;
+    margin: 334px -76px;
+  }
+  #navbar .menu3 {
+    font-size: 14px;
+    margin-left: -117px;
   }
 
-#navbar .tench2 {
-  width: 90%;
-  height: 3px;
-  background: red;
-  position: absolute;
-  margin-top: 180%;
-  margin-left: -77px;
+  #navbar .tench2 {
+    width: 90%;
+    height: 3px;
+    background: red;
+    position: absolute;
+    margin-top: 180%;
+    margin-left: -77px;
   }
 
   #navbar .row--tench {
-    margin-top: 400%;
-    margin-left: -314px;
+    margin-top: 214%;
+    margin-left: -261px;
   }
-
-  #navbar .row--tench2{
-    margin-top: 278px;
-    margin-left: -294px;
+  #navbar .row--tench2 {
+    margin-top: 1px;
+    margin-left: -1px;
   }
 
   #application .row--application__area {
@@ -1170,16 +1181,19 @@
   #internet .row--internet__design3 {
     font-size: 13px;
     color: #FFFFFF;
-    margin-left: 212px;}
+    margin-left: 212px;
+  }
   #internet .row--internet__design6 {
     font-size: 13px;
     color: #FFFFFF;
-    margin-left: 199px;}
+    margin-left: 199px;
+  }
   #internet .row--internet__design8 {
     font-size: 13px;
     color: #FFFFFF;
-    margin-left: 244px;}
-  #internet .row--internet__design10{
+    margin-left: 244px;
+  }
+  #internet .row--internet__design10 {
     margin-left: 185px;
   }
   #offer .row--offer__card {
@@ -1219,7 +1233,8 @@
   }
   #product .row--product--square2 {
     width: 90%;
-    height: 466px;    margin: 0 18px;
+    height: 466px;
+    margin: 0 18px;
   }
   #product .row--product__square4 {
     width: 90%;
@@ -1286,15 +1301,15 @@
     margin-left: 73px;
   }
   #navbar .menu {
-    margin-left: -8px;
+    margin-left: -16px;
     font-size: 25px;
   }
   #navbar .menu2 {
-    margin-left: -7px;
+    margin-left: -16px;
   }
   #navbar .row--tench {
     margin-top: 548%;
-    margin-left: -288px;
+    margin-left: -264px;
   }
   #navbar .tench2 {
     width: 90%;
@@ -1308,9 +1323,16 @@
     width: 100%;
     height: 250%;
   }
+  #navbar .tench {
+    width: 90%;
+    height: 3px;
+    position: absolute;
+    background: red;
+    margin: 236px -76px;
+  }
   #navbar .row--tench2 {
     margin-top: 278px;
-    margin-left: -265px;
+    margin-left: -250px;
   }
   #navbar .card {
     margin: 29px -74px;
@@ -1385,7 +1407,6 @@
   }
 
 
-
   #internet .row--internet__inet {
     font-size: 21px;
   }
@@ -1393,11 +1414,14 @@
     font-size: 12px;
   }
   #internet .row--internet__design3 {
-    margin-left: 175px;}
+    margin-left: 175px;
+  }
   #internet .row--internet__design6 {
-    margin-left: 163px;}
+    margin-left: 163px;
+  }
   #internet .row--internet__design8 {
-    margin-left: 202px;}
+    margin-left: 202px;
+  }
   #internet .row--internet__design10 {
     margin-left: 151px;
   }
@@ -1408,13 +1432,15 @@
     font-size: 11px;
   }
   #offer .row--offer__ot2 {
-       font-size: 16px;
+    font-size: 16px;
     padding: 5px 0;
-     }
+  }
   #offer .row--offer__ot {
-    font-size: 13px;}
+    font-size: 13px;
+  }
   #offer .row--offer__ob {
-    margin: 67px -250px;}
+    margin: 67px -250px;
+  }
   #offer .row--offer__ob1 {
     margin: 67px -241px;
   }
@@ -1490,11 +1516,12 @@
   #product .row--product__square3 {
     margin: 25px 18px;
     width: 90%;
-    height: 357px;}
+    height: 357px;
+  }
   #product .row--product__fo2 {
     font-size: 22px;
   }
-  #product .row--product--img--fo{
+  #product .row--product--img--fo {
     width: 64%;
   }
   #product .row--product__fo2 {
@@ -1525,7 +1552,7 @@
   #product .row--product__five3 {
     font-size: 12px;
   }
-  #product .row--product--dots{
+  #product .row--product--dots {
     margin-top: -48px;
   }
   #card .row--analysis__card {

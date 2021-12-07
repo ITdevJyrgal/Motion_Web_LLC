@@ -465,16 +465,31 @@
   #card .row--card__btn4 {
     margin-left: 126px;}
 
+
+
+
   #navbar .menu3 {
     font-size: 12px;
-    margin-left: -1px;
+    margin-left: -83px;
   }
   #navbar .menu31 {
     margin-left: 0;
-    padding: 10px 29px;
+    padding: 5px 60px;
+    /* font-size: 14px; */
   }
   #navbar .menu {
-    margin-left: -18px;
+    margin-left: -67px;
+  }
+  #navbar .tench {
+    width: 90%;
+    height: 3px;
+    position: absolute;
+    background: red;
+    margin: 359px -68px;
+  }
+  #navbar .row--tench {
+    margin-top: 0;
+    margin-left: 0;
   }
   #navbar .menu2 {
     margin-left: -24px;
@@ -761,34 +776,46 @@
     margin-left: -84px;
   }
 
-  #navbar .menu {
-    margin-left: -87px;
+
+  #navbar .row--tench2 {
+    margin-left: -280px;
+    margin-top: 252%;
   }
   #navbar .menu3 {
-    font-size: 10px;
-    margin-left: -59px;
+    font-size: 15px;
+    margin-left: -117px;
   }
   #navbar .menu2 {
-    margin-left: -119px;
+    margin-left: -51px;
   }
   #navbar .menu31 {
     margin-left: 27px;
     padding: 10px 86px;
   }
   #navbar .menu {
-    margin-left: -87px;
-    font-size: 15px;
+    margin-left: -75px;
+    font-size: 18px;
   }
-  #navbar .card {
-    margin: 29px -67px;
-    width: 163%;
-    height: 90%;
+  #navbar .row--tench {
+    margin-top: 0;
+    margin-left: -8px;
+  }
+  #navbar .tench {
+    width: 90%;
+    height: 3px;
+    position: absolute;
+    background: red;
+    margin: 447px -76px;
   }
   #navbar .modal-window {
     width: 100%;
-    height: 161%;
+    height: 210%;
   }
-
+  #navbar .card {
+    margin: 29px -46px;
+    width: 163%;
+    height: 90%;
+  }
 }
 
 @media (max-width: 377px)  {
@@ -895,21 +922,87 @@
     margin-left: 18px;
   }
 
-  #navbar .modal-window {
-    width: 100%;
-    height: 191%;
-  }
   #navbar .menu {
-    margin-left: -93px;
-    font-size: 15px;
+    margin-left: -96px;
+    font-size: 18px;
   }
   #navbar .menu2 {
-    margin-left: -126px;
+    margin-left: -96px;
   }
   #navbar .card {
-    margin: 29px -67px;
-    width: 213%;
-    height: 90%;
+    margin: 75px -48px;
+    width: 183%;
+    height: 82%;
+  }
+  #navbar .menu31 {
+    margin-left: 41px;
+    padding: 4px 98px;
+  }
+  #navbar .tench {
+    width: 90%;
+    height: 3px;
+    position: absolute;
+    background: red;
+    margin: 334px -76px;
+  }
+  #navbar .menu3 {
+    font-size: 14px;
+    margin-left: -117px;
+  }
+  #navbar .tench2 {
+    width: 90%;
+    height: 3px;
+    background: red;
+    position: absolute;
+    margin-top: 180%;
+    margin-left: -77px;
+  }
+  #navbar .row--tench {
+    margin-top: 0;
+    margin-left: -1px;
+  }
+  #navbar .row--tench2 {
+    margin-top: 238%;
+    margin-left: -233px;
+  }
+  #navbar .name {
+    width: 90%;
+    height: 35px;
+    margin: 14px 14px;
+    padding:  0 0;
+  }
+  #navbar .name2 {
+    width: 90%;
+    height: 35px;
+    margin: -6px 14px;
+    padding: 0 0;
+  }
+  #navbar .name3 {
+    width: 90%;
+    height: 35px;
+    margin: 13px 14px;
+    padding: 0 0;
+  }
+  #navbar .name4 {
+    width: 90%;
+    padding: 0 0;
+    height: 35px;
+    margin: -10px 14px;
+  }
+  #navbar .__btn {
+    width: 90%;
+    height: 35px;
+    margin: -33px 14px;
+  }
+  #navbar .area {
+    width: 90%;
+    padding: 4px 17px;
+    height: 70px;
+    margin: 14px 14px;
+  }
+  #navbar .modal-window {
+    width: 100%;
+    height: 226%;
   }
 }
 
@@ -1065,25 +1158,46 @@
   #card .row--card__vk {
     padding-left: 240px;
   }
-  #navbar .menu3 {
-    font-size: 8px;
-    margin-left: -47px;
-  }
-  #navbar .menu31 {
-    margin-left: 11px;
-    padding: 10px 86px;
-  }
+
+
+
   #navbar .menu {
-    margin-left: -97px;
-    font-size: 15px;
+    margin-left: -16px;
+    font-size: 25px;
+  }
+  #navbar .menu2 {
+    margin-left: -16px;
+  }
+  #navbar .row--tench {
+    margin-top: 278%;
+    margin-left: -245px;
+  }
+  #navbar .tench2 {
+    width: 90%;
+    height: 3px;
+    background: red;
+    position: absolute;
+    margin-top: 196%;
+    margin-left: -77px;
   }
   #navbar .modal-window {
     width: 100%;
-    height: 191%;
+    height: 250%;
+  }
+  #navbar .tench {
+    width: 90%;
+    height: 3px;
+    position: absolute;
+    background: red;
+    margin: 236px -76px;
+  }
+  #navbar .row--tench2 {
+    margin-top: 678%;
+    margin-left: -262px;
   }
   #navbar .card {
     margin: 29px -74px;
-    width: 225%;
+    width: 288%;
     height: 90%;
   }
   #navbar .name {
@@ -1116,4 +1230,5 @@
     height: 35px;
     margin: -13px 13px;
   }
+
 }

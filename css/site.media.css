@@ -519,8 +519,8 @@
   }
 
   #navbar .row--tench {
-    margin-top: 406px;
-    margin-left: -140px;
+    margin-top: 6px;
+    margin-left: 0;
   }
 
   #navbar .menu2 {
@@ -557,7 +557,7 @@
 
   #navbar .modal-window {
     width: 100%;
-    height: 229%;
+    height: 169%;
   }
 
   #navbar .name4 {
@@ -877,7 +877,7 @@
   }
 
   #navbar .menu2 {
-    margin-left: -87px;
+    margin-left: -51px;
   }
 
   #navbar .menu31 {
@@ -886,8 +886,8 @@
   }
 
   #navbar .menu {
-    margin-left: -87px;
-    font-size: 15px;
+    margin-left: -75px;
+    font-size: 18px;
   }
 
   #navbar .card {
@@ -1240,22 +1240,22 @@
 
   #navbar .modal-window {
     width: 100%;
-    height: 210%;
+    height: 226%;
   }
 
   #navbar .menu {
-    margin-left: 19px;
-    font-size: 25px;
+    margin-left: -96px;
+    font-size: 18px;
   }
 
   #navbar .menu2 {
-    margin-left: 17px;
+    margin-left: -96px;
   }
 
   #navbar .card {
-    margin: 29px -67px;
+    margin: 66px -67px;
     width: 183%;
-    height: 90%;
+    height: 82%;
   }
 
   #navbar .menu31 {
@@ -1268,7 +1268,12 @@
     height: 3px;
     position: absolute;
     background: red;
-    margin: 230px -76px;
+    margin: 334px -76px;
+  }
+
+  #navbar .menu3 {
+    font-size: 14px;
+    margin-left: -117px;
   }
 
   #navbar .tench2 {
@@ -1281,13 +1286,13 @@
   }
 
   #navbar .row--tench {
-    margin-top: 400%;
-    margin-left: -314px;
+    margin-top: 214%;
+    margin-left: -261px;
   }
 
   #navbar .row--tench2 {
-    margin-top: 278px;
-    margin-left: -294px;
+    margin-top: 1px;
+    margin-left: -1px;
   }
 
   #application .row--application__area {
@@ -1465,17 +1470,17 @@
   }
 
   #navbar .menu {
-    margin-left: -8px;
+    margin-left: -16px;
     font-size: 25px;
   }
 
   #navbar .menu2 {
-    margin-left: -7px;
+    margin-left: -16px;
   }
 
   #navbar .row--tench {
     margin-top: 548%;
-    margin-left: -288px;
+    margin-left: -264px;
   }
 
   #navbar .tench2 {
@@ -1492,9 +1497,17 @@
     height: 250%;
   }
 
+  #navbar .tench {
+    width: 90%;
+    height: 3px;
+    position: absolute;
+    background: red;
+    margin: 236px -76px;
+  }
+
   #navbar .row--tench2 {
     margin-top: 278px;
-    margin-left: -265px;
+    margin-left: -250px;
   }
 
   #navbar .card {
