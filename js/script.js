@@ -89,6 +89,14 @@ orderBtn.addEventListener("click", () => {
 // })
 
 
+
+
+
+
+
+
+
+
 let card = document.querySelector(".row--card--btn-2")
 card.addEventListener("click", () => {
     document.querySelector(".row--card__block").style.display = "block"
@@ -98,6 +106,50 @@ let cardClose = document.querySelector(".row--card__vk")
 cardClose.addEventListener("click", () => {
     document.querySelector(".row--card__block").style.display = "none"
 })
+
+
+
+
+
+
+
+//
+//
+//
+// let btnOffer = document.querySelector(".row--offer__btn")
+// btnOffer.addEventListener('click',()=>{
+//     document.querySelector('.row--offer__block').style.display = 'block'
+// })
+//
+// let btnOfferClose = document.querySelector(".row--offer__vk")
+// btnOfferClose.addEventListener('click',()=>{
+//     document.querySelector('.row--offer__block').style.display = 'none'
+// })
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
