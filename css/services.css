@@ -226,7 +226,6 @@ ul, ol, li {
 #navbar .row--title__btn2:hover {
   background: #000;
   color: #FFFFFF;
-  border: 1px solid red;
 }
 #navbar .row--title__mode {
   margin-top: -30px;

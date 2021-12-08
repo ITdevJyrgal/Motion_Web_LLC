@@ -131,8 +131,7 @@ ul, ol, li {
 }
 #navbar .row--title__btn2:hover {
   background: #000;
-  color: #ff0101;
-  border: 1px solid red;
+  color: #ffffff;
 }
 #navbar .row--title__block {
   position: fixed;
