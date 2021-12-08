@@ -27,8 +27,8 @@
   }
 
   #navbar .btn {
-    margin-left: 1063px;
-    margin-top: 4px;
+    margin-left: 280px;
+    margin-top: -12px;
   }
 
   #work .row--works__item {
@@ -438,7 +438,7 @@
   }
 
   #navbar .btn {
-    margin-left: 307px;
+    margin-left: 308px;
     margin-top: -6px;
   }
 
@@ -523,13 +523,13 @@
   }
 
   #application .row--application__area {
-    width: 317px;
+    width: 313px;
     margin-left: 18px;
     padding: 1px 16px;
   }
 
   #application .row--application__btn {
-    width: 321px;
+    width: 313px;
     height: 40px;
     margin-left: 17px;
   }
@@ -577,7 +577,7 @@
   }
 
   #navbar .menu3 {
-    font-size: 15px;
+    font-size: 12px;
     margin-left: -117px;
   }
 
@@ -596,8 +596,8 @@
   }
 
   #navbar .row--tench {
-    margin-top: 222%;
-    margin-left: -261px;
+    margin-top: 280%;
+    margin-left: -253px;
   }
 
   #navbar .tench {
@@ -610,19 +610,19 @@
 
   #navbar .modal-window {
     width: 100%;
-    height: 210%;
+    height: 251%;
   }
 
   #navbar .card {
-    margin: 29px -68px;
+    margin: 29px -58px;
     width: 163%;
     height: 90%;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   #navbar .btn {
-    margin-left: 276px;
-    margin-top: -6px;
+    margin-left: 278px;
+    margin-top: -11px;
   }
 
   #navbar .row--title__item {
@@ -672,7 +672,7 @@
   }
 
   #application .row--application__area {
-    width: 286px;
+    width: 287px;
   }
 
   #application .row--application__btn {
@@ -720,7 +720,7 @@
   }
 
   #navbar .menu3 {
-    font-size: 14px;
+    font-size: 12px;
     margin-left: -117px;
   }
 
@@ -734,8 +734,8 @@
   }
 
   #navbar .row--tench {
-    margin-top: 211%;
-    margin-left: -235px;
+    margin-top: 215%;
+    margin-left: -192px;
   }
 
   #navbar .row--tench2 {
@@ -786,7 +786,12 @@
 
   #navbar .modal-window {
     width: 100%;
-    height: 226%;
+    height: 251%;
+  }
+
+  #navbar .row--title--img {
+    margin-left: -94px;
+    width: 141%;
   }
 }
 @media (max-width: 320px) {
@@ -891,8 +896,8 @@
   }
 
   #navbar .row--tench {
-    margin-top: 209%;
-    margin-left: -251px;
+    margin-top: 549%;
+    margin-left: -232px;
   }
 
   #navbar .tench2 {
@@ -901,7 +906,7 @@
     background: red;
     position: absolute;
     margin-top: 196%;
-    margin-left: 13px;
+    margin-left: -83px;
   }
 
   #navbar .modal-window {
@@ -914,17 +919,17 @@
     height: 3px;
     position: absolute;
     background: red;
-    margin: 236px 12px;
+    margin: 236px -82px;
   }
 
   #navbar .row--tench2 {
     margin-top: 218%;
-    margin-left: -249px;
+    margin-left: -221px;
   }
 
   #navbar .card {
-    margin: 29px 17px;
-    width: 90%;
+    margin: 29px -79px;
+    width: 238%;
     height: 90%;
   }
 

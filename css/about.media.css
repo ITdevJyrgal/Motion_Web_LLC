@@ -849,6 +849,7 @@
   #card .row--card--btn-2 {
     margin-left: 94px;
     height: 40px;
+    font-size: 13px;
   }
 
   #card .row--card__items {
@@ -858,7 +859,7 @@
 
   #card .row--card--btn {
     width: 169px;
-    font-size: 16px;
+    font-size: 13px;
     margin-left: 111px;
     height: 40px;
   }
@@ -888,7 +889,7 @@
   }
 
   #after .row--after__btn3 {
-    font-size: 18px;
+    font-size: 13px;
     margin-top: 18px;
     margin-left: -4px;
   }
@@ -1026,7 +1027,8 @@
   }
 
   #navbar .row--title--img {
-    margin-left: -87px;
+    margin-left: -94px;
+    width: 141%;
   }
 
   #navbar .btn {
@@ -1080,11 +1082,12 @@
   #card .row--card--btn-2 {
     margin-left: 74px;
     height: 40px;
+    font-size: 13px;
   }
 
   #card .row--card--btn {
     width: 169px;
-    font-size: 16px;
+    font-size: 13px;
     margin-left: 93px;
     height: 40px;
   }
@@ -1245,6 +1248,10 @@
   #navbar .modal-window {
     width: 100%;
     height: 226%;
+  }
+
+  #after .row--after__btn3 {
+    font-size: 13px;
   }
 }
 @media (max-width: 320px) {

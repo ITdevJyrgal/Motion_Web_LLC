@@ -902,6 +902,7 @@
   }
   #internet .row--internet--obsh {
     text-align: start;
+    padding-left: 13px;
   }
   #internet .row--internet--obsh2 {
     margin: 26px 6px;
@@ -1065,7 +1066,12 @@
 }
 
 @media (max-width: 377px) {
-  #navbar .btn {
+
+  #navbar .row--title--img {
+    margin-left: -94px;
+    width: 141%;
+  }
+    #navbar .btn {
     margin-left: 276px;
     margin-top: -6px;
   }
@@ -1238,6 +1244,11 @@
     width: 90%;
     height: 466px;
     margin: 0 18px;
+  }
+  #internet .row--internet--obsh {
+    text-align: start;
+    /* margin-left: 11px; */
+    padding-left: 13px;
   }
   #product .row--product__square4 {
     width: 90%;
