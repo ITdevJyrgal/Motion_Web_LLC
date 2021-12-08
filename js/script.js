@@ -116,42 +116,14 @@ cardClose.addEventListener("click", () => {
 //
 //xx
 
-let btnOffer = document.querySelector(".row--offer__btn")
-btnOffer.addEventListener('click',() =>{
-    document.querySelector('.row--offer__block').style.display = 'block'
-    console.log(1653)
-})
-
-let btnOfferClose = document.querySelector(".row--offer__vk")
-btnOfferClose.addEventListener('click',()=>{
-    document.querySelector('.row--offer__block').style.display = 'none'
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// let btnOffer = document.querySelector(".row--offer__btn")
+// btnOffer.addEventListener('click',() =>{
+//     document.querySelector('.row--offer__block').style.display = 'block'
+//     console.log(1653)
+// })
+//
+// let btnOfferClose = document.querySelector(".row--offer__vk")
+// btnOfferClose.addEventListener('click',()=>{
+//     document.querySelector('.row--offer__block').style.display = 'none'
+// })
 
