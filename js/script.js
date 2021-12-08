@@ -37,31 +37,52 @@ cardClose.addEventListener("click", () => {
     document.querySelector(".row--card__block").style.display = "none"
 })
 
-let square = document.querySelector(".row--item__btn2")
+
+let square = document.querySelector(".row--title__btn")
 square.addEventListener("click", () => {
-    document.querySelector(".row--item__block").style.display = "block"
+    document.querySelector(".row--title__block").style.display = "block"
 })
 
-let squareClose = document.querySelector(".row--item__vk")
+let squareClose = document.querySelector(".row--title__vk")
 squareClose.addEventListener("click", () => {
-    document.querySelector(".row--item__block").style.display = "none"
+    document.querySelector(".row--title__block").style.display = "none"
+})
+let modal = document.querySelector('.row--title__block')
+console.log(modal)
+let orderBtn = document.querySelector(".row--title__btn")
+orderBtn.addEventListener("click", () => {
+    console.log(234)
+    console.log(document.querySelector("#header ul  .push"))
+    modal.classList.add("active")
 })
 
+//////////////////////////////////////////////////////
+// let title = document.querySelector( ".row--title__btn")
+// title.addEventListener( "click", ()  => {
+//     console.log(123)
+//     document.querySelector(".push").style.display = "block"
+// })
 
+
+// let titleClose = document.querySelector(".row--title__btn")
+// titleClose.addEventListener("click", () => {
+//     console.log(12334)
+//     document.querySelector(".push").style.display = "block"
+// })
 //
 //
 // let btn009867 = document.querySelector('.row--title__btn');
-let modal009867 = document.getElementsByClassName('push');
+// let modal009867 = document.getElementsByClassName('push');
 
 // btn009867.addEventListener("click" , ()=> {
 //     document.querySelector(".push").style.display = "block"
 // })
 
-let btnM = document.querySelector(".row--title__btn")
-btnM.onclick = function() {
-    console.log("sdfghjk")
-    modal009867.style.display = "block";
-}
+// let btnM = document.querySelector(".row--title__btn")
+// btnM.onclick = function() {
+//     console.log("sdfghjk")
+//     modal009867.style.display = "block";
+// }
 // btnM.addEventListener("click", () => {
 //     console.log('mdcscsdcnnj')
 //     document.querySelector(".push").style.display = "block"

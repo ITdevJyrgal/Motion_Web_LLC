@@ -10,7 +10,11 @@ $black: #020304;
 $red: #FF001E;
 $ser: #222222;
 
-
+//.active{
+//  display: block;
+//  width:200px;
+//  height: 200px;
+//}
 #navbar {
   background: url("../img/headway.png") no-repeat center/cover;
   min-height: 100vh;
@@ -79,13 +83,13 @@ $ser: #222222;
         color: #FF001F;
       }
 
-      &__block {
+      &__block{
         position: fixed;
         z-index: 3;
         width: 100%;
         height: 100%;
-        margin-top: -478px;
-        margin-left: -110px;
+        //margin-top: -478px;
+        margin-left: -739px;
         //box-shadow: 5px 5px 30px 30px rgb(255, 0, 0);
         display: none;
         background: rgba(0, 0, 0, 0.49);
@@ -198,7 +202,7 @@ $ser: #222222;
       &__btn:hover {
         background: #ff0f0f;
         border: none;
-        color: #000000;
+        color: #ffffff;
         transition: .3s;
       }
 
@@ -462,7 +466,7 @@ $ser: #222222;
   }
 
   .card {
-    width: 642px;
+    width: 626px;
     height: 420px;
     background: #9D0013;
     border-radius: 20px;
