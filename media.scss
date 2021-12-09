@@ -8,7 +8,7 @@
     background: rgba(0, 0, 0, 0.77);
   }
   #work .row--works__item {
-    padding: 10px 84px;
+    padding: 10px 15px;
   }
   #navbar .row--title__title {
     margin: 31px -36px;
@@ -871,7 +871,10 @@
     margin-top: -250px;
     color: #FF001E;
   }
-
+  #studio .row--studio__studio4 {
+    margin-left: 709px;
+    margin-top: -325px;
+  }
   #product .row--product__five3 {
     margin-left: -5px;
     font-family: "Open Sans", sans-serif;
@@ -1407,6 +1410,10 @@
     margin: 30px 0;
   }
 
+  #studio .row--studio__studio4 {
+    margin-left: 175px;
+  }
+
   #services .row--item__square {
     width: 225px;
     height: 77px;
@@ -1753,7 +1760,7 @@
 
   #studio .row--studio__img {
     width: 172px;
-    margin-top: 42px;
+    margin-top: 304px;
   }
   #techno .wrapper {
     max-width: 723px;
@@ -1958,9 +1965,6 @@
     margin: 0 42px;
   }
 
-  #studio .row--studio__studio4 {
-    margin-left: 535px;}
-
 
   #navbar .btn-close {
     right: 30px;
@@ -1984,6 +1988,10 @@
   #navbar .row--title__block {
     margin-top: -273px;
     margin-left: -12px;
+  }
+  #studio .row--studio__img {
+    width: 172px;
+    margin-top: 54px;
   }
   #navbar .btn {
     margin-left: 433px;
