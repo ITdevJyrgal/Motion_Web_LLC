@@ -511,6 +511,8 @@ ul, ol, li {
 }
 #work .row--works__img {
   position: absolute;
+  width: 424px;
+  height: 283px;
 }
 #work .row--works__item {
   padding: 10px 0;

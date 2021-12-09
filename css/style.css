@@ -570,6 +570,10 @@ ul, ol, li {
 #work .row--works__pod {
   margin-left: 191px;
 }
+#work .row--works__img {
+  width: 424px;
+  height: 283px;
+}
 
 #services {
   background: #222222;
