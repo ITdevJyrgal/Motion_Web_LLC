@@ -3140,6 +3140,22 @@
     width: 178%;
     height: 90%;
   }
+
+  #techno #code:checked ~ nav .slider {
+    left: 29%;
+  }
+
+  #techno #help:checked ~ nav .slider {
+    left: 55%;
+  }
+
+  #techno #about:checked ~ nav .slider {
+    left: 83%;
+  }
+
+  #techno .wrapper {
+    max-width: 386px;
+  }
 }
 @media (max-width: 377px) {
   #navbar .row--title--img {
