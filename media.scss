@@ -2271,6 +2271,7 @@
 }
 
 @media (max-width: 415px) {
+
   #navbar .row--title--img {
     margin-left: -78px;
   }
@@ -2679,6 +2680,144 @@
   #navbar .row--title--img {
     margin-left: -93px;
     width: 132%;
+  }
+}
+
+@media (max-width: 386px) {
+  #navbar .hello {
+    padding: 20px;
+    width: 100%;
+    margin-left: -83px;
+  }
+  #navbar .btn {
+    margin-left: 290px;
+    margin-top: 2px;
+  }
+  #navbar .row--title--img {
+    margin-left: -93px;
+    width: 121%;
+  }
+  #navbar .row--title__item {
+    font-size: 34px;
+    padding-top: 74px;
+    padding-left: 51px;
+  }
+  #navbar .row--title--item {
+    padding: 124px 0;
+    font-size: 13px;
+    margin-left: 18px;
+  }
+  #navbar .row--title__btn2 {
+    margin-left: 16px;
+  }
+  #navbar .row--title__mode {
+    margin: 25px 18px;
+    color: white;
+    font-size: 10px;
+  }
+  #navbar .row--title__fab {
+    margin: 53px 39px;
+    font-size: 34px;
+  }
+  #navbar .row--title__fabs {
+    display: flex;
+    justify-content: flex-end;
+    margin: -67px 16px;
+  }
+  #work .row--works__item {
+    padding: 10px 51px;
+  }
+  #services .row--item-square {
+    margin-left: 27px;
+  }
+  #services .row--item-square2 {
+     margin-left: -93px;
+   }
+  #services .row--item-square4 {
+    margin-top: -6px;
+    margin-left: 32px;
+  }
+  #services .row--item-square5 {
+    margin-top: 387px;
+    margin-left: -93px;
+  }
+  #services .row--item-square6 {
+    margin-top: 777px;
+    margin-left: -214px;
+  }
+  #services .row--item-square7 {
+    margin-left: 30px;
+    margin-top: -6px;
+  }
+  #services .row--item-square8 {
+    margin-left: -92px;
+    margin-top: 386px;
+  }
+  #services .row--item-square9 {
+    margin-top: 778px;
+    margin-left: -212px;
+  }
+  #product .row--product--square {
+    margin-left: 26px;
+  }
+  #product .row--product--square2 {
+    margin-top: 434px;
+    margin-left: -350px;
+    width: 361px;
+  }
+  #product .row--product__square3 {
+    margin-left: 0;
+  }
+  #product .row--product__square5 {
+    width: 349px;
+    height: 292px;
+  }
+  #techno .card2 {
+    margin-top: 131px;
+    margin-left: -63px;
+  }
+  #application .row--application__card {
+    width: 339px;
+    height: 450px;
+    margin-left: 12px;
+    margin-top: -19px;
+  }
+  #application .row--application__area {
+    width: 307px;
+    height: 76px;
+    margin-top: 10px;
+  }
+  #application .row--application__btn {
+    width: 308px;
+    height: 33px;
+  }
+  #application .row--application__btn {
+    width: 308px;
+    height: 33px;
+  }
+  #application .row--application__btn {
+    width: 308px;
+    height: 33px;
+  }
+  #footer .row--footer__width {
+    width: 353px;
+  }
+  #navbar .menu3 {
+    font-size: 13px;
+    margin-left: -117px;
+  }
+  #navbar .row--tench {
+    margin-top: 267%;
+    margin-left: -243px;
+  }
+  #navbar .modal-window {
+    width: 100%;
+    height: 242%;
+  }
+  #navbar .card {
+    margin: 29px -70px;
+    width: 178%;
+    height: 90%;
   }
 }
 

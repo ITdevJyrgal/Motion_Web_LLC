@@ -644,6 +644,39 @@
     height: 90%;
   }
 }
+@media (max-width: 386px) {
+  #navbar .hello {
+    padding: 20px;
+    width: 100%;
+    margin-left: -83px;
+  }
+
+  #navbar .btn {
+    margin-left: 287px;
+    margin-top: -13px;
+  }
+
+  #navbar .row--title--img {
+    margin-left: -93px;
+    width: 117%;
+  }
+
+  #application .row--application__area {
+    width: 295px;
+  }
+
+  #application .row--application__btn {
+    width: 298px;
+  }
+
+  #navbar .row--title__vk {
+    padding-left: 310px;
+  }
+
+  #navbar .row--title__btn3 {
+    margin-left: 86px;
+  }
+}
 @media (max-width: 376px) {
   #navbar .btn {
     margin-left: 278px;
