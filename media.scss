@@ -32,9 +32,6 @@
     color: white;
     background: rgba(218, 218, 218, 0.13);
   }
-  #work .row--works__lorem {
-     padding: 65px;
-   }
 
   #navbar .row--title__block {
     margin-top: -51px;
@@ -95,19 +92,6 @@
     background: #222222;
     border-radius: 20px;
   }
-  #work .row--works__img {
-    position: absolute;
-    width: 364px;
-    height: 259px;
-  }
-  #work .row--works__card {
-    width: 364px;
-    height: 259px;
-    background: #000;
-    opacity: 4;
-    transition: 0.3s;
-  }
-
 
   #navbar .btn {
     margin-left: 1046px;
@@ -379,90 +363,11 @@
     margin: -8px 0;
   }
 
-  #navbar .card {
-    width: 550px;
-    height: 400px;
-    background: #9D0013;
-    border-radius: 20px;
-    margin-left: 50px;
-  }
-  #navbar .name {
-    width: 232px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 20px;
-  }
-  #navbar .name2 {
-    width: 232px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 0 20px;
-  }
-
-  #navbar .name3 {
-    width: 234px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 0 20px;
-    margin: 0 15px;
-  }
-
-  #navbar .name4 {
-    width: 232px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 0 20px;
-  }
-
-  #navbar .area {
-    width: 483px;
-    height: 91px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 25px 15px;
-    outline: none;
-    padding: 0 35px;
-  }
-
-  #navbar .__btn {
-    width: 486px;
-    height: 40px;
-    background: #222222;
-    border-radius: 10px;
-    border: none;
-    color: #FFFFFF;
-    margin: -7px 15px;
-    font-size: 20px;
-  }
-
-  #navbar .data {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    color: #FFFFFF;
-    margin: 15px 19px;
-  }
-
   #navbar .menu3 {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 9px;
+    font-size: 12px;
     color: #fff;
     border-bottom: transparent;
     transition: 0.5s;
@@ -530,7 +435,11 @@
     position: fixed;
     z-index: 4;
     width: 100%;
-    height: 7%;}
+    height: 7%;
+    margin-left: -32px;
+  }
+
+
 
   #motion .row--card__cards {
     width: 220px;
@@ -568,32 +477,6 @@
   #navbar .row--title__mode {
     margin: 20px 71px;
     color: white;
-  }
-  #work .row--works__img {
-    position: absolute;
-    width: 303px;
-    height: 214px;
-  }
-  #work .row--works__card {
-    width: 303px;
-    height: 214px;
-    background: #000;
-    opacity: 4;
-    transition: 0.3s;
-  }
-  #work .row--works__lorem {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 52px;
-  }
-
-  #work .row--works__pod {
-    margin-left: 133px;
   }
 
   #services .row--item__ser {
@@ -1104,7 +987,7 @@
   }
 
   #application .row--application__area {
-    width: 468px;
+    width: 476px;
     height: 83px;
     background: #FFFFFF;
     border-radius: 10px;
@@ -1116,7 +999,7 @@
   }
 
   #application .row--application__btn {
-    width: 469px;
+    width: 476px;
     height: 35px;
     background: #222222;
     border-radius: 10px;
@@ -1160,7 +1043,7 @@
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 6px;
+    font-size: 13px;
     color: #fff;
     border-bottom: transparent;
     transition: 0.5s;
@@ -1173,85 +1056,6 @@
     font-weight: bold;
     font-size: 22px;
     color: #fff;
-  }
-  #navbar .card {
-    width: 441px;
-    height: 349px;
-    background: #9D0013;
-    border-radius: 20px;
-    margin-left: -393px;
-  }
-
-  #navbar .name {
-    width: 193px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 0;
-  }
-  #navbar .name2 {
-    width: 193px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 0 0;
-  }
-  #navbar .name3 {
-    width: 193px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 0 0;
-    margin: 0 15px;
-  }
-  #navbar .name4 {
-    width: 193px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 0 0;
-    margin-left: 3px;
-  }
-
-  #navbar .area {
-    width: 410px;
-    height: 70px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 25px 15px;
-    outline: none;
-    padding: 0 18px;
-  }
-
-  #navbar .__btn {
-    width: 413px;
-    height: 35px;
-    background: #222222;
-    border-radius: 10px;
-    border: none;
-    color: #FFFFFF;
-    margin: -7px 15px;
-    font-size: 16px;
-  }
-
-  #navbar .data {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 15px 19px;
   }
 
   #navbar .menu31 {
@@ -1323,95 +1127,31 @@
 }
 
 @media (max-width: 992px) {
+  #navbar .row--title--img{
+    margin-left: -21px;
+  }
   #navbar .row--title__fixed {position: fixed;z-index: 4;width: 100%;height: 15%;margin-left: -16px;background: rgba(0, 0, 0, 0.77);}
-  #navbar .row--title__next {margin-left: 2px;}
-  #navbar .btn {margin-left: 874px;margin-top: 29px;}
-  #navbar {min-height: 78vh;}
-  #navbar .card { width: 433px;height: 416px;background: #9D0013;border-radius: 20px;margin-left: -393px; /* margin-top: 500px; */}
+  #navbar .row--title__next {margin-left: 109px}
+  #navbar .btn {margin-left: 874px;margin-top: 19px;}
+  #navbar {min-height: 90vh;}
+  #navbar .card {  margin: 44px -18px;}
   #application .row--application__your2 {padding: 35px 0; font-family: "Poppins", sans-serif;font-style: normal;font-weight: normal;font-size: 12px;margin-left: -5px;color: #FFFFFF;}
-  #footer .row--footer__footer {margin-right: -550px;z-index: 99;}
+  #footer .row--footer__footer {z-index: 99;}
   #application .row--application__data {font-family: "Poppins", sans-serif;font-style: normal;font-weight: normal;font-size: 13px;color: #FFFFFF;text-align: center;}
   #product .row--product__square5 {margin: 30px 30px;width: 918px;height: 329px;background: #222222;border-radius: 20px;}
-  #navbar .row--title__block {margin-top: -450px;margin-left: -28px;}
-  #navbar .row--title__square {margin-left: 242px;margin-top: 225px;}
-
+  #navbar .row--title__block {
+    margin-top: -27px;
+    margin-left: -45%;
+  }  #navbar .row--title__square {margin-left: 242px;margin-top: 225px;}
   #navbar .row--title__fabs {
     display: flex;
     justify-content: flex-end;
     margin: -67px 0;
   }
-
-  #navbar .hello {
-    padding: 20px;
-    width: 230px;
-  }
-  #navbar .name {
-    width: 180px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 0;
-  }
-  #navbar .name2 {
-    width: 180px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 0;
-  }
-
-  #navbar .name3 {
-    width: 180px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 0;
-  }
-  #navbar .name4 {
-    width: 180px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 0;
-  }
-
-  #navbar .area {width: 394px;}
-
-  #navbar .__btn {width: 393px;}
-
-  #navbar .data {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 7px 19px;
-  }
-
-  #navbar .group4 {
-    background: red;
-    width: 792px;
-    height: 2px;
-  }
-
   #navbar .row--title__img {
     position: absolute;
     width: 257px;
   }
-
   #navbar .row--title__card {
     z-index: 3;
     width: 257px;
@@ -1420,7 +1160,6 @@
     opacity: 2;
     transition: 0.3s;
   }
-
   #navbar .row--title__lorem {
     color: white;
     padding: 21px 15px;
@@ -1429,7 +1168,6 @@
     font-weight: 600;
     font-size: 13px;
   }
-
   #navbar .row--title__lorem2 {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
@@ -1439,19 +1177,15 @@
     color: #e1e1e1;
     padding: 0 15px;
   }
-
   #navbar .row--title__pod {
     color: #a9a5a5;
     text-decoration: none;
     margin: 200px 17px;
     font-size: 14px;
   }
-
   #navbar .row--title__items {
     padding-top: 200px;
   }
-
-
 }
 
 @media (max-width: 768px) {
@@ -1464,7 +1198,13 @@
     margin-left: 602px;
     margin-top: 4px;
   }
-
+  #footer .row--footer__width{
+    width: 93%;
+    position: absolute;
+    height: 3px;
+    margin-top: 47%;
+    background: red;
+  }
   #navbar .row--title__fixed {
     position: fixed;
     z-index: 4;
@@ -1510,7 +1250,7 @@
       margin-left: 5%;
     }
   #navbar {
-      min-height: 66vh;
+    min-height: 79vh;
   }
   #navbar .row--title__block {
     margin-top: -378px;
@@ -1544,7 +1284,9 @@
     text-align: center;
     color: #FFFFFF;
   }
-
+  #work .row--works__item {
+    padding: 10px 46px;
+  }
   #navbar .row--title__title {
     margin: 67px -70px;
     width: 16%;
@@ -1558,20 +1300,10 @@
     color: red;
     width: 125%;
   }
-
-  #work .row--works__img {
-    position: absolute;
-    width: 229px;
-    height: 164px;
+  #work .row--works__item {
+    padding: 10px 16px;
   }
 
-  #work .row--works__card {
-    width: 229px;
-    height: 164px;
-    background: #000;
-    opacity: 4;
-    transition: 0.3s;
-  }
 
   #work .row--works__lorem {
     font-family: "Montserrat", sans-serif;
@@ -2117,108 +1849,22 @@
 
   #navbar .hello {
     padding: 20px;
-    width: 230px;
-    margin-left: 31px;
-    margin-top: 8px;
+    margin-left: -83px;
   }
 
-  #navbar .card {
-    width: 516px;
-    height: 402px;
-    background: #9D0013;
-    border-radius: 20px;
-    margin-left: -526px;
-    margin-top: 318px;
-  }
-
-  #navbar .name {
-    width: 215px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 22px;
-    outline: none;
-    padding: 0 6px;
-  }
-
-  #navbar .name2 {
-    width: 215px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 6px;
-  }
-
-  #navbar .name3 {
-    width: 215px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 22px;
-    outline: none;
-    padding: 0 6px;
-  }
-  #navbar .name4 {
-    width: 215px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 6px;
-  }
-
-  #navbar .area {
-    width: 466px;
-    height: 85px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 0 25px;
-    outline: none;
-    padding: 0 18px;
-  }
-
-  #navbar .__btn {
-    width: 467px;
-    height: 33px;
-    background: #222222;
-    border-radius: 10px;
-    border: none;
-    color: #FFFFFF;
-    margin: 8px 24px;
-    font-size: 16px;
-  }
-
-  #navbar .data {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 7px 19px;
-  }
 
   #navbar .menu {
-    padding: 0 62px;
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 23px;
-    color: #fff;
+    margin-left: 6px;
+  }
+
+
+
+  #navbar .menu {
+    margin-left: 6px;
   }
 
   #navbar .menu2 {
-    padding: 0 62px;
-    display: flex;
-    flex-direction: column;
+    margin-left: 10px;
   }
 
   #footer .row--footer__menu {
@@ -2314,9 +1960,20 @@
 
   #studio .row--studio__studio4 {
     margin-left: 535px;}
-  #footer .row--footer__footer {
-    /* margin: 0 42px; */
-    margin-left: -428px;
+
+
+  #navbar .btn-close {
+    right: 30px;
+  }
+  #navbar .modal-window {
+    width: 100%;
+    height: 164%;
+  }
+
+
+  #navbar .row--title--img {
+    width: 100%;
+    margin-left: -49px;
   }
 }
 
@@ -2338,11 +1995,9 @@
     width: 534px;
     height: 356px;
   }
-
   #navbar {
     min-height: 49vh;
   }
-
   #services .row--item-square2 {
     margin-left: 116px;
   }
@@ -2350,7 +2005,6 @@
     margin-top: 368px;
     margin-left: -341px;
   }
-
   #services .row--item-square4 {
     margin-top: -371px;
     margin-left: 288px;
@@ -2358,7 +2012,6 @@
   #services .row--item-square5 {
     margin-left: -170px;
   }
-
   #services .row--item-square6 {
     margin-left: -57px;
   }
@@ -2366,7 +2019,6 @@
     margin-top: 363px;
     margin-left: -32px;
   }
-
   #services .row--item-square9 {
     margin-left: -57px;
   }
@@ -2383,7 +2035,6 @@
   #product .row--product__square3 {
     margin-left: 82px;
   }
-
   #product .row--product__square4 {
     margin-top: 414px;
     margin-left: -361px;
@@ -2411,7 +2062,6 @@
   #techno .card5 {
     margin-top: 131px;
   }
-
   #navbar .row--title__item {
     text-transform: uppercase;
     font-size: 46px;
@@ -2422,7 +2072,6 @@
     filter: drop-shadow(5px 5px 5px #171717);
     animation: __item 2s ease-in-out alternate;
   }
-
   #navbar .row--title--item {
     margin: 126px 34px;
     font-family: "Poppins", sans-serif;
@@ -2431,7 +2080,6 @@
     letter-spacing: 2px;
     color: #FFFFFF;
   }
-
   #navbar .row--title--item {
     margin: -55px 34px;
     font-family: "Poppins", sans-serif;
@@ -2440,46 +2088,39 @@
     letter-spacing: 2px;
     color: #FFFFFF;
   }
-
   #navbar {
     min-height: 58vh;
   }
-
   #navbar .row--title__mode {
     margin: 25px 34px;
     color: white;
     font-size: 10px;
   }
-
   #navbar .row--title__fab {
     color: red;
     margin: 0 10px;
     font-size: 35px;
   }
-
   #motion .row--card__cards {
     width: 127px;
     height: 132px;
     background: #222222;
     border-radius: 20px;
   }
-
   #motion .row--card--cards {
     padding: 15px 39px;
   }
-
   #motion .row--card--cards2 {
     width: 130px;
     height: 44px;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 8px;
+    font-size: 9px;
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
   }
-
   #work .row--works__our {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -2489,38 +2130,12 @@
     letter-spacing: 0.003em;
     color: #FF001E;
   }
-
   #work .row--works__img {
     position: absolute;
-    width: 174px;
-    height: 128px;
+    padding: 10px 0;
+    /* width: 174px; */
+    /* height: 128px; */
   }
-
-  #work .row--works__card {
-    width: 174px;
-    height: 128px;
-    background: #000;
-    opacity: 4;
-    transition: 0.3s;
-  }
-  #work .row--works__lorem {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 11px;
-  }
-
-  #works .row--works__img2 {
-    width: 35px;
-  }
-  #work .row--works__pod {
-    margin-left: 66px;
-  }
-
   #footer .row--footer__menu {
     font-size: 22px;
     margin: 41px -2px;
@@ -2530,7 +2145,6 @@
     height: 45px;
     font-size: 20px;
   }
-
   #footer .row--footer__menu2 {
     font-size: 13px;
   }
@@ -2538,7 +2152,6 @@
     margin: -17px 26px;
     font-size: 12px;
   }
-
   #footer .row--footer__tel2 {
     padding-left: 2px;
     font-size: 11px;
@@ -2547,7 +2160,6 @@
     font-size: 11px;
     margin: 10px 4px;
   }
-
   #footer .row--footer__menu3 {
     font-size: 17px;
   }
@@ -2555,11 +2167,9 @@
     font-size: 9px;
     margin: 6px 3px;
   }
-
   #navbar .hello {
     width: 195px;
-    margin-left: -3px;
-  }
+    margin-left: -69px;  }
   #navbar .menu3 {
     font-size: 12px;
     margin-left: -83px;
@@ -2587,10 +2197,14 @@
     margin-left: -24px;
     padding: 0 0;
   }
-  #navbar .card {
-    margin-left: 10px;
-    margin-top: 60px;
-  }
+
+    #navbar .card {
+      margin-left: -72px;
+      margin-top: 60px;
+      height: 90%;
+      width: 143%;
+    }
+
   #navbar .name {
     margin: 11px 22px;
   }
@@ -2638,13 +2252,22 @@
   #application .row--application__card {
     margin-left: 2px;
   }
-
   #footer .row--footer__footer {
     /* margin: 0 42px; */
-    margin-top: 363px;
-    margin-left: -183px;
+    margin-top: 64px;
+    /* margin-left: -183px; */
   }
-
+  #footer .row--footer__width {
+    width: 93%;
+    position: absolute;
+    height: 3px;
+    margin-left: 17px;
+    margin-top: 70%;
+    background: red;
+  }
+  #work .row--works__item {
+    padding: 10px 47px;
+  }
 }
 
 @media (max-width: 415px) {
@@ -2843,10 +2466,18 @@
     width: 352px;
     height: 33px;
   }
+  //#footer .row--footer__footer {
+  //  margin-top: 102%;
+  //  margin-left: -48%;
+  //}#footer .row--footer__footer {
+  //    /* margin-top: 102%; */
+  //    margin-left: -1%;
+  //}
   #footer .row--footer__footer {
-    margin-top: 102%;
-    margin-left: -48%;
+    /* margin-top: 102%; */
+    margin-left: -1%;
   }
+
   #studio .row--studio__studio4 {
     margin-left: 106px;
     padding: 20px 0;
@@ -2864,15 +2495,14 @@
   }
 
   #navbar .row--tench2 {
-    margin-left: -41px;
+    margin-left: -5px;
     margin-top: 0;
-  }
-  #navbar .menu3 {
+  }  #navbar .menu3 {
     font-size: 15px;
     margin-left: -117px;
   }
   #navbar .menu2 {
-    margin-left: -30px;
+    margin-left: -69px;
   }
   #navbar .menu31 {
     margin-left: 27px;
@@ -2980,13 +2610,13 @@
       margin: 17px -16px;
     }
 
-    #footer .row--footer__width {
-      width: 391px;
-      height: 5px;
-      position: absolute;
-      background: red;
-      margin-top: 421px;
-    }
+  #footer .row--footer__width {
+    width: 384px;
+    height: 5px;
+    position: absolute;
+    background: red;
+    margin-top: 353px;
+  }
 
     #footer .row--footer__btn {
       width: 164px;
@@ -3051,6 +2681,7 @@
     width: 132%;
   }
 }
+
 @media (max-width: 377px) {
   #navbar .row--title--img {
     margin-left: -94px;
@@ -3113,9 +2744,9 @@
   #footer .row--footer__carta {margin: -21px 26px;font-size: 13px;}
   #footer .row--footer__tel2 {font-size: 13px;}
   #footer .row--footer__com {font-size: 13px;}
-  #footer .row--footer__width {width: 351px;margin-top: 385px;}
+  #footer .row--footer__width {width: 351px;margin-top: 344px;}
   #navbar .menu {
-    margin-left: -136px;    font-size: 18px;
+    margin-left: -95px;    font-size: 18px;
   }
   #navbar .menu2 {
     margin-left: -95px;  }
@@ -3200,10 +2831,6 @@
   }
   #navbar .row--title__square {width: 340px;height: 336px;}
   #navbar .row--title__btn3 {margin-left: 79px;}
-  #footer .row--footer__footer {
-    margin-top: 102%;
-    margin-left: -59%;
-  }
   #work .row--works__item {
     padding: 10px 46px;
   }
@@ -3303,7 +2930,6 @@
   #application .row--application__area {width: 127%;margin-left: 15px;}
   #application .row--application__btn {width: 264px;margin-left: 15px;}
   #application .row--application__data {font-size: 11px;}
-  #footer .row--footer__footer {margin-top: 122%;margin-left: -68%;}
   #footer .row--footer__width {width: 298px;}
   #navbar .row--title__block {margin-top: -243px;}
   #navbar .row--title__square {margin-left: 17px;margin-top: 178px;width: 287px;}
@@ -3313,12 +2939,19 @@
     margin-left: -40px;
     font-size: 23px;
   }
+  #footer .row--footer__menu3 {
+    font-size: 14px;
+  }
+  #footer .row--footer__nav {
+    font-size: 8px;
+    margin: 5px 0;
+  }
   #navbar .menu2 {
-    margin-left: 2px;
+    margin-left: -37px;
   }
   #navbar .row--tench {
     margin-top: 544%;
-    margin-left: -285px;
+    margin-left: -245px;
   }
   #navbar .tench2 {
     width: 90%;
@@ -3341,8 +2974,7 @@
   }
   #navbar .row--tench2 {
     margin-top: 225%;
-    margin-left: -267px;
-  }
+    margin-left: -229px;  }
   #navbar .card {
     margin: 29px -74px;
     width: 228%;

@@ -37,10 +37,6 @@
     background: rgba(218, 218, 218, 0.13);
   }
 
-  #work .row--works__lorem {
-    padding: 65px;
-  }
-
   #navbar .row--title__block {
     margin-top: -51px;
     margin-left: -541px;
@@ -105,20 +101,6 @@
     height: 171px;
     background: #222222;
     border-radius: 20px;
-  }
-
-  #work .row--works__img {
-    position: absolute;
-    width: 364px;
-    height: 259px;
-  }
-
-  #work .row--works__card {
-    width: 364px;
-    height: 259px;
-    background: #000;
-    opacity: 4;
-    transition: 0.3s;
   }
 
   #navbar .btn {
@@ -395,92 +377,11 @@
     margin: -8px 0;
   }
 
-  #navbar .card {
-    width: 550px;
-    height: 400px;
-    background: #9D0013;
-    border-radius: 20px;
-    margin-left: 50px;
-  }
-
-  #navbar .name {
-    width: 232px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 20px;
-  }
-
-  #navbar .name2 {
-    width: 232px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 0 20px;
-  }
-
-  #navbar .name3 {
-    width: 234px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 0 20px;
-    margin: 0 15px;
-  }
-
-  #navbar .name4 {
-    width: 232px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 0 20px;
-  }
-
-  #navbar .area {
-    width: 483px;
-    height: 91px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 25px 15px;
-    outline: none;
-    padding: 0 35px;
-  }
-
-  #navbar .__btn {
-    width: 486px;
-    height: 40px;
-    background: #222222;
-    border-radius: 10px;
-    border: none;
-    color: #FFFFFF;
-    margin: -7px 15px;
-    font-size: 20px;
-  }
-
-  #navbar .data {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    color: #FFFFFF;
-    margin: 15px 19px;
-  }
-
   #navbar .menu3 {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 9px;
+    font-size: 12px;
     color: #fff;
     border-bottom: transparent;
     transition: 0.5s;
@@ -607,6 +508,7 @@
     z-index: 4;
     width: 100%;
     height: 7%;
+    margin-left: -32px;
   }
 
   #motion .row--card__cards {
@@ -646,35 +548,6 @@
   #navbar .row--title__mode {
     margin: 20px 71px;
     color: white;
-  }
-
-  #work .row--works__img {
-    position: absolute;
-    width: 303px;
-    height: 214px;
-  }
-
-  #work .row--works__card {
-    width: 303px;
-    height: 214px;
-    background: #000;
-    opacity: 4;
-    transition: 0.3s;
-  }
-
-  #work .row--works__lorem {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 52px;
-  }
-
-  #work .row--works__pod {
-    margin-left: 133px;
   }
 
   #services .row--item__ser {
@@ -1193,7 +1066,7 @@
   }
 
   #application .row--application__area {
-    width: 468px;
+    width: 476px;
     height: 83px;
     background: #FFFFFF;
     border-radius: 10px;
@@ -1205,7 +1078,7 @@
   }
 
   #application .row--application__btn {
-    width: 469px;
+    width: 476px;
     height: 35px;
     background: #222222;
     border-radius: 10px;
@@ -1256,7 +1129,7 @@
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 6px;
+    font-size: 13px;
     color: #fff;
     border-bottom: transparent;
     transition: 0.5s;
@@ -1270,89 +1143,6 @@
     font-weight: bold;
     font-size: 22px;
     color: #fff;
-  }
-
-  #navbar .card {
-    width: 441px;
-    height: 349px;
-    background: #9D0013;
-    border-radius: 20px;
-    margin-left: -393px;
-  }
-
-  #navbar .name {
-    width: 193px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 0;
-  }
-
-  #navbar .name2 {
-    width: 193px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 0 0;
-  }
-
-  #navbar .name3 {
-    width: 193px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 0 0;
-    margin: 0 15px;
-  }
-
-  #navbar .name4 {
-    width: 193px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 0 0;
-    margin-left: 3px;
-  }
-
-  #navbar .area {
-    width: 410px;
-    height: 70px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 25px 15px;
-    outline: none;
-    padding: 0 18px;
-  }
-
-  #navbar .__btn {
-    width: 413px;
-    height: 35px;
-    background: #222222;
-    border-radius: 10px;
-    border: none;
-    color: #FFFFFF;
-    margin: -7px 15px;
-    font-size: 16px;
-  }
-
-  #navbar .data {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 15px 19px;
   }
 
   #navbar .menu31 {
@@ -1424,6 +1214,10 @@
   }
 }
 @media (max-width: 992px) {
+  #navbar .row--title--img {
+    margin-left: -21px;
+  }
+
   #navbar .row--title__fixed {
     position: fixed;
     z-index: 4;
@@ -1434,25 +1228,20 @@
   }
 
   #navbar .row--title__next {
-    margin-left: 2px;
+    margin-left: 109px;
   }
 
   #navbar .btn {
     margin-left: 874px;
-    margin-top: 29px;
+    margin-top: 19px;
   }
 
   #navbar {
-    min-height: 78vh;
+    min-height: 90vh;
   }
 
   #navbar .card {
-    width: 433px;
-    height: 416px;
-    background: #9D0013;
-    border-radius: 20px;
-    margin-left: -393px;
-    /* margin-top: 500px; */
+    margin: 44px -18px;
   }
 
   #application .row--application__your2 {
@@ -1466,7 +1255,6 @@
   }
 
   #footer .row--footer__footer {
-    margin-right: -550px;
     z-index: 99;
   }
 
@@ -1488,8 +1276,8 @@
   }
 
   #navbar .row--title__block {
-    margin-top: -450px;
-    margin-left: -28px;
+    margin-top: -27px;
+    margin-left: -45%;
   }
 
   #navbar .row--title__square {
@@ -1501,79 +1289,6 @@
     display: flex;
     justify-content: flex-end;
     margin: -67px 0;
-  }
-
-  #navbar .hello {
-    padding: 20px;
-    width: 230px;
-  }
-
-  #navbar .name {
-    width: 180px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 0;
-  }
-
-  #navbar .name2 {
-    width: 180px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 0;
-  }
-
-  #navbar .name3 {
-    width: 180px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 0;
-  }
-
-  #navbar .name4 {
-    width: 180px;
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 0;
-  }
-
-  #navbar .area {
-    width: 394px;
-  }
-
-  #navbar .__btn {
-    width: 393px;
-  }
-
-  #navbar .data {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 7px 19px;
-  }
-
-  #navbar .group4 {
-    background: red;
-    width: 792px;
-    height: 2px;
   }
 
   #navbar .row--title__img {
@@ -1631,6 +1346,14 @@
     margin-top: 4px;
   }
 
+  #footer .row--footer__width {
+    width: 93%;
+    position: absolute;
+    height: 3px;
+    margin-top: 47%;
+    background: red;
+  }
+
   #navbar .row--title__fixed {
     position: fixed;
     z-index: 4;
@@ -1677,7 +1400,7 @@
   }
 
   #navbar {
-    min-height: 66vh;
+    min-height: 79vh;
   }
 
   #navbar .row--title__block {
@@ -1713,6 +1436,10 @@
     color: #FFFFFF;
   }
 
+  #work .row--works__item {
+    padding: 10px 46px;
+  }
+
   #navbar .row--title__title {
     margin: 67px -70px;
     width: 16%;
@@ -1728,18 +1455,8 @@
     width: 125%;
   }
 
-  #work .row--works__img {
-    position: absolute;
-    width: 229px;
-    height: 164px;
-  }
-
-  #work .row--works__card {
-    width: 229px;
-    height: 164px;
-    background: #000;
-    opacity: 4;
-    transition: 0.3s;
+  #work .row--works__item {
+    padding: 10px 16px;
   }
 
   #work .row--works__lorem {
@@ -2293,109 +2010,19 @@
 
   #navbar .hello {
     padding: 20px;
-    width: 230px;
-    margin-left: 31px;
-    margin-top: 8px;
-  }
-
-  #navbar .card {
-    width: 516px;
-    height: 402px;
-    background: #9D0013;
-    border-radius: 20px;
-    margin-left: -526px;
-    margin-top: 318px;
-  }
-
-  #navbar .name {
-    width: 215px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 22px;
-    outline: none;
-    padding: 0 6px;
-  }
-
-  #navbar .name2 {
-    width: 215px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 6px;
-  }
-
-  #navbar .name3 {
-    width: 215px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 22px;
-    outline: none;
-    padding: 0 6px;
-  }
-
-  #navbar .name4 {
-    width: 215px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 30px 16px;
-    outline: none;
-    padding: 0 6px;
-  }
-
-  #navbar .area {
-    width: 466px;
-    height: 85px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    border: none;
-    margin: 0 25px;
-    outline: none;
-    padding: 0 18px;
-  }
-
-  #navbar .__btn {
-    width: 467px;
-    height: 33px;
-    background: #222222;
-    border-radius: 10px;
-    border: none;
-    color: #FFFFFF;
-    margin: 8px 24px;
-    font-size: 16px;
-  }
-
-  #navbar .data {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 7px 19px;
+    margin-left: -83px;
   }
 
   #navbar .menu {
-    padding: 0 62px;
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 23px;
-    color: #fff;
+    margin-left: 6px;
+  }
+
+  #navbar .menu {
+    margin-left: 6px;
   }
 
   #navbar .menu2 {
-    padding: 0 62px;
-    display: flex;
-    flex-direction: column;
+    margin-left: 10px;
   }
 
   #footer .row--footer__menu {
@@ -2497,9 +2124,18 @@
     margin-left: 535px;
   }
 
-  #footer .row--footer__footer {
-    /* margin: 0 42px; */
-    margin-left: -428px;
+  #navbar .btn-close {
+    right: 30px;
+  }
+
+  #navbar .modal-window {
+    width: 100%;
+    height: 164%;
+  }
+
+  #navbar .row--title--img {
+    width: 100%;
+    margin-left: -49px;
   }
 }
 @media (max-width: 540px) {
@@ -2673,7 +2309,7 @@
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 8px;
+    font-size: 9px;
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
@@ -2691,35 +2327,9 @@
 
   #work .row--works__img {
     position: absolute;
-    width: 174px;
-    height: 128px;
-  }
-
-  #work .row--works__card {
-    width: 174px;
-    height: 128px;
-    background: #000;
-    opacity: 4;
-    transition: 0.3s;
-  }
-
-  #work .row--works__lorem {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 11px;
-  }
-
-  #works .row--works__img2 {
-    width: 35px;
-  }
-
-  #work .row--works__pod {
-    margin-left: 66px;
+    padding: 10px 0;
+    /* width: 174px; */
+    /* height: 128px; */
   }
 
   #footer .row--footer__menu {
@@ -2763,7 +2373,7 @@
 
   #navbar .hello {
     width: 195px;
-    margin-left: -3px;
+    margin-left: -69px;
   }
 
   #navbar .menu3 {
@@ -2800,8 +2410,10 @@
   }
 
   #navbar .card {
-    margin-left: 10px;
+    margin-left: -72px;
     margin-top: 60px;
+    height: 90%;
+    width: 143%;
   }
 
   #navbar .name {
@@ -2869,8 +2481,21 @@
 
   #footer .row--footer__footer {
     /* margin: 0 42px; */
-    margin-top: 363px;
-    margin-left: -183px;
+    margin-top: 64px;
+    /* margin-left: -183px; */
+  }
+
+  #footer .row--footer__width {
+    width: 93%;
+    position: absolute;
+    height: 3px;
+    margin-left: 17px;
+    margin-top: 70%;
+    background: red;
+  }
+
+  #work .row--works__item {
+    padding: 10px 47px;
   }
 }
 @media (max-width: 415px) {
@@ -3120,8 +2745,8 @@
   }
 
   #footer .row--footer__footer {
-    margin-top: 102%;
-    margin-left: -48%;
+    /* margin-top: 102%; */
+    margin-left: -1%;
   }
 
   #studio .row--studio__studio4 {
@@ -3144,7 +2769,7 @@
   }
 
   #navbar .row--tench2 {
-    margin-left: -41px;
+    margin-left: -5px;
     margin-top: 0;
   }
 
@@ -3154,7 +2779,7 @@
   }
 
   #navbar .menu2 {
-    margin-left: -30px;
+    margin-left: -69px;
   }
 
   #navbar .menu31 {
@@ -3272,11 +2897,11 @@
   }
 
   #footer .row--footer__width {
-    width: 391px;
+    width: 384px;
     height: 5px;
     position: absolute;
     background: red;
-    margin-top: 421px;
+    margin-top: 353px;
   }
 
   #footer .row--footer__btn {
@@ -3545,11 +3170,11 @@
 
   #footer .row--footer__width {
     width: 351px;
-    margin-top: 385px;
+    margin-top: 344px;
   }
 
   #navbar .menu {
-    margin-left: -136px;
+    margin-left: -95px;
     font-size: 18px;
   }
 
@@ -3658,11 +3283,6 @@
 
   #navbar .row--title__btn3 {
     margin-left: 79px;
-  }
-
-  #footer .row--footer__footer {
-    margin-top: 102%;
-    margin-left: -59%;
   }
 
   #work .row--works__item {
@@ -3955,11 +3575,6 @@
     font-size: 11px;
   }
 
-  #footer .row--footer__footer {
-    margin-top: 122%;
-    margin-left: -68%;
-  }
-
   #footer .row--footer__width {
     width: 298px;
   }
@@ -3987,13 +3602,22 @@
     font-size: 23px;
   }
 
+  #footer .row--footer__menu3 {
+    font-size: 14px;
+  }
+
+  #footer .row--footer__nav {
+    font-size: 8px;
+    margin: 5px 0;
+  }
+
   #navbar .menu2 {
-    margin-left: 2px;
+    margin-left: -37px;
   }
 
   #navbar .row--tench {
     margin-top: 544%;
-    margin-left: -285px;
+    margin-left: -245px;
   }
 
   #navbar .tench2 {
@@ -4020,7 +3644,7 @@
 
   #navbar .row--tench2 {
     margin-top: 225%;
-    margin-left: -267px;
+    margin-left: -229px;
   }
 
   #navbar .card {
