@@ -977,7 +977,6 @@
 
   #command .row .swiper-slide__found {
     color: white;
-    filter: drop-shadow(3px 3px 3px #ffffff);
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: bold;

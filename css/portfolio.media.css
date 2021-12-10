@@ -676,6 +676,10 @@
   #navbar .row--title__btn3 {
     margin-left: 86px;
   }
+
+  .container {
+    width: 90%;
+  }
 }
 @media (max-width: 376px) {
   #navbar .btn {
